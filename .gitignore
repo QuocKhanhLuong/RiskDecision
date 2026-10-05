@@ -1,0 +1,17 @@
+# Newly downloaded market data and future outputs stay local.
+/data/
+/runs/
+/work/
+/local_artifacts/
+*.env
+.env*
+!.env.example
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+*.py[cod]
+.DS_Store
+# Do not ignore the explicitly imported historical synthetic snapshots.

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "Original ChatGPT-generated synthetic studies. Hashes verify exact archives, not market data or scientific validity.",
+  "archives": [
+    {
+      "filename": "Quant_Tail_Risk_Method_and_Pilot.zip",
+      "root": "quant_tailrisk_pilot",
+      "size_bytes": 3154716,
+      "sha256": "2c9e4b821f38cbaa9510ecdb550b0f80732587e48325254be0551af1878847e1",
+      "file_count": 83,
+      "uncompressed_bytes": 4051335
+    },
+    {
+      "filename": "Quant_Risk_v2_Code_Results.zip",
+      "root": "quant_research_v2",
+      "size_bytes": 50739052,
+      "sha256": "480516ded3c526b6daca24c433674c9f47c6b71ff678a641ae60846c040276ea",
+      "file_count": 848,
+      "uncompressed_bytes": 58507344
+    }
+  ]
+}

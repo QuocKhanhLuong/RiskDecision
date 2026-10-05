@@ -1,31 +1,57 @@
 # RiskDecision
 
-Research on portfolio tail-risk estimation after portfolio optimization.
+**Portfolio tail-risk learning after optimization. Current measured evidence is synthetic only. No market backtest has been completed in the imported studies.**
 
-**Current evidence: synthetic experiments only. No ECB, Bank of Canada, BIS, or other market backtest has been completed in the imported studies.** APTC remains a candidate prototype, not an established superior algorithm.
+## Start here
 
-## Research question
+- [Astra local execution prompt](prompts/ASTRA_LOCAL_MARKET_EXPERIMENTS.md)
+- [Import status and complete historical snapshots](docs/IMPORT_STATUS.md)
+- [Local execution plan](docs/LOCAL_EXECUTION_PLAN.md)
+- [v2 results in Vietnamese](quant_research_v2/RESULTS_VI.md)
+- [v2 method](quant_research_v2/docs/METHOD_V2.md)
+- [Dataset provenance audit](quant_research_v2/docs/DATASET_AUDIT.md)
+- [Original pilot method](quant_tailrisk_pilot/docs/METHOD.md)
 
-Can a model estimate the tail risk of the portfolio selected by an optimizer reliably, rather than merely fit average distributional properties?
+## Research question and current decision
 
-Forecast accuracy and the actual risk of the selected portfolio are separate outcomes. The optimizer's curse, entropy pooling, CVaR regularization and filtered historical simulation are prior art, not claimed inventions here.
+Does optimizing a portfolio amplify optimism in its estimated tail risk, and can distributional correction improve the selected portfolio's risk estimate without sacrificing decision quality?
 
-## Project layout
+The optimizer's curse, entropy pooling, CVaR regularization and filtered historical simulation are prior art. APTC is a candidate prototype, not a proven new algorithm.
 
-- `quant_research_v2/`: current implementation, source documentation, tests and selected aggregate result snapshots.
-- `quant_tailrisk_pilot/`: original v1 implementation and research documentation, kept separately.
-- `prompts/ASTRA_LOCAL_MARKET_EXPERIMENTS.md`: next-stage local execution prompt.
-- `docs/LOCAL_EXECUTION_PLAN.md`: handoff and publication-time/evaluation checks.
-- `scripts/import_chat_archives.py`: verify and restore complete historical archives locally, without overwriting differing files.
-- `archives_manifest.json`: exact archive names, sizes and SHA256 checksums.
+The v2 synthetic study reports 80 validation instances and 320 held-out test instances across four simulation families and 18 configurations. Validation selected `historical_se_penalty` as the leading baseline and `support_band50` as the candidate. Mean relative selected-portfolio ES error is approximately 14.30% versus 15.01%. These are estimation errors, not portfolio losses or investment returns. The candidate has not established superiority over strong equal-information controls.
 
-## Evidence boundaries
+## Layout
 
-The v2 report records 80 synthetic validation instances and 320 held-out synthetic test instances, four simulation families and 18 methods/configurations. The validation-selected baseline is `historical_se_penalty`; the selected candidate is `support_band50`.
+```text
+quant_tailrisk_pilot/       Original v1 study (separate from v2)
+quant_research_v2/          Current synthetic engine, tests, data loaders, reports
+prompts/                   Complete Astra assignment for local market experiments
+docs/                      Import receipts and local evaluation requirements
+scripts/import_chat_archives.py
+archives_manifest.json     Original archive checksums and counts
+```
 
-Reported mean relative selected-portfolio ES error: baseline about 14.30%; candidate about 15.01%. These are risk-estimation errors, not portfolio losses or investment returns. The candidate did not establish superiority over strong equal-information controls.
+The direct GitHub import contains executable research code, tests, documentation and selected result files. It is NOT the complete 931-file historical snapshot: full per-seed arrays, detailed tables, figures and some ancillary files remain in the two original ZIPs. Restore them before running the historical full-artifact audit. No missing result is replaced with a regenerated or fabricated file.
 
-## Local setup
+## Complete the historical import
+
+Download the original ChatGPT attachments with these exact names:
+
+- `Quant_Tail_Risk_Method_and_Pilot.zip`
+- `Quant_Risk_v2_Code_Results.zip`
+
+Then, from this repository root:
+
+```bash
+python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads" --verify-only
+python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads"
+```
+
+The importer checks both complete archive SHA256 values, 931 member files, CRCs and existing file equality. It rejects path escapes, symlinks and differing existing files. It does not download market data, overwrite different content, modify Git refs or push automatically. Commit restored historical files separately from later method changes.
+
+## Set up and test
+
+Use a Python version compatible with the pinned dependencies. Python 3.13 matches the original reported environment; verify local package availability rather than silently changing pins.
 
 ```bash
 cd quant_research_v2
@@ -35,32 +61,24 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 
-Use a Python version compatible with the pinned dependencies; do not assume the original broad `3.11+` recommendation satisfies every package version. Record the actual environment and any justified lockfile changes.
+The current handoff reran the v2 suite: 26 tests passed. This is not a new empirical experiment or independent scientific review. Historical reruns/audits write result files; use an isolated copy under `work/` to preserve original snapshots.
 
-## Official market-data starter commands
+## Official data starter commands
 
-These commands exist in the imported source. They are a starting point, not a certified empirical protocol.
+Run from `quant_research_v2/` after reading the local prompt:
 
 ```bash
 python src/market_data.py --source ecb --out ../data/raw/ecb
 python src/run_market_risk.py \
   --levels ../data/raw/ecb/levels.csv \
-  --out ../runs/ecb_smoke --stride 5 --limit 20
+  --out ../runs/ecb_smoke --from-date 2010-01-01 --to-date 2015-12-31 \
+  --stride 5 --limit 20
 ```
 
-Read the prompt and market protocol first. `--stride 5` samples one-day forecast dates; it is NOT a five-day investment horizon. ECB reciprocal quotes, source publication times, gaps and correct VaR/ES scoring must be checked before final evaluation. The current runner has only been tested using synthetic fixtures.
+These are prototype starter commands, not a certified market protocol. Stride five samples one-period forecast dates; it is NOT a five-day holding horizon. Final evaluation must audit publication times, incomplete-date gaps, VaR/ES scoring and solver warnings. Separate forecasting on common portfolio losses from evaluating each model's own selected portfolio.
 
-## Full historical artifacts
+Reference FX moves do not include execution prices, carry, spread or funding. Do not report trading profit or Sharpe from them. Yield curves need separate fixed-income loss construction; never pass yield levels into the FX return function.
 
-The complete ChatGPT-delivered archives include per-seed arrays, detailed CSVs, figures and original manifests. Large historical files are not silently replaced with regenerated results. Consult `docs/IMPORT_STATUS.md` for exactly what has been published and what still requires the local archive import.
+## Data and publication policy
 
-```bash
-# From repository root, after downloading the original ZIPs into ~/Downloads:
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads"
-```
-
-This restores the exact archived trees and checks their files against the archive bytes. It does not download market data, invent experimental results or push anything automatically.
-
-## Repository safety
-
-Keep newly downloaded market data, credentials, local environments and future run caches outside tracked paths. Do not overwrite historical results or change their reported decisions. Run new empirical experiments in a new branch and output directory. No project-wide license is inferred for third-party datasets; usage and publication terms must be checked at the provider.
+Keep new market raw data, per-date caches, credentials and local environments out of Git unless usage terms and publication scope explicitly permit them. The historical synthetic snapshots may be imported as requested. No third-party dataset license is inferred from this repository being public. Preserve sources/citations and report negative results and NOT RUN boundaries.

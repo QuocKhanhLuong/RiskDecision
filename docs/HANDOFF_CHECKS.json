@@ -1,0 +1,9 @@
+{
+  "scope": "Current-turn handoff checks; not a new market experiment or independent review",
+  "original_v2_tests_passed": 26,
+  "archive_import_file_count": 931,
+  "fresh_import": "PASS",
+  "idempotent_verify": "PASS",
+  "differing_file_rejected": "PASS",
+  "market_data_run": false
+}
