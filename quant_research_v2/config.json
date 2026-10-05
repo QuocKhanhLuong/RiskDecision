@@ -127,7 +127,7 @@
     "support_point50",
     "filtered_support_band50"
   ],
-  "selection_metric": "equal-family mean absolute error of selected-portfolio ES / true ES",
+  "selection_metric": "equal-family mean absolute error of selected portfolio ES / true ES",
   "data_status": "All experiments in this script are synthetic. No market backtest.",
   "note": "Reported underestimation/ES regret is computed by population evaluator AFTER prediction. It is never a training input."
 }
