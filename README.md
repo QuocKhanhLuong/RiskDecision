@@ -1,8 +1,15 @@
 # RiskDecision
 
-**Portfolio tail-risk learning after optimization. Current measured evidence is synthetic only. No market backtest has been completed in the imported studies.**
+**Portfolio tail-risk learning after optimization. The original studies remain synthetic; a separate frozen local experiment now includes audited ECB reference-FX evidence and a Bank of Canada source/base-currency sensitivity. Reference-factor risk is not executable trading performance.**
 
 ## Start here
+
+- [ECB market results](docs/ECB_MARKET_RESULTS.md)
+- [Bank of Canada FX sensitivity](docs/BOC_MARKET_RESULTS.md)
+- [Frozen market protocol](docs/MARKET_PROTOCOL_FROZEN.md) and [runner audit](docs/RUNNER_AUDIT.md)
+- [Official data / use conditions](docs/MARKET_DATA_MANIFEST.md)
+- [Exact local reproduction commands](docs/MARKET_REPRODUCTION.md)
+- [Artifact audit](docs/MARKET_ARTIFACT_AUDIT.md) and [research decision](docs/NEXT_RESEARCH_DECISION.md)
 
 - [Astra local execution prompt](prompts/ASTRA_LOCAL_MARKET_EXPERIMENTS.md)
 - [Import status and complete historical snapshots](docs/IMPORT_STATUS.md)
@@ -20,11 +27,16 @@ The optimizer's curse, entropy pooling, CVaR regularization and filtered histori
 
 The v2 synthetic study reports 80 validation instances and 320 held-out test instances across four simulation families and 18 configurations. Validation selected `historical_se_penalty` as the leading baseline and `support_band50` as the candidate. Mean relative selected-portfolio ES error is approximately 14.30% versus 15.01%. These are estimation errors, not portfolio losses or investment returns. The candidate has not established superiority over strong equal-information controls.
 
+The local market extension passed 47 tests and audited 125,532 forecast rows across ECB validation/test (1,022/1,538 sessions) and BoC validation/test (497/747). On the primary ECB equal-weight target, filtered historical has the lowest observed mean FZ0; pure support mixture has the lowest observed pooled selected-exposure ES95. APTC v2 has not established superiority over historical+penalty or pure mixture on the primary endpoints. BoC provides a positive secondary-target signal against historical+penalty, with limitations detailed in the report. No method was tuned after test opening; all finite convergence warnings were retained. BoC is not an independent asset-class confirmation.
+
 ## Layout
 
 ```text
 quant_tailrisk_pilot/       Original v1 study (separate from v2)
 quant_research_v2/          Current synthetic engine, tests, data loaders, reports
+local_market/              Frozen two-track empirical runner, scoring and audits
+configs/                   Frozen market protocol and source/data hashes
+results/local_market/      Public aggregate market results, no per-date data
 prompts/                   Complete Astra assignment for local market experiments
 docs/                      Import receipts and local evaluation requirements
 scripts/import_chat_archives.py
@@ -33,7 +45,7 @@ archives_manifest.json     Original archive checksums and counts
 
 The complete **931-file original historical snapshot** was restored, verified byte-for-byte and pushed in commit `ad0d967`. See `docs/IMPORT_STATUS.md` and the import receipt. No missing result was regenerated.
 
-## Complete the historical import
+## Verify the completed historical import
 
 Download the original ChatGPT attachments with these exact names:
 
@@ -43,8 +55,8 @@ Download the original ChatGPT attachments with these exact names:
 Then, from this repository root:
 
 ```bash
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads" --verify-only
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads"
+python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads/RiskDecision_Local_Import_Bundle" --verify-only
+python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads/RiskDecision_Local_Import_Bundle"
 ```
 
 The importer checks both complete archive SHA256 values, 931 member files, CRCs and existing file equality. It rejects path escapes, symlinks and differing existing files. It does not download market data, overwrite different content, modify Git refs or push automatically. Commit restored historical files separately from later method changes.

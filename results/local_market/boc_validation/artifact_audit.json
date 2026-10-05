@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "run": "runs/boc_validation_v1",
+  "forecast_rows_checked": 16401,
+  "date_windows": 497,
+  "aggregate_rows_recomputed": 99,
+  "refit_dates": [
+    "2021-01-04",
+    "2022-12-30"
+  ],
+  "forecasts_sha256": "fbf6525af3b5ebba4e0ac9711bf460a40f69fb9210fa199ec51e5c1598b7a609",
+  "protocol_sha256": "741fb298702c77cef204f0aa33f6129b9681d5004a69e076cf7886451a1291be",
+  "checks": [
+    "CSV-window identity",
+    "same-target pairing",
+    "training and availability ordering",
+    "realized loss recomputation",
+    "bank weights",
+    "score recomputation",
+    "independent fractional pooled ES",
+    "annual counts",
+    "failure counts"
+  ],
+  "review_type": "coordinator numerical/artifact audit; independent agent review NOT RUN"
+}

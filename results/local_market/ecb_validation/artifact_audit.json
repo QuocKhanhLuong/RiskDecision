@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "run": "runs/ecb_validation_v1",
+  "forecast_rows_checked": 33726,
+  "date_windows": 1022,
+  "aggregate_rows_recomputed": 165,
+  "refit_dates": [
+    "2016-01-04",
+    "2019-12-31"
+  ],
+  "forecasts_sha256": "ed2ca90c508cadeda7ad68ccb4e6eeb5449baf3f2b59a0b23668df08f7c021f4",
+  "protocol_sha256": "741fb298702c77cef204f0aa33f6129b9681d5004a69e076cf7886451a1291be",
+  "checks": [
+    "CSV-window identity",
+    "same-target pairing",
+    "training and availability ordering",
+    "realized loss recomputation",
+    "bank weights",
+    "score recomputation",
+    "independent fractional pooled ES",
+    "annual counts",
+    "failure counts"
+  ],
+  "review_type": "coordinator numerical/artifact audit; independent agent review NOT RUN"
+}

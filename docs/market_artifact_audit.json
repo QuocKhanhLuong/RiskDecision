@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "runs": {
+    "ecb_validation": {
+      "status": "PASS",
+      "run": "runs/ecb_validation_v1",
+      "forecast_rows_checked": 33726,
+      "date_windows": 1022,
+      "aggregate_rows_recomputed": 165,
+      "refit_dates": [
+        "2016-01-04",
+        "2019-12-31"
+      ],
+      "forecasts_sha256": "ed2ca90c508cadeda7ad68ccb4e6eeb5449baf3f2b59a0b23668df08f7c021f4",
+      "protocol_sha256": "741fb298702c77cef204f0aa33f6129b9681d5004a69e076cf7886451a1291be",
+      "checks": [
+        "CSV-window identity",
+        "same-target pairing",
+        "training and availability ordering",
+        "realized loss recomputation",
+        "bank weights",
+        "score recomputation",
+        "independent fractional pooled ES",
+        "annual counts",
+        "failure counts"
+      ],
+      "review_type": "coordinator numerical/artifact audit; independent agent review NOT RUN"
+    },
+    "ecb_test": {
+      "status": "PASS",
+      "run": "runs/ecb_test_v1",
+      "forecast_rows_checked": 50754,
+      "date_windows": 1538,
+      "aggregate_rows_recomputed": 231,
+      "refit_dates": [
+        "2020-01-02",
+        "2025-12-31"
+      ],
+      "forecasts_sha256": "639fa7b145e29609a1dc3b37b606697840137882503c59752342caf28e56880f",
+      "protocol_sha256": "741fb298702c77cef204f0aa33f6129b9681d5004a69e076cf7886451a1291be",
+      "checks": [
+        "CSV-window identity",
+        "same-target pairing",
+        "training and availability ordering",
+        "realized loss recomputation",
+        "bank weights",
+        "score recomputation",
+        "independent fractional pooled ES",
+        "annual counts",
+        "failure counts"
+      ],
+      "review_type": "coordinator numerical/artifact audit; independent agent review NOT RUN"
+    },
+    "boc_validation": {
+      "status": "PASS",
+      "run": "runs/boc_validation_v1",
+      "forecast_rows_checked": 16401,
+      "date_windows": 497,
+      "aggregate_rows_recomputed": 99,
+      "refit_dates": [
+        "2021-01-04",
+        "2022-12-30"
+      ],
+      "forecasts_sha256": "fbf6525af3b5ebba4e0ac9711bf460a40f69fb9210fa199ec51e5c1598b7a609",
+      "protocol_sha256": "741fb298702c77cef204f0aa33f6129b9681d5004a69e076cf7886451a1291be",
+      "checks": [
+        "CSV-window identity",
+        "same-target pairing",
+        "training and availability ordering",
+        "realized loss recomputation",
+        "bank weights",
+        "score recomputation",
+        "independent fractional pooled ES",
+        "annual counts",
+        "failure counts"
+      ],
+      "review_type": "coordinator numerical/artifact audit; independent agent review NOT RUN"
+    },
+    "boc_test": {
+      "status": "PASS",
+      "run": "runs/boc_test_v1",
+      "forecast_rows_checked": 24651,
+      "date_windows": 747,
+      "aggregate_rows_recomputed": 132,
+      "refit_dates": [
+        "2023-01-03",
+        "2025-12-31"
+      ],
+      "forecasts_sha256": "ff908c3a0aa688dcb9eb51ac9054da50de355e71bba9e14a7565989d10ea1dc2",
+      "protocol_sha256": "741fb298702c77cef204f0aa33f6129b9681d5004a69e076cf7886451a1291be",
+      "checks": [
+        "CSV-window identity",
+        "same-target pairing",
+        "training and availability ordering",
+        "realized loss recomputation",
+        "bank weights",
+        "score recomputation",
+        "independent fractional pooled ES",
+        "annual counts",
+        "failure counts"
+      ],
+      "review_type": "coordinator numerical/artifact audit; independent agent review NOT RUN"
+    }
+  },
+  "total_rows": 125532,
+  "total_summary_annual_rows": 627,
+  "total_fixed_boundary_refits": 8,
+  "independent_agent_review": "NOT RUN",
+  "frozen_source_changed": false
+}

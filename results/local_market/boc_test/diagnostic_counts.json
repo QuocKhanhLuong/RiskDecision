@@ -1,0 +1,79 @@
+{
+  "historical": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "historical_se_penalty": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "gaussian_LW": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "student_t_LW": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "gmm_pooled": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "gmm_base": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "aptc_v1": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "support_mix50": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "support_band50": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 2,
+    "warning_dates": 0,
+    "failed_correction_steps": 4
+  },
+  "filtered_historical": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  },
+  "equal_weight": {
+    "dates": 747,
+    "fallback_dates": 0,
+    "nonconverged_dates": 0,
+    "warning_dates": 0,
+    "failed_correction_steps": 0
+  }
+}

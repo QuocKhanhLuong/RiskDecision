@@ -1,0 +1,39 @@
+{
+  "run": "run_6a65aab12f88",
+  "requested_skill": "orchestration",
+  "tasks": [
+    {
+      "id": "task_3b8213467ac2",
+      "scope": "data provenance and loader",
+      "dispatches": [
+        "ctx_f052a28bf30a",
+        "ctx_d80c8d6fa1b4"
+      ],
+      "outcome": "failed before task delivery; coordinator completed scope"
+    },
+    {
+      "id": "task_1c9bffedb8bc",
+      "scope": "runner implementation",
+      "dispatches": [
+        "ctx_21ba52334dfc"
+      ],
+      "outcome": "failed before task delivery; coordinator completed scope"
+    },
+    {
+      "id": "task_340776b81f92",
+      "scope": "independent pre-test review",
+      "dispatches": [
+        "ctx_391dc94527f8"
+      ],
+      "outcome": "failed before task delivery; independent review NOT RUN"
+    }
+  ],
+  "failed_stage": "agent_readiness",
+  "error": "timeout",
+  "initial_current_workspace": "Orca active workspace differed from shell cwd; task never dispatched",
+  "retry_workspace": "explicit path:/Users/alvinluong/RiskDecision; same readiness failure",
+  "released_owned_terminals": 4,
+  "reclaimable_terminals": 0,
+  "runtime_settings_modified": false,
+  "non_orca_agent_substitution": false
+}
