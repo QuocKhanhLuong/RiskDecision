@@ -1,0 +1,101 @@
+{
+  "student_df": 49.999994079765735,
+  "gmm_base": {
+    "converged": true,
+    "warnings": []
+  },
+  "gmm_pooled": {
+    "converged": true,
+    "warnings": []
+  },
+  "aptc_v1": {
+    "converged": true,
+    "ess": 1512.3002700281427,
+    "directions": [
+      248,
+      14,
+      26,
+      249,
+      121,
+      9,
+      85,
+      25
+    ]
+  },
+  "random_calibration": {
+    "converged": true,
+    "ess": 1520.7648605415975,
+    "directions": [
+      173,
+      1,
+      14,
+      62,
+      262,
+      35,
+      245,
+      19
+    ]
+  },
+  "support_band25": {
+    "converged": true,
+    "ess": 1638.4,
+    "directions": [
+      248,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "support_band50": {
+    "converged": true,
+    "ess": 877.7142857142858,
+    "directions": [
+      166,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "support_point50": {
+    "converged": true,
+    "ess": 826.5601160807496,
+    "directions": [
+      166,
+      161,
+      26,
+      121,
+      131,
+      11,
+      176,
+      9
+    ]
+  },
+  "filtered_gmm": {
+    "converged": true,
+    "warnings": []
+  },
+  "filtered_support_band50": {
+    "converged": true,
+    "ess": 803.2054329371819,
+    "directions": [
+      283,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "elapsed_seconds": 1.0928651770000215,
+  "x_sha256": "8c698e36c46da85237bb9082079caff676a54ad80675d251f035661803d5620e"
+}

@@ -1,0 +1,34 @@
+{
+  "records_recomputed": 480,
+  "max_population_ES_recompute_error": 2.220446049250313e-15,
+  "exact_ES_validation": {
+    "oracle_ES": 2.975023658207577,
+    "independent_MC_ES": 2.9596232147359816,
+    "n_MC": 300000
+  },
+  "all_final_dual_solves_report_convergence": true,
+  "intermediate_solver_flags": [
+    {
+      "run": "asymmetric_crash_mixture_111",
+      "method": "random_tail_calibration",
+      "step_zero_based": 1,
+      "success": false,
+      "nit": 7,
+      "message": "ABNORMAL: "
+    }
+  ],
+  "all_GMM_fits_converged": true,
+  "sanity": {
+    "assertion_groups": 8,
+    "passed": true
+  },
+  "note": "Internal code/arithmetic audit, not independent scientific peer review.",
+  "files": {
+    "results/all_results.csv": "379f997aad3f92dc72c9b5ce29d252405e5de21ffc26e611e20039a0bda7a7be",
+    "results/paired_CI.csv": "d078c81aff4e94172e7d9cf024474537542d5bcb75d44ff40ef0165768466362",
+    "results/raw_100_104.csv": "d52e37e2b5ab9323c2ccafed47ec83adbf9c2a4aca55bba52ebe0738058d99bd",
+    "results/raw_105_129.csv": "33b5ed5685acdb4ff63f199adc15ad773c0f51b827fd0c3b83a94e835a898f4d",
+    "results/search_size_sensitivity.csv": "360515679cdd663728415514b4e9183d0f10553ff2c6ec7295841c09a5d7fa49",
+    "results/summary.csv": "44162a07db0d0a915fb2a01d49c640300894037320e95e5439638d2c5609a91f"
+  }
+}

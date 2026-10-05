@@ -1,0 +1,15 @@
+{
+  "description": "Post-hoc mechanism diagnostic, not selection",
+  "no_effect_beyond_mixture": {
+    "student_t4": 60,
+    "markov_volatility": 42,
+    "asymmetric_crash": 39,
+    "gaussian": 79
+  },
+  "total": {
+    "student_t4": 80,
+    "markov_volatility": 80,
+    "asymmetric_crash": 80,
+    "gaussian": 80
+  }
+}

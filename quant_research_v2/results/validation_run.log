@@ -1,0 +1,9 @@
+validation 1 / 80 elapsed 1.7
+validation 11 / 80 elapsed 5.4
+validation 21 / 80 elapsed 9.8
+validation 31 / 80 elapsed 14.7
+validation 41 / 80 elapsed 19.4
+validation 51 / 80 elapsed 24.6
+validation 61 / 80 elapsed 28.8
+validation 71 / 80 elapsed 34.4
+DONE /mnt/data/quant_research_v2/results/validation.csv 1440

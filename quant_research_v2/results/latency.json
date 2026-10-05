@@ -1,0 +1,25 @@
+{
+  "historical_se_penalty": {
+    "seconds": [
+      0.007471270999985791,
+      0.009102820999942196,
+      0.007249613000112731,
+      0.0066907570001149,
+      0.007437516999971194
+    ],
+    "mean_seconds": 0.007590395800025363,
+    "sd_seconds": 0.0009014537589159211
+  },
+  "support_band50": {
+    "seconds": [
+      0.1532920560000548,
+      0.15482782200001566,
+      0.17474351700002444,
+      0.17024299900003825,
+      0.16417326399982812
+    ],
+    "mean_seconds": 0.16345593159999225,
+    "sd_seconds": 0.009377327395210395
+  },
+  "scope": "One synthetic 512x8 window,285 candidates, includes fit/risk optimization,5 warm CPU timings; NOT market performance or Mac timing"
+}

@@ -1,0 +1,1772 @@
+{
+  "gaussian_control_100": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 56,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 19,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        185,
+        160,
+        267,
+        116,
+        174,
+        81,
+        8,
+        264,
+        200,
+        101,
+        266,
+        277
+      ],
+      "ess": 2024.3007026776381,
+      "min_probability": 0.00010223221196497946,
+      "max_probability": 0.0013232886577267374,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 3,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 22,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        227,
+        1,
+        20,
+        110,
+        26,
+        24,
+        7,
+        176,
+        22,
+        19,
+        23,
+        5
+      ],
+      "ess": 1978.5975119992377,
+      "min_probability": 6.811834184651274e-05,
+      "max_probability": 0.0019118487992510215,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 4,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 8,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 15,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 23,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.31303207999997085,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "d4ad39afc0843aaded603e439f6dd0fa03c411c9d79497a8d5d2ab704025f44e"
+  },
+  "gaussian_control_101": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 23,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 13,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        268,
+        235,
+        95,
+        126,
+        149,
+        89,
+        129,
+        99,
+        224,
+        60,
+        267,
+        194
+      ],
+      "ess": 2042.0001333465564,
+      "min_probability": 0.00021866322364988097,
+      "max_probability": 0.0007031098810917466,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 2,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        126,
+        17,
+        28,
+        107,
+        16,
+        11,
+        32,
+        24,
+        2,
+        128,
+        1,
+        4
+      ],
+      "ess": 2010.4890685185933,
+      "min_probability": 9.116242595606444e-05,
+      "max_probability": 0.001100265563978579,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 3,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 15,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.27404123100001243,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "ba79c3468ac6d16711002d57e7b4d2184a55a4d7af3fd8fbb5a9782ab398176d"
+  },
+  "gaussian_control_102": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 17,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 8,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        168,
+        12,
+        220,
+        9,
+        245,
+        190,
+        96,
+        249,
+        88,
+        160,
+        47,
+        147
+      ],
+      "ess": 2009.174347196122,
+      "min_probability": 0.00026495700985178493,
+      "max_probability": 0.0013361168002401162,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 4,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 8,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        269,
+        2,
+        15,
+        6,
+        7,
+        19,
+        25,
+        13,
+        16,
+        20,
+        5,
+        188
+      ],
+      "ess": 1876.7755755907936,
+      "min_probability": 6.635930904162764e-05,
+      "max_probability": 0.002729427693075421,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.2692555099999936,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "78c706d4f1895236cb25a07bc1c002c7bfa46d8f04e1882b83ffb69890f0367a"
+  },
+  "gaussian_control_103": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 25,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 27,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        271,
+        66,
+        116,
+        215,
+        130,
+        232,
+        239,
+        100,
+        162,
+        153,
+        170,
+        88
+      ],
+      "ess": 2028.9712399151547,
+      "min_probability": 0.00023467945573606977,
+      "max_probability": 0.001335903505894311,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 3,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        249,
+        167,
+        195,
+        109,
+        12,
+        28,
+        13,
+        3,
+        237,
+        135,
+        10,
+        27
+      ],
+      "ess": 1960.9877085218695,
+      "min_probability": 0.00010653656271844832,
+      "max_probability": 0.0018417008915568558,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 4,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 15,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.30410224899998184,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "58bc3c21d213e0a24961cf247728eb6bff0e755fcaba21ebf3986408aafe0b2d"
+  },
+  "gaussian_control_104": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 49,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 29,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        225,
+        201,
+        10,
+        40,
+        3,
+        156,
+        110,
+        57,
+        284,
+        9,
+        84,
+        148
+      ],
+      "ess": 2042.1641111526822,
+      "min_probability": 0.0002989723718124644,
+      "max_probability": 0.0007539832095081667,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 3,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 15,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 22,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 22,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        62,
+        74,
+        5,
+        14,
+        3,
+        19,
+        25,
+        27,
+        50,
+        21,
+        2,
+        26
+      ],
+      "ess": 2003.625258619052,
+      "min_probability": 0.00015994032098585697,
+      "max_probability": 0.0015065802967913287,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 2,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 11,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.29924285799995687,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "2be44caa247b5d4e59d1a61a4904a5145d2f2c1886ccbfedb0606c2d27272f29"
+  },
+  "asymmetric_crash_mixture_100": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 12,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 16,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        185,
+        160,
+        267,
+        116,
+        174,
+        81,
+        8,
+        264,
+        200,
+        101,
+        266,
+        277
+      ],
+      "ess": 2032.7203397587375,
+      "min_probability": 0.00010761208393154085,
+      "max_probability": 0.0007258951722020101,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 8,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 14,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 33,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 50,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 58,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 59,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 57,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        7,
+        3,
+        15,
+        19,
+        12,
+        1,
+        9,
+        22,
+        119,
+        213,
+        28,
+        23
+      ],
+      "ess": 1999.273960048177,
+      "min_probability": 7.010548784736166e-05,
+      "max_probability": 0.001970608708587854,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 25,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 34,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 40,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 45,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 63,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 68,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 72,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.34103581300001906,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "135eb75828c512b35bcdb800583f67072459abda2fc61e7e95ead422d7973be8"
+  },
+  "asymmetric_crash_mixture_101": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 34,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 8,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        268,
+        235,
+        95,
+        126,
+        149,
+        89,
+        129,
+        99,
+        224,
+        60,
+        267,
+        194
+      ],
+      "ess": 2032.059312547756,
+      "min_probability": 0.000132516297518142,
+      "max_probability": 0.0009527688353305444,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 4,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 15,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 29,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 31,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 42,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 48,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 41,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 47,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 53,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 73,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        233,
+        12,
+        26,
+        162,
+        14,
+        10,
+        178,
+        20,
+        4,
+        211,
+        2,
+        206
+      ],
+      "ess": 1974.783480517395,
+      "min_probability": 5.5131652641472594e-05,
+      "max_probability": 0.0027743128367041666,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 4,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 9,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 26,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 36,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 40,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 45,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 54,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 69,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 69,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.35410933100001785,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "20705c50b1aeefeaf6a6765f3420550fe4351f257477eae0efd0a28bbb4ac5be"
+  },
+  "asymmetric_crash_mixture_102": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 43,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 10,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        168,
+        12,
+        220,
+        9,
+        245,
+        190,
+        96,
+        249,
+        88,
+        160,
+        47,
+        147
+      ],
+      "ess": 1983.5952684062172,
+      "min_probability": 7.382471237564785e-05,
+      "max_probability": 0.0017694408466518358,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 21,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 36,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 33,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 51,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 61,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 51,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 67,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 60,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        269,
+        25,
+        24,
+        112,
+        14,
+        23,
+        26,
+        2,
+        8,
+        27,
+        15,
+        260
+      ],
+      "ess": 1906.9557614454689,
+      "min_probability": 3.9446315786566385e-05,
+      "max_probability": 0.002917951051851697,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 35,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 31,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 33,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 42,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 61,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 55,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.37400994600000104,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "31850223f393b78c8569766d1aeca256bc8cc5fe8f01a970a78dc7ac1ae80dd2"
+  },
+  "asymmetric_crash_mixture_103": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 18,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 5,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        271,
+        66,
+        116,
+        215,
+        130,
+        232,
+        239,
+        100,
+        162,
+        153,
+        170,
+        88
+      ],
+      "ess": 2026.3739560182007,
+      "min_probability": 0.00010818064532214912,
+      "max_probability": 0.00124656319325174,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 18,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 19,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 34,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 29,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 37,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 40,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 48,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 69,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 87,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        8,
+        20,
+        17,
+        25,
+        21,
+        27,
+        18,
+        4,
+        9,
+        2,
+        5,
+        6
+      ],
+      "ess": 1970.8989895996986,
+      "min_probability": 8.031225128088436e-05,
+      "max_probability": 0.002044611956716017,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 6,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 8,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 17,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 16,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 25,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 31,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 42,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 47,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 51,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 54,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.34757430199999817,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "d35d044b446bd6c387d3de7af1cc27b3a2faa7ca2eb7d0f68082f98b7acf944c"
+  },
+  "asymmetric_crash_mixture_104": {
+    "gmm_base": {
+      "converged": true,
+      "iterations": 9,
+      "warnings": []
+    },
+    "gmm_pooled": {
+      "converged": true,
+      "iterations": 20,
+      "warnings": []
+    },
+    "random_tail_calibration": {
+      "critic_indices": [
+        225,
+        201,
+        10,
+        40,
+        3,
+        156,
+        110,
+        57,
+        284,
+        9,
+        84,
+        148
+      ],
+      "ess": 1972.744017287749,
+      "min_probability": 4.77881100621904e-05,
+      "max_probability": 0.002046987759961028,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 4,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 12,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 24,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 33,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 48,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 51,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 62,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 73,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 64,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "adaptive_tail_calibration": {
+      "critic_indices": [
+        13,
+        7,
+        6,
+        1,
+        8,
+        21,
+        11,
+        28,
+        20,
+        17,
+        5,
+        53
+      ],
+      "ess": 1873.5311330597733,
+      "min_probability": 8.787075386752822e-06,
+      "max_probability": 0.003763788648751753,
+      "dual_runs": [
+        {
+          "success": true,
+          "nit": 5,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 7,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 10,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        },
+        {
+          "success": true,
+          "nit": 13,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 20,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 23,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 24,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 28,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 36,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 43,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 60,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "success": true,
+          "nit": 51,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ]
+    },
+    "wall_seconds": 0.3558377070000347,
+    "population_evaluator": "exact Gaussian-mixture formula, numerical VaR root",
+    "data_sha256": "777d9e01003e9a4477682aa105a5f6c9ecd29cc4c551f463062b4d5abd0584a8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "config_sha256": "1243bfdf8942d8d36a988bd0a8a2f649203d86db26495492c6301c645a71b7f2",
+  "code_sha256": "0e74a3878818f03b44870241164852977ac16e80442c409deda41a3f084e3c71",
+  "sanity": {
+    "assertion_groups": 8,
+    "passed": true
+  },
+  "execution_device": "CPU in ChatGPT container, not user Mac"
+}

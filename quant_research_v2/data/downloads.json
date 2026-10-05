@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ecb_fx",
+    "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip",
+    "error": "HTTPSConnectionPool(host='www.ecb.europa.eu', port=443): Max retries exceeded with url: /stats/eurofxref/eurofxref-hist.zip (Caused by NameResolutionError(\"HTTPSConnection(host='www.ecb.europa.eu', port=443): Failed to resolve 'www.ecb.europa.eu' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 0.004912853240966797
+  },
+  {
+    "name": "boc_fx",
+    "url": "https://www.bankofcanada.ca/valet/observations/group/FX_RATES_DAILY/json?start_date=2017-01-01&end_date=2025-12-31",
+    "error": "HTTPSConnectionPool(host='www.bankofcanada.ca', port=443): Max retries exceeded with url: /valet/observations/group/FX_RATES_DAILY/json?start_date=2017-01-01&end_date=2025-12-31 (Caused by NameResolutionError(\"HTTPSConnection(host='www.bankofcanada.ca', port=443): Failed to resolve 'www.bankofcanada.ca' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.037732362747192
+  },
+  {
+    "name": "boc_yield",
+    "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.2YR.DQ.YLD,BD.CDN.3YR.DQ.YLD,BD.CDN.5YR.DQ.YLD,BD.CDN.7YR.DQ.YLD,BD.CDN.10YR.DQ.YLD,BD.CDN.LONG.DQ.YLD/json?start_date=1995-01-01&end_date=2025-12-31",
+    "error": "HTTPSConnectionPool(host='www.bankofcanada.ca', port=443): Max retries exceeded with url: /valet/observations/BD.CDN.2YR.DQ.YLD,BD.CDN.3YR.DQ.YLD,BD.CDN.5YR.DQ.YLD,BD.CDN.7YR.DQ.YLD,BD.CDN.10YR.DQ.YLD,BD.CDN.LONG.DQ.YLD/json?start_date=1995-01-01&end_date=2025-12-31 (Caused by NameResolutionError(\"HTTPSConnection(host='www.bankofcanada.ca', port=443): Failed to resolve 'www.bankofcanada.ca' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.0350189208984375
+  },
+  {
+    "name": "ecb_yield",
+    "url": "https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_1Y+SR_2Y+SR_3Y+SR_5Y+SR_7Y+SR_10Y+SR_15Y+SR_20Y?startPeriod=2004-01-01&endPeriod=2025-12-31&format=csvdata",
+    "error": "HTTPSConnectionPool(host='data-api.ecb.europa.eu', port=443): Max retries exceeded with url: /service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_1Y+SR_2Y+SR_3Y+SR_5Y+SR_7Y+SR_10Y+SR_15Y+SR_20Y?startPeriod=2004-01-01&endPeriod=2025-12-31&format=csvdata (Caused by NameResolutionError(\"HTTPSConnection(host='data-api.ecb.europa.eu', port=443): Failed to resolve 'data-api.ecb.europa.eu' ([Errno -3] Temporary failure in name resolution)\"))",
+    "seconds": 5.034049034118652
+  }
+]

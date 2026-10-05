@@ -1,0 +1,30 @@
+{
+  "verified_utc": "2026-10-05T01:58:53.491633+00:00",
+  "parent_head": "41bcdc07799458b2a425bd0014e62a6695de5012",
+  "archives": [
+    {
+      "filename": "Quant_Tail_Risk_Method_and_Pilot.zip",
+      "root": "quant_tailrisk_pilot",
+      "size_bytes": 3154716,
+      "sha256": "2c9e4b821f38cbaa9510ecdb550b0f80732587e48325254be0551af1878847e1",
+      "file_count": 83,
+      "uncompressed_bytes": 4051335
+    },
+    {
+      "filename": "Quant_Risk_v2_Code_Results.zip",
+      "root": "quant_research_v2",
+      "size_bytes": 50739052,
+      "sha256": "480516ded3c526b6daca24c433674c9f47c6b71ff678a641ae60846c040276ea",
+      "file_count": 848,
+      "uncompressed_bytes": 58507344
+    }
+  ],
+  "archive_files": 931,
+  "matching_before": 31,
+  "created": 900,
+  "matching_after": 931,
+  "would_create_after": 0,
+  "crc_and_each_existing_sha256_verified": true,
+  "overwritten_files": 0,
+  "regenerated_results": false
+}
