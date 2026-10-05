@@ -28,7 +28,7 @@ def render():
         if source == "synthetic":
             rows = [r for r in rows if r["family"] == "all"]
         lookup = {(r["track"], r["target"], r["method"]): r for r in rows}
-        text += [f"## {source.upper()}", "", f"{audit['windows']} windows; {audit['rows']} forecast/selection rows. Artifact audit: **{audit['status']}**. Compute wall time: {provenance['receipt']['wall_seconds']:.2f}s with two numerical processes. These processes are not independent agents.", ""]
+        text += [f"## {source.upper()}", "", f"{audit['windows']} windows; {audit['rows']} forecast/selection rows. Artifact audit: **{audit['status']}**. Invocation wall time: {provenance['receipt']['wall_seconds']:.2f}s; {provenance['receipt']['computed_this_invocation']} windows computed this invocation, with two numerical processes. These processes are not independent agents.", ""]
         if source == "synthetic":
             text += ["Archived validation inputs are exposed development:20 seed clusters ×4 families. Local GMM scenario draws can differ across platform linear algebra implementations; this is a local diagnostic refit, not an overwrite or bitwise reproduction of the original snapshot.", "",
                      "| Method | Same equal target relative ES error | Same historical-SE target relative ES error | Own-selection relative population regret |", "|---|---:|---:|---:|"]
@@ -42,7 +42,10 @@ def render():
             own = lookup["B", "own_selection", method]
             akey, bkey = ("mean_relative_error", "mean_relative_regret") if source == "synthetic" else ("mean_fz0", "pooled_es95_pp")
             text.append(f"| {method} | {number(eq[akey])} | {number(ref[akey])} | {number(own[bkey])} |")
-        text += ["", "Lower is better within each column. Synthetic relative quantities are fractions, not percentages. Population regret uses the finite285-bank oracle; Markov truth additionally conditions on an evaluator-only latent state.", "",
+        note = "Lower is better within each column."
+        if source == "synthetic":
+            note += " Synthetic relative quantities are fractions, not percentages. Population regret uses the finite285-bank oracle; Markov truth additionally conditions on an evaluator-only latent state."
+        text += ["", note, "",
                  "| Correction | Unchanged ES surface | Same selection as mixture | All prior moments inside band | Mean total variation from prior | Converged |", "|---|---:|---:|---:|---:|---:|"]
         for r in read(source, "mechanism"):
             if r["group"] == "all":

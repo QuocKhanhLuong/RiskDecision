@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "forecast_rows": 32277,
+  "aggregate_numeric_cells_recomputed": 832,
+  "forecast_sha256": "d130e7f7953cedac8efdb231df12de3f9ad6dd7222b815940bf2c0789e38ce9d",
+  "checks": [
+    "all summary and annual mean endpoints",
+    "independent fractional-tail integration",
+    "all paired central estimates"
+  ],
+  "limitation": "Bootstrap endpoints are produced by the frozen analysis and tested pairing; this receipt independently recomputes central estimates, not interval coverage."
+}

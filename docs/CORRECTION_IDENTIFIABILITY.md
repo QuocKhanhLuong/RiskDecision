@@ -18,7 +18,7 @@ For beta=.5 that residual is halved. The threshold and scale themselves change w
 
 ## 2. Fixed-threshold moments do not identify ES
 
-Write `F_Q(eta) = eta + E_Q[(L-eta)_+] / alpha`, with alpha=.05. ES is `min_eta F_Q(eta)`; the minimization and fractional treatment of atoms are established in [Rockafellar and Uryasev (2002), Theorem10](https://sites.math.washington.edu/~rtr/papers/rtr187-CVaR2.pdf).
+For integrable loss distributions, write `F_Q(eta) = eta + E_Q[(L-eta)_+] / alpha`, with alpha=.05. ES is `min_eta F_Q(eta)`; the minimization and fractional treatment of atoms are established in [Rockafellar and Uryasev (2002), Theorem10](https://sites.math.washington.edu/~rtr/papers/rtr187-CVaR2.pdf).
 
 Let `eta0` be the prior VaR and `g_Q = F_Q(eta0)-ES_Q >= 0`. For a reference P, empirical correction-block hinge mean b, and fitted Q, direct subtraction gives
 
@@ -32,7 +32,7 @@ Consequently, even perfect population matching of these fixed-threshold features
 
 ## 3. What would be sufficient, and what is absent
 
-If `sup_(w,eta) |E_Q h_(w,eta)-E_P h_(w,eta)| <= epsilon` over every eligible portfolio and all relevant thresholds, then `sup_w |ES_Q(w)-ES_P(w)| <= epsilon/alpha`: take minima of two uniformly close functions. A portfolio minimizing ES_Q then has P-regret at most `2 epsilon/alpha`, by adding the two estimation errors and using optimality under Q. These are standard uniform-approximation arguments, not a novel guarantee here.
+If `sup_(w,eta) |E_Q h_(w,eta)-E_P h_(w,eta)| <= epsilon` over every eligible portfolio and a threshold set containing both distributions' minimizing thresholds for every portfolio, then `sup_w |ES_Q(w)-ES_P(w)| <= epsilon/alpha`: take minima of two uniformly close functions. A portfolio minimizing ES_Q then has P-regret at most `2 epsilon/alpha`, by adding the two estimation errors and using optimality under Q. These are standard uniform-approximation arguments, not a novel guarantee here.
 
 V2 does not establish that premise. Empirical target reuse, data-dependent thresholds/scales, adaptive feature mining, dependent observations and potentially missing future tail support all need treatment. A pointwise heuristic SE band cannot stand in for a simultaneous population bound. Adding more thresholds might address one approximation gap while worsening statistical error; it is not automatically a fix or a novel method.
 

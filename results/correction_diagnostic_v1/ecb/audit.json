@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source": "ecb",
+  "windows": 1537,
+  "rows": 32277,
+  "csv_rows_matched_to_windows": 32277,
+  "original_targets_recomputed": 32277,
+  "common_target_groups_checked": 3074,
+  "score_rows_recomputed": 32277,
+  "max_decomposition_identity_residual": 3.0531133177191805e-16,
+  "base_gmm_nonconverged": 0,
+  "base_gmm_warning_windows": 0,
+  "max_archive_surface_error": null,
+  "review": "coordinator artifact checks; not independent review"
+}

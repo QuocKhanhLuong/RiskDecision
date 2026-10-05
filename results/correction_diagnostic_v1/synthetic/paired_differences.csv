@@ -1,0 +1,13 @@
+track,target,candidate,reference,metric,n_pairs,bootstrap_units,block,difference,ci_low,ci_high,status
+A,equal_weight,support_band50,support_mix50,relative_error,80,20,0,-0.003051687852398205,-0.020767321164350382,0.01327500060920481,development-only pointwise exploratory interval
+A,equal_weight,support_band50,historical_se_penalty,relative_error,80,20,0,0.002995410106631735,-0.019016317562407667,0.021263252522906277,development-only pointwise exploratory interval
+A,equal_weight,support_band50,support_point50,relative_error,80,20,0,-0.035945907081780026,-0.05317535559195366,-0.017897767781447187,development-only pointwise exploratory interval
+A,equal_weight,support_band50,random_band50,relative_error,80,20,0,-0.0034365840851402485,-0.009443919398802724,0.0012436005638822578,development-only pointwise exploratory interval
+A,historical_se_reference,support_band50,support_mix50,relative_error,80,20,0,-0.003301576063391043,-0.01642654838244346,0.007356283150330758,development-only pointwise exploratory interval
+A,historical_se_reference,support_band50,historical_se_penalty,relative_error,80,20,0,0.00031577577738062246,-0.016100909277725645,0.01298263154127369,development-only pointwise exploratory interval
+A,historical_se_reference,support_band50,support_point50,relative_error,80,20,0,-0.029355775570517134,-0.044882775440569296,-0.014944799617047547,development-only pointwise exploratory interval
+A,historical_se_reference,support_band50,random_band50,relative_error,80,20,0,-0.0006005085743842897,-0.002991008905006633,0.001654015829637793,development-only pointwise exploratory interval
+B,own_selection,support_band50,support_mix50,relative_regret,80,20,0,-0.0017516161926539806,-0.008870330248227778,0.0046783204318214125,development-only pointwise exploratory interval
+B,own_selection,support_band50,historical_se_penalty,relative_regret,80,20,0,-0.006533262225184411,-0.015096864272682994,0.001636161569405263,development-only pointwise exploratory interval
+B,own_selection,support_band50,support_point50,relative_regret,80,20,0,-0.015553961951073579,-0.02541469738408274,-0.005345305613297539,development-only pointwise exploratory interval
+B,own_selection,support_band50,random_band50,relative_regret,80,20,0,-0.0024450764462653554,-0.009192101692114957,0.0026935764600339307,development-only pointwise exploratory interval

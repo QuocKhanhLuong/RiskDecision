@@ -1,5 +1,7 @@
 # Quyết định nghiên cứu sau market evaluation
 
+> Cập nhật sau bước chẩn đoán development được yêu cầu tiếp tục: xem [CORRECTION_RESEARCH_DECISION.md](CORRECTION_RESEARCH_DECISION.md). Nội dung dưới giữ kết luận market tại commit88b149b; held-out artifacts không thay đổi.
+
 **Không nâng APTC v2 thành phương pháp thắng hoặc thay thế baseline.** Giữ `historical_se_penalty` và `support_mix50` làm đối chứng bắt buộc. Không sửa method từ kết quả final test vừa xem.
 
 ECB là thí nghiệm chính đã hoàn tất:1.022 validation origins và1.538 final-test origins, cùng protocol đóng băng trước held-out evaluation. `filtered_historical` có mean FZ0 thấp nhất quan sát trên cả equal-weight (−0.611857) và common historical-SE reference (−0.774027), nhưng selector của nó không có pooled ES thấp nhất. `support_mix50` có pooled ES95 thấp nhất quan sát,0.488726pp; historical+penalty0.489436pp; candidate0.490895pp. Đây là minh họa trực tiếp vì sao phải tách forecast quality và selection quality.

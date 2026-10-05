@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE_DEVELOPMENT_DIAGNOSIS",
+  "freeze_commit": "dd468a2bff558f076aa41fc5c9fed4d644df68ce",
+  "tests": {
+    "command": "rtk proxy .venv/bin/python -m pytest -q tests quant_research_v2/tests",
+    "passed": 60,
+    "seconds": 2.52
+  },
+  "ecb_frozen_refit_compatibility": [
+    "2010-01-04",
+    "2015-12-31"
+  ],
+  "compatibility_tolerance": 1e-10,
+  "original_history_verification": {
+    "archive_files": 931,
+    "matching_existing": 931,
+    "would_create": 0
+  },
+  "frozen_market_source_unchanged": true,
+  "diagnostic_source_unchanged": true,
+  "table_numeric_cells_independently_recomputed": 1159,
+  "report_generated_from_csv_and_byte_checked": true,
+  "orchestration": {
+    "run": "run_eaedc9ba2825",
+    "task": "task_d5238cc99f24",
+    "dispatch": "ctx_5e64e2b69cbe",
+    "outcome": "failed before task delivery",
+    "failed_stage": "agent_readiness",
+    "error": "timeout",
+    "terminal_released": true,
+    "reclaimable_workers": 0,
+    "independent_review": "NOT RUN"
+  },
+  "not_run": [
+    "new held-out market runs",
+    "new method tuning/promotion",
+    "new dataset download",
+    "independent review",
+    "fresh confirmation",
+    "guaranteed conditional or simultaneous calibration"
+  ],
+  "errors_and_recovery": [
+    "Initial pytest command included nonexistent quant_tailrisk_pilot/tests; no tests ran; corrected command passed60.",
+    "Preflight regenerated multivariate-normal array did not match archived rows; fitter uses immutable archived observations and checks evaluator vectors. Local scenario refit differences are reported."
+  ],
+  "environment": {
+    "chip": "Apple M4 Pro",
+    "cpu_cores": 12,
+    "memory_reported": "24 GB",
+    "python": "3.13.15",
+    "numerical_processes": 2,
+    "numerical_threads_per_process": 1
+  },
+  "protocol_sha256": "5166024a3dec5795f5b79eca0be7265d24d09ac96ed0a8674d86ce91035ff901"
+}

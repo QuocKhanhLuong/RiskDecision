@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source": "synthetic",
+  "windows": 80,
+  "rows": 1680,
+  "csv_rows_matched_to_windows": 1680,
+  "original_targets_recomputed": 1680,
+  "common_target_groups_checked": 160,
+  "score_rows_recomputed": 0,
+  "max_decomposition_identity_residual": 1.7763568394002505e-15,
+  "base_gmm_nonconverged": 0,
+  "base_gmm_warning_windows": 0,
+  "max_archive_surface_error": 0.674706394385733,
+  "review": "coordinator artifact checks; not independent review"
+}
