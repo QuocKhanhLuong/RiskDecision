@@ -1,0 +1,138 @@
+{
+  "ecb": {
+    "identity": "01ec21c29f12330e0eebc59f0b4286736b6066ea71928da85df9de5c1a22db7d",
+    "source": "ecb",
+    "split": "development",
+    "complete": true,
+    "finished_utc": "2026-10-05T03:30:06.842706+00:00",
+    "windows": 20,
+    "requested_dates": 1537,
+    "warmup_excluded": 0,
+    "invalid_gap_windows_excluded": 0,
+    "rows": 660,
+    "first": "2010-01-04",
+    "last": "2010-05-19",
+    "workers": 2,
+    "numerical_threads_per_worker": 1,
+    "computed_this_invocation": 20,
+    "wall_seconds_this_invocation": 2.76749079185538,
+    "sum_window_seconds": 4.279408376431093,
+    "mean_window_seconds": 0.21397041882155463,
+    "forecasts_sha256": "c4139a810490bb46ff60fd0cadae88436329adba1146c7cee85ab1640923a5c7",
+    "diagnostics_sha256": "421ce4a2c2d7c1ed21e1c5bea7b4545b6a5a757e902657e944326bab17d876e4",
+    "method_diagnostics": {
+      "historical": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "historical_se_penalty": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "gaussian_LW": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "student_t_LW": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "gmm_pooled": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "gmm_base": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "aptc_v1": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "support_mix50": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "support_band50": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "filtered_historical": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "equal_weight": {
+        "nonconverged": 0,
+        "fallback": 0
+      }
+    }
+  },
+  "boc": {
+    "identity": "8f8adae364e25f4e5a72d00cf5472c2bb44118baca83c2f24ae01dcec3679abe",
+    "source": "boc",
+    "split": "development",
+    "complete": true,
+    "finished_utc": "2026-10-05T03:30:08.006938+00:00",
+    "windows": 20,
+    "requested_dates": 999,
+    "warmup_excluded": 513,
+    "invalid_gap_windows_excluded": 0,
+    "rows": 660,
+    "first": "2019-01-23",
+    "last": "2019-06-10",
+    "workers": 2,
+    "numerical_threads_per_worker": 1,
+    "computed_this_invocation": 20,
+    "wall_seconds_this_invocation": 2.7300257079768926,
+    "sum_window_seconds": 4.1454887902364135,
+    "mean_window_seconds": 0.20727443951182067,
+    "forecasts_sha256": "94d60e642eb68852734f0a5ddef8b619723635bd5a77bf376abb331aaa3ebefc",
+    "diagnostics_sha256": "1bab23e4e01cae0bff037d6fde37da0b9d1067e191c2b68b2fe7db8606fcc54d",
+    "method_diagnostics": {
+      "historical": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "historical_se_penalty": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "gaussian_LW": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "student_t_LW": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "gmm_pooled": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "gmm_base": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "aptc_v1": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "support_mix50": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "support_band50": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "filtered_historical": {
+        "nonconverged": 0,
+        "fallback": 0
+      },
+      "equal_weight": {
+        "nonconverged": 0,
+        "fallback": 0
+      }
+    }
+  }
+}

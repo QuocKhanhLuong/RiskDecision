@@ -31,7 +31,7 @@ scripts/import_chat_archives.py
 archives_manifest.json     Original archive checksums and counts
 ```
 
-The direct GitHub import contains executable research code, tests, documentation and selected result files. It is NOT the complete 931-file historical snapshot: full per-seed arrays, detailed tables, figures and some ancillary files remain in the two original ZIPs. Restore them before running the historical full-artifact audit. No missing result is replaced with a regenerated or fabricated file.
+The complete **931-file original historical snapshot** was restored, verified byte-for-byte and pushed in commit `ad0d967`. See `docs/IMPORT_STATUS.md` and the import receipt. No missing result was regenerated.
 
 ## Complete the historical import
 

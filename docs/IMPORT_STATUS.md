@@ -1,42 +1,9 @@
-# Import status — transparent boundary
+# Historical import completed
 
-## Published directly through the GitHub connector
+All **931 original historical files** (83 v1, 848 v2) were verified byte-for-byte against both original archives on 2026-10-05. The importer created 900 missing files; all 31 existing files matched. A second verification found 931 matches and zero pending files. No overwrite or regenerated result was used.
 
-The repository contains executable v1/v2 research engines, numerical tests, official FX loaders, the prototype market runner, core method/protocol/data documents, historical result reports, selected aggregate metadata and the local execution prompt. Original paths are retained. Transferred original text is checked against its archive blob hash.
+Import commit: [`ad0d967a520769f15528750aba5116223a4a133a`](https://github.com/QuocKhanhLuong/RiskDecision/commit/ad0d967a520769f15528750aba5116223a4a133a), pushed to `research/local-market-validation` before empirical code changes. Parent was actual clean HEAD `41bcdc07799458b2a425bd0014e62a6695de5012`; main was not changed.
 
-## Not fully uploaded directly
+See [receipt](HISTORICAL_IMPORT_RECEIPT.json) and [archive checksums](../archives_manifest.json). Archive sizes: 3,154,716 and 50,739,052 bytes; uncompressed historical bytes: 62,558,679. ZIP CRC and every existing file SHA256 passed. Exact original CSV CRLF/whitespace was retained despite Git whitespace warnings.
 
-The complete archives contain **931 historical files**: 83 v1 files and 848 v2 files. The direct import is a subset. It does not contain all per-seed NPZ arrays, large raw/aggregate CSVs, figures, complete historical manifests or ancillary reporting files. Therefore, cloning this repository alone does not yet reproduce the complete original artifact inventory. This is an upload limitation, not a new research result.
-
-The complete original ZIPs remain the source for the missing files. Their hashes/counts are in `archives_manifest.json`; no result is reconstructed merely to fill a missing artifact.
-
-## Complete it locally
-
-Save the two original attachments in Downloads:
-
-1. Quant_Tail_Risk_Method_and_Pilot.zip
-2. Quant_Risk_v2_Code_Results.zip
-
-From a clean clone, BEFORE editing imported files:
-
-```bash
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads" --verify-only
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads"
-git status --short
-# Review paths, then stage only the two historical study directories:
-git add -- quant_tailrisk_pilot quant_research_v2
-git commit -m "data: restore verified historical synthetic research snapshots"
-# Push the current research branch after confirming origin and branch.
-```
-
-Do not run blanket `git add .` after downloading new market data. Do not force-push. Update this status only after the full local import has actually been committed/pushed, including the receipt and commit SHA.
-
-## Checks performed during handoff
-
-- Existing v2 tests rerun: 26 passed.
-- Fresh full archive extraction: 931 files checked and created.
-- Second verification: 931 matching files, no new writes needed.
-- Conflicting existing file: correctly rejected before overwrite.
-- No market experiment run during this handoff.
-
-Full data audits require the restored historical files and should run on an isolated working copy: original audit/report scripts can rewrite receipts. Hardware and runtime of a local reproduction must be recorded separately from the historical Linux results.
+Historical results remain synthetic. New market code/results live separately; original snapshot source/results are immutable for this work. Public Git excludes new raw market data, per-date forecasts, caches and environments.

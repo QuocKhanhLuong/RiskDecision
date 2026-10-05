@@ -1,0 +1,34 @@
+{
+  "os": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+  "architecture": "arm64",
+  "hardware_verification": "system_profiler SPHardwareDataType (actual current session)",
+  "chip": "Apple M4 Pro",
+  "memory_reported": "24 GB",
+  "cpu_cores": 12,
+  "performance_cores": 8,
+  "efficiency_cores": 4,
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "pytest": "9.0.2"
+  },
+  "device": "CPU",
+  "numerical_thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "version": null
+    }
+  ]
+}
