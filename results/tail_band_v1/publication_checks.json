@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "decision_table_values_checked": 27,
+  "tests": "80 passed in 2.75s",
+  "historical_import": "931/931 exact; 0 missing",
+  "frozen_previous_sources_and_results_unchanged_vs": "29646c9",
+  "coordinator_only_review": true,
+  "resume_verified_cached_cases": 200,
+  "first_execution_receipt_preserved": true
+}

@@ -1,0 +1,10 @@
+{
+  "report_sha256": "9a45a4ca367eb5b64ecd8e8aacb1d59a726e9fe6f06be600b343f5c33eea7fcc",
+  "builder_sha256": "80a782d9187e8c06885076d8b2b49bd6862213dcc3f614f27cf45433d5cee116",
+  "aggregate_sha256": {
+    "coverage.csv": "59e80c4e23cb9d043eb0c4cfc52e50dcc45d0ffb3b86ed8616b705b910e6d374",
+    "bounded.csv": "32789ab577b8f1776c04206918fa3ae14e960daff6f0d669c9947349a394471c",
+    "paired.csv": "82b13cb17948152355e36be6a089feecc659728cdbda247c73a1d6ddb7b23831"
+  },
+  "numeric_table_values_from_csv": 246
+}

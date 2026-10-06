@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "identity": "6b429aac807a16a74fdbf461e87a3829adc095b84f8bf068258d23785e6159d8",
+  "exact_refit_seeds": [
+    71000,
+    71199
+  ],
+  "bounded_rows_independently_recomputed": 600,
+  "numeric_table_values_independently_parsed": 246,
+  "performed_by": "coordinator; not independent agent review"
+}

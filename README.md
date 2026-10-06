@@ -4,6 +4,7 @@
 
 ## Start here
 
+- [Latest tail-band mechanism result and decision](docs/TAIL_BAND_DECISION.md), [executed results](docs/TAIL_BAND_RESULTS.md) and [frozen protocol](docs/TAIL_BAND_PROTOCOL.md)
 - [Latest calibration feasibility decision](docs/CALIBRATION_RESEARCH_DECISION.md) and [executed coverage results](docs/SIMULTANEOUS_CALIBRATION_RESULTS.md)
 - [Latest correction mechanism diagnosis and decision](docs/CORRECTION_RESEARCH_DECISION.md)
 - [Development diagnostic results](docs/CORRECTION_DIAGNOSTIC_RESULTS.md), [identifiability](docs/CORRECTION_IDENTIFIABILITY.md) and [targeted novelty audit](docs/NOVELTY_AUDIT_2026_10.md)
@@ -36,6 +37,8 @@ A later development-only mechanism study passed60 tests and audited33,957 additi
 
 A separately frozen synthetic coverage audit then passed70 tests and executed500 new series/16,000 rows. Studentized IID/block multiplier bands substantially undercovered the855-feature grid in the tested settings; a fixed-portfolio check often concealed that failure. Stationary marginal coverage also failed to identify next-period conditional risk. This is a reproducible diagnostic, not a new calibrated-ES method or evidence that APTC outperforms the market baselines. See the calibration decision for full intervals, limitations and the failed independent-review launch.
 
+A subsequent Gaussian mechanism experiment passed 80 tests and ran 200 new series / 6,000 diagnostic and bounded-control rows. At calibration n=256 with independent base anchors, an oracle SE width swap improved simultaneous coverage from 21.5% to 87%; a base-sample fixed-scale multiplier control reached 97% with roughly 65% wider median normalized hinge radii. Fixed population anchors still undercovered with plug-in max-t, isolating anchor estimation from this failure. A separate known-bounded-loss DKW control covered all clipped-ES targets but gave wide intervals. These are diagnostic controls, not a novel method, market confirmation or promotion of APTC.
+
 ## Layout
 
 ```text
@@ -44,10 +47,12 @@ quant_research_v2/          Current synthetic engine, tests, data loaders, repor
 local_market/              Frozen two-track empirical runner, scoring and audits
 correction_audit/          Separate development-only mechanism instrumentation
 coverage_audit/            Frozen synthetic simultaneous-coverage feasibility audit
+tail_band_audit/           Gaussian width/anchor interventions and bounded ES control
 configs/                   Frozen market protocol and source/data hashes
 results/local_market/      Public aggregate market results, no per-date data
 results/correction_diagnostic_v1/  Public mechanism aggregates and audit receipts
 results/coverage_audit_v1/  Public coverage aggregates and audit receipts
+results/tail_band_v1/      Public paired mechanism and bounded-control aggregates
 prompts/                   Complete Astra assignment for local market experiments
 docs/                      Import receipts and local evaluation requirements
 scripts/import_chat_archives.py

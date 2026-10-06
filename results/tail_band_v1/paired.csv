@@ -1,0 +1,19 @@
+n,anchor,contrast,coverage_difference,lo,hi,rescued,lost,replications
+256,population_quantiles_oracle,oracle_width_swap - plugin_max_t,0.63,0.54,0.715,143,17,200
+256,population_quantiles_oracle,fixed_scale_max - plugin_max_t,0.72,0.655,0.78,145,1,200
+256,base_only,oracle_width_swap - plugin_max_t,0.655,0.565,0.74,148,17,200
+256,base_only,fixed_scale_max - plugin_max_t,0.755,0.695,0.815,152,1,200
+256,reused_mixture,oracle_width_swap - plugin_max_t,0.66,0.575,0.74,147,15,200
+256,reused_mixture,fixed_scale_max - plugin_max_t,0.745,0.68,0.805,149,0,200
+1024,population_quantiles_oracle,oracle_width_swap - plugin_max_t,0.275,0.195,0.355,70,15,200
+1024,population_quantiles_oracle,fixed_scale_max - plugin_max_t,0.295,0.225,0.365,62,3,200
+1024,base_only,oracle_width_swap - plugin_max_t,0.285,0.205,0.36,70,13,200
+1024,base_only,fixed_scale_max - plugin_max_t,0.29,0.225,0.355,61,3,200
+1024,reused_mixture,oracle_width_swap - plugin_max_t,0.26,0.18,0.335,67,15,200
+1024,reused_mixture,fixed_scale_max - plugin_max_t,0.275,0.21,0.34,56,1,200
+4096,population_quantiles_oracle,oracle_width_swap - plugin_max_t,0.06,0.01,0.115,21,9,200
+4096,population_quantiles_oracle,fixed_scale_max - plugin_max_t,0.05,0.005,0.095,16,6,200
+4096,base_only,oracle_width_swap - plugin_max_t,0.08,0.025,0.135,25,9,200
+4096,base_only,fixed_scale_max - plugin_max_t,0.065,0.015,0.115,20,7,200
+4096,reused_mixture,oracle_width_swap - plugin_max_t,0.06,0.01,0.11,20,8,200
+4096,reused_mixture,fixed_scale_max - plugin_max_t,0.04,-0.005,0.08012499999999818,14,6,200
