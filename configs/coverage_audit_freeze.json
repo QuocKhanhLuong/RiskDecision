@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-06T09:26:44.880731+00:00",
+  "protocol_sha256": "6702a3b428fe3dac6a11ee1b556cb1f0ae9708d473acb416675174fb5a0fc108",
+  "source_hashes": {
+    "correction_audit/__init__.py": "815ec0e324843e1aab6ab36e3f37976fabd25ee1e322aef4059b3031ed2e091c",
+    "correction_audit/analyze.py": "539c3c8f3af2c5a3626da12178708659d2af3373c7d5bfbf2099a9834eaf4299",
+    "correction_audit/mechanism.py": "87b4ca111c11f4e68b631fbd0322b2cb968f47e8e4ac0f3d131e0a1d16236b28",
+    "correction_audit/run.py": "eaaebbb7c982cb1b41c0a4bd95c7ef25b2442b97e34af2a436dcc9e4b328f4e9",
+    "coverage_audit/__init__.py": "274977f94921aad9143fd3966839063d9e6d286b9de5a10340ebf7a43cf59877",
+    "coverage_audit/analyze.py": "e55f407fb89a6d69e03d2f0884545b3d5516dde8120f7999ab37ab178422fbb2",
+    "coverage_audit/core.py": "b234828594bc6ef78b9f78af6466230b39eb660d1abb93d0ac7acd1668349a25",
+    "coverage_audit/run.py": "5ba9e8f6591e9a5de863bfa3ce2b719defe5342dd13271a79fda00e94f1a3ff3",
+    "local_market/__init__.py": "f9c98ddfb3a33963d0004726e8459740c0f21a6bb64241e1003fa76f7b863b52",
+    "local_market/audit.py": "887f09e8dbd5dc060b0b532f601372f6461497e53d8e665fc06e53af8d2d6899",
+    "local_market/data.py": "e8bd065b1afd9fcd51b530a858ec9cfdc82906fb2cbb2ed3e44e198c1941cf24",
+    "local_market/freeze.py": "8fa9859d475768242da570e8c5e523b16d8d0c7a197f9562e6eed5d33d95c618",
+    "local_market/models.py": "bf3a98b7da0d1f5f6dc79bc03f73991d3eb03e6f3835a4dd3a1503b3d501e753",
+    "local_market/runner.py": "1513c452aa258b9a26914d2860599d804717488ac3765d4f885304cb81acad73",
+    "local_market/scoring.py": "7728bfb89858e2a88609be850fd2afaac0c739c6c5b071c1c9f12c519a6dc94d",
+    "local_market/stats.py": "5ccd5760799be42b7477f91bca42940537027016b59d6db367aeb45e25170b54",
+    "quant_research_v2/src/research.py": "8b8d0e5ca2540e3e8ceed8d27cce77185bc318b8266c929ca2dbb329c0e98700",
+    "requirements-local.lock": "f178b99a3ade1f03caa67251c70df6b5ed46532be820b22e55d4a5a1debfc77e"
+  },
+  "tests": "70 passed in 3.58s; no coverage cases run before freeze"
+}
