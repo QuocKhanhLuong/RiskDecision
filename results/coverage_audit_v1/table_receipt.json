@@ -1,0 +1,7 @@
+{
+  "coverage_csv_sha256": "980e3ddd8d1f37d5dd271a7bf8b294082bfe640d88e859c0c95fa51de80673fa",
+  "report_sha256": "b216f327a22a746043e8b889c0e61fd9d312e422d91eb5fda440771175b35231",
+  "numeric_table_values_from_csv": 600,
+  "strata_present": 160,
+  "builder_sha256": "472e7fc379e77334ac17bc2c85717024992265c1de17925702f5a7b87c6b3cf5"
+}

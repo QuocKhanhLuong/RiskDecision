@@ -1,0 +1,13 @@
+status,n,anchor,quantile,cases_upper_endpoint_below_truth,cases_lower_endpoint_above_truth,cases_any_zero_radius,mean_failed_features_below_truth,mean_failed_features_above_truth
+"posthoc Gaussian localization, no recipe changes",256,base_only,0.9,32,0,0,4.31,0.0
+"posthoc Gaussian localization, no recipe changes",256,base_only,0.95,54,0,0,8.66,0.0
+"posthoc Gaussian localization, no recipe changes",256,base_only,0.975,78,0,25,19.3,0.0
+"posthoc Gaussian localization, no recipe changes",256,reused_mixture,0.9,27,0,0,3.93,0.0
+"posthoc Gaussian localization, no recipe changes",256,reused_mixture,0.95,50,0,0,7.82,0.0
+"posthoc Gaussian localization, no recipe changes",256,reused_mixture,0.975,76,0,0,16.52,0.0
+"posthoc Gaussian localization, no recipe changes",1024,base_only,0.9,10,0,0,1.72,0.0
+"posthoc Gaussian localization, no recipe changes",1024,base_only,0.95,21,0,0,2.45,0.0
+"posthoc Gaussian localization, no recipe changes",1024,base_only,0.975,37,0,0,3.56,0.0
+"posthoc Gaussian localization, no recipe changes",1024,reused_mixture,0.9,11,0,0,1.68,0.0
+"posthoc Gaussian localization, no recipe changes",1024,reused_mixture,0.95,19,0,0,2.41,0.0
+"posthoc Gaussian localization, no recipe changes",1024,reused_mixture,0.975,33,0,0,3.26,0.0

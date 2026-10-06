@@ -4,6 +4,7 @@
 
 ## Start here
 
+- [Latest calibration feasibility decision](docs/CALIBRATION_RESEARCH_DECISION.md) and [executed coverage results](docs/SIMULTANEOUS_CALIBRATION_RESULTS.md)
 - [Latest correction mechanism diagnosis and decision](docs/CORRECTION_RESEARCH_DECISION.md)
 - [Development diagnostic results](docs/CORRECTION_DIAGNOSTIC_RESULTS.md), [identifiability](docs/CORRECTION_IDENTIFIABILITY.md) and [targeted novelty audit](docs/NOVELTY_AUDIT_2026_10.md)
 - [ECB market results](docs/ECB_MARKET_RESULTS.md)
@@ -33,6 +34,8 @@ The local market extension passed 47 tests and audited 125,532 forecast rows acr
 
 A later development-only mechanism study passed60 tests and audited33,957 additional rows:80 archived synthetic validation inputs refitted locally and1,537 ECB development origins (2010–2015). It found frequent unchanged mixtures in the synthetic study, an ES-identification gap for fixed-threshold hinges, and a development allocation signal that does not establish forecast superiority. No new method was promoted or market final test rerun. The fixed-feature KL+band objective maps to established generalized maximum entropy; novelty remains unproven. See the latest decision above for positive signals, negative results and independent-review failure.
 
+A separately frozen synthetic coverage audit then passed70 tests and executed500 new series/16,000 rows. Studentized IID/block multiplier bands substantially undercovered the855-feature grid in the tested settings; a fixed-portfolio check often concealed that failure. Stationary marginal coverage also failed to identify next-period conditional risk. This is a reproducible diagnostic, not a new calibrated-ES method or evidence that APTC outperforms the market baselines. See the calibration decision for full intervals, limitations and the failed independent-review launch.
+
 ## Layout
 
 ```text
@@ -40,9 +43,11 @@ quant_tailrisk_pilot/       Original v1 study (separate from v2)
 quant_research_v2/          Current synthetic engine, tests, data loaders, reports
 local_market/              Frozen two-track empirical runner, scoring and audits
 correction_audit/          Separate development-only mechanism instrumentation
+coverage_audit/            Frozen synthetic simultaneous-coverage feasibility audit
 configs/                   Frozen market protocol and source/data hashes
 results/local_market/      Public aggregate market results, no per-date data
 results/correction_diagnostic_v1/  Public mechanism aggregates and audit receipts
+results/coverage_audit_v1/  Public coverage aggregates and audit receipts
 prompts/                   Complete Astra assignment for local market experiments
 docs/                      Import receipts and local evaluation requirements
 scripts/import_chat_archives.py

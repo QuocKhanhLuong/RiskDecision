@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "identity": "be51fe0b40eadd8d993c5af7c5158c83cabfb00ec8510db974c3c82ff05a5612",
+  "refits": [
+    {
+      "family": "gaussian",
+      "seed": 62000,
+      "status": "exact GMM, anchors, selector and all radii match"
+    },
+    {
+      "family": "markov_volatility",
+      "seed": 62099,
+      "status": "exact GMM, anchors, selector and all radii match"
+    }
+  ],
+  "numeric_report_values_bound_to_csv": 600,
+  "posthoc_localization_sha256": "7d0767fc353db6110c306d9e5f899e12bff8fbb052ce4c0b6de1f0540344bfa7",
+  "scope": "Coordinator checks, not independent review. Two exact refits plus frozen full-case artifact audit."
+}

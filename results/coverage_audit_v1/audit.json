@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "cases": 500,
+  "rows": 16000,
+  "strata": 160,
+  "metrics_recomputed_from_arrays": 96000,
+  "synthetic_inputs_regenerated_and_equal": 500,
+  "coverage_csv_sha256": "980e3ddd8d1f37d5dd271a7bf8b294082bfe640d88e859c0c95fa51de80673fa",
+  "identity": "be51fe0b40eadd8d993c5af7c5158c83cabfb00ec8510db974c3c82ff05a5612",
+  "limits": "Checks feature means, analytic populations, coverage and normalization; does not refit GMM or re-bootstrap all cases."
+}

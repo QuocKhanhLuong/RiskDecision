@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "rendered_numeric_cells_independently_parsed": 600,
+  "decision_table_cells_checked": 10,
+  "tests": "70 passed in 2.66s",
+  "historical_import": "931/931 exact; 0 missing",
+  "frozen_sources_unchanged_vs": "de51ade",
+  "market_and_correction_results_unchanged": true,
+  "independent_review": "NOT RUN: claude command not found",
+  "checks_by": "coordinator"
+}

@@ -5,3 +5,4 @@ cd "$(dirname "$0")/.."
 .venv/bin/python -m coverage_audit.run --workers 2
 .venv/bin/python -m coverage_audit.analyze
 .venv/bin/python scripts/build_coverage_report.py
+.venv/bin/python scripts/verify_coverage_audit.py
