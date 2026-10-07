@@ -1,0 +1,39 @@
+{
+  "run": "run_67275a941164",
+  "reviews": [
+    {
+      "name": "design",
+      "task": "task_9e120cb53a50",
+      "dispatch": "ctx_7de6dfe673df",
+      "outcome": "succeeded",
+      "local_report": "work/agy_design_review.md",
+      "sha256": "d4b2a80191f7e37781c739744c1e29b1b3fedff7fd3403191e3c3a0ec6a7f31d",
+      "provider": "AGY / Antigravity",
+      "model": "not recorded by Orca",
+      "external_peer_review": false
+    },
+    {
+      "name": "protocol",
+      "task": "task_31929ff431c1",
+      "dispatch": "ctx_05c6802d7bb6",
+      "outcome": "succeeded",
+      "local_report": "work/agy_protocol_review.md",
+      "sha256": "3776449bb101a98f2abd391e06f1467986edb869832d097cf109c6a17c0ac69e",
+      "provider": "AGY / Antigravity",
+      "model": "not recorded by Orca",
+      "external_peer_review": false
+    }
+  ],
+  "unverified_dispatch": "ctx_7f2a92e9798d",
+  "topology": "documented low-level custom argv; context-owned, process-unsupervised",
+  "coordinator_adjudication": "docs/DECISION_GAP_REVIEW.md",
+  "terminal_cleanup": {
+    "completed_review_terminals_closed": [
+      "term_6b88fb94-14d6-46ba-b9e3-1f79f20ee7b6",
+      "term_ffa4807c-8f8a-4f26-9b1d-1f11a842b5f3"
+    ],
+    "pty_killed_confirmed": true,
+    "unverified_terminal_retained": "term_dec68aa0-c2d9-41ff-b8d5-33f966520caf",
+    "reason": "Unverifiable missing-status is not proof of completion or failure."
+  }
+}

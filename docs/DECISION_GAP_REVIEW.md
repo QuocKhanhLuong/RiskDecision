@@ -41,3 +41,24 @@ The centered ES influence approximation is `((L−q)+−E[(L−q)+])/.05`. Contr
 - [He, Tan and Zhou2022](https://arxiv.org/abs/2212.05565): robust ES regression using orthogonal scores and high-dimensional inference already exists. Abstract checked; full comparative implementation NOT RUN. “Add orthogonality/robustness” alone is not a cleared novel direction.
 
 This is a targeted search, not exhaustive novelty clearance. It eliminates easy renaming claims; it does not prove no useful contribution is possible.
+
+## Code reviewer and chronology
+
+Task `task_31929ff431c1`, Dispatch `ctx_05c6802d7bb6`, AGY headless through an Orca-created terminal. Accepted `worker_done`06:21:40Z; report `work/agy_protocol_review.md`. It found no execution-blocking code defect and approved the falsification scope, including the no-APTC ablation. It was instructed not to read new result directories. Its review began before execution but **completion arrived after the coordinator froze/pushed a2ad3f8 and ran the experiment**; the report's “before confirmatory execution” wording is not an accurate completion timestamp.
+
+Coordinator corrections to this second report:
+
+- Its predicted radii/abstention percentages are pre-mortem assertions, not verified new outcomes. Only the executed CSV supports percentages in the decision report.
+- A32-step gap reduces dependence; it does not purge it exactly. Conditioning on training fixes weights but does not make a dependent holdout independent.
+- A bootstrap maximum accounts for the chosen simultaneous comparison set, but does not by itself “rigorously control” finite-sample FWER. Coverage is measured here, not guaranteed.
+- Student t4's infinite fourth moment rules out assumptions of some approximation bounds, not every CLT or fixed-dimensional bootstrap result. The ES influence has finite variance; no impossibility result follows from the fourth moment alone.
+- Reading a verifier that reconstructs1,000 cases is not evidence it has already executed. The actual coordinator audit receipt is separate and post-execution.
+- “Fully negative novelty clearance” is too categorical: this search shows close existing components, not exhaustive proof that no novel contribution can ever be built.
+
+## Runtime provenance
+
+The installed Orca launcher rejected `worker-start --agent agy` as `agent_unconfigured` before Task creation. Documented custom-command terminal + low-level Dispatch was used, with exact returned preambles; no native subagents substituted. Low-level Dispatch owns task context but not terminal lifecycle. Two genuine AGY reviews completed; numerical CPU processes are separate from those reviewers.
+
+A third attempted novelty Dispatch `ctx_7f2a92e9798d` received input but never reported a task session or review. Its terminal `term_dec68aa0-c2d9-41ff-b8d5-33f966520caf` remains live with fleet status `unverifiable/missing_status`; it is **not counted as completed, failed, or independent evidence**. The orchestration recovery guide says “Absence never authorizes stop, abandon, retry, or release”; its unresolved state is preserved, not silently converted into a successful review. The coordinator performed and documented the primary-source novelty search independently.
+
+The two completed review terminals were closed by exact handle after completion and ownership checks; Orca confirmed `ptyKilled: true` for each. The unresolved third terminal is retained. These low-level terminals were operator-created; `worker-release` alone reported no owned process resource and did not close them.

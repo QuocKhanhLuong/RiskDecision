@@ -8,22 +8,46 @@ from correction_audit.mechanism import fit
 from local_market.data import sha256, atomic_json
 from numpy.testing import assert_allclose
 from threadpoolctl import threadpool_limits
-from build_decision_gap_report import load, summarize, comparisons, wilson
+from build_decision_gap_report import load, summarize, comparisons
 import numpy as np
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def verify_decision_table(dst):
+    """Check the rounded Vietnamese decision table against the full-precision CSV."""
+    summaries, pairs = load(dst/"summary.csv"), load(dst/"comparisons.csv")
+    document = (ROOT/"docs/DECISION_GAP_DECISION.md").read_text()
+    expected = []
+    names = [("gaussian", "Gaussian"), ("student_t4", "Student-t4"),
+             ("asymmetric_crash", "Asymmetric crash"), ("ar1", "AR1"),
+             ("markov_volatility", "Markov volatility")]
+    def pct(value, signed=False):
+        return format(float(value)*100, "+.3f" if signed else ".3f").replace(".", ",").replace("-", "−")+"%"
+    for family, label in names:
+        s = next(r for r in summaries if r["family"] == family and r["n"] == "1024"
+                 and r["estimand"] == "marginal" and r["recipe"] == "paired")
+        c = next(r for r in pairs if r["family"] == family and r["n"] == "1024"
+                 and r["estimand"] == "marginal" and r["comparator"] == "all_history_hist_se")
+        expected.append(f'|{label}|{s["switches"]}/{s["cases"]}|{pct(s["relative_delta"], True)}|'
+                        f'{pct(c["mean"], True)} [{pct(c["lo"])}; {pct(c["hi"])}]|')
+    actual = [line for line in document.splitlines() if any(line.startswith(f"|{label}|") for _,label in names)]
+    assert actual == expected, (actual, expected)
+    return len(expected)*4
+
+
 def main():
     p, identity = contract(); w = bank(p["bank_seed"])
     src = ROOT/"runs/decision_gap_v1"; dst = ROOT/"results/decision_gap_v1"
     metrics = 0; refits = 0; cases = 0
+    case_rows = {name: [] for name in ["rows", "controls", "forecasts"]}
     with threadpool_limits(limits=1):
         for f in p["families"]:
             for seed in p["seeds"]:
                 path = src/"cases"/f"{f}_{seed}.json"; v = json.loads(path.read_text())
                 assert v["identity"] == identity and v["arrays_sha256"] == sha256(path.with_suffix(".npz"))
+                for name in case_rows: case_rows[name].extend(v[name])
                 a = np.load(path.with_suffix(".npz"))
                 x, pars, states = generate(seed, f, 512+p["gap"]+max(p["sizes"]))
                 assert_allclose(a["returns"], x, atol=0, rtol=0)
@@ -80,6 +104,18 @@ def main():
                             assert rr["portfolio_id"] == chosen[m]
                         refits += 1
                 cases += 1
+    # Close the provenance chain from audited per-case metrics to exported CSV.
+    csv_rows = 0
+    for name, rows in case_rows.items():
+        fields = {"rows": ["family", "seed", "n", "estimand", "recipe"],
+                  "controls": ["family", "seed", "n", "estimand", "method"],
+                  "forecasts": ["family", "seed", "method"]}[name]
+        def keyed(rr):
+            return {tuple(str(r[k]) for k in fields): {k: str(v) for k,v in r.items()} for r in rr}
+        exported = load(src/f"{name}.csv")
+        assert len(rows) == len(exported) == len(keyed(rows)) == len(keyed(exported))
+        assert keyed(rows) == keyed(exported), f"Case-to-CSV mismatch: {name}"
+        csv_rows += len(rows)
     raw = load(src/"rows.csv"); controls = load(src/"controls.csv")
     for expected, name in [(summarize(raw), "summary.csv"), (comparisons(raw, controls), "comparisons.csv")]:
         got = load(dst/name); assert len(got) == len(expected)
@@ -88,7 +124,7 @@ def main():
                 if isinstance(value,(int,float)): assert_allclose(float(b[k]),value,equal_nan=True)
                 else: assert str(value) == b[k]
     # Match every numeric and string table cell to an aggregate CSV row.
-    datasets = [load(dst/f) for f in ["summary.csv", "comparisons.csv", "forecasts.csv"]]
+    datasets = [load(dst/f) for f in ["summary.csv", "comparisons.csv", "forecasts.csv", "direct_aptc_comparisons.csv"]]
     headers = None; cells = 0
     for line in (ROOT/"docs/DECISION_GAP_RESULTS.md").read_text().splitlines():
         if not line.startswith("|"):
@@ -109,10 +145,17 @@ def main():
     assert cases == 1000 and len(raw) == 16000 and len(controls) == 40000
     receipt = json.loads((src/"first_execution_receipt.json").read_text())
     for name, digest in receipt["csv_hashes"].items(): assert sha256(src/f"{name}.csv") == digest
+    for local, public in [("rows.csv", "rows.csv"), ("controls.csv", "controls.csv"),
+                          ("forecasts.csv", "forecast_cases.csv")]:
+        assert sha256(src/local) == sha256(dst/public)
     for name,digest in receipt["case_hashes"].items(): assert sha256(src/"cases"/name) == digest
+    decision_cells = verify_decision_table(dst)
     audit = {"passed":True,"cases":cases,"recomputed_metrics":metrics,"model_refits":refits,
+             "csv_rows_matched_to_cases":csv_rows,
              "report_table_cells":cells,"source_identity":identity,"source_guard":True,
-             "report_sha256":sha256(ROOT/"docs/DECISION_GAP_RESULTS.md")}
+             "report_sha256":sha256(ROOT/"docs/DECISION_GAP_RESULTS.md"),
+             "decision_table_cells":decision_cells,
+             "decision_report_sha256":sha256(ROOT/"docs/DECISION_GAP_DECISION.md")}
     atomic_json(dst/"audit.json",audit); print(json.dumps(audit,indent=2))
 
 

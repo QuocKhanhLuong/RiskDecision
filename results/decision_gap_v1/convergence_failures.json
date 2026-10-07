@@ -1,0 +1,101 @@
+[
+  {
+    "family": "asymmetric_crash",
+    "seed": 81072,
+    "phase": "recent_256",
+    "failed_steps": [
+      {
+        "step": 7,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 7,
+        "objective": -0.00016790407167187476
+      }
+    ],
+    "selected_portfolio": 152,
+    "refit_converged": false
+  },
+  {
+    "family": "markov_volatility",
+    "seed": 81199,
+    "phase": "recent_256",
+    "failed_steps": [
+      {
+        "step": 1,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.0001483405515942298
+      },
+      {
+        "step": 2,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.0001483405515942298
+      },
+      {
+        "step": 3,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.0001483405515942298
+      },
+      {
+        "step": 4,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.0001483405515942298
+      },
+      {
+        "step": 5,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.00014834055159423218
+      },
+      {
+        "step": 6,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.00014834055159423218
+      },
+      {
+        "step": 7,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.00014834055159423544
+      }
+    ],
+    "selected_portfolio": 10,
+    "refit_converged": false
+  },
+  {
+    "family": "student_t4",
+    "seed": 81096,
+    "phase": "training",
+    "failed_steps": [
+      {
+        "step": 7,
+        "converged": false,
+        "status": 2,
+        "message": "ABNORMAL: ",
+        "iterations": 3,
+        "objective": -0.00018456678929698494
+      }
+    ],
+    "selected_portfolio": 207,
+    "refit_converged": false
+  }
+]

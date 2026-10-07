@@ -55,6 +55,9 @@ def summarize(raw):
 
 def comparisons(raw, controls):
     ctrl = {(r["family"], r["n"], r["estimand"], r["seed"], r["method"]): r for r in controls}
+    for r in raw:
+        if r["recipe"] == "paired_no_band":
+            ctrl[(r["family"], r["n"], r["estimand"], r["seed"], "paired_no_band")] = r
     groups = defaultdict(list)
     for r in raw:
         if r["recipe"] == "paired":
@@ -62,7 +65,7 @@ def comparisons(raw, controls):
     out = []
     for key, rr in sorted(groups.items()):
         rr.sort(key=lambda r: int(r["seed"]))
-        for method in sorted({r["method"] for r in controls}):
+        for method in sorted({r["method"] for r in controls} | {"paired_no_band"}):
             values = [float(r["relative_delta"])-float(ctrl[(*key, r["seed"], method)]["relative_delta"]) for r in rr]
             m, lo, hi = mean_ci(values)
             out.append(dict(zip(["family", "n", "estimand"], key), comparator=method, mean=m, lo=lo, hi=hi))
@@ -87,6 +90,23 @@ def build():
     fs = [{"family": f, "method": m, **{k: float(np.mean([float(r[k]) for r in rr])) for k in
            ["common_equal_relative_error", "bank_level_mae", "bank_contrast_mae", "same_choice_as_hist"]}}
           for (f,m), rr in sorted(fgroups.items())]
+    direct = []
+    for family in sorted({r["family"] for r in forecasts}):
+        for comparator in ["historical_se_penalty", "support_mix50"]:
+            for track in ["common_equal_error", "selected_marginal_risk"]:
+                if track == "common_equal_error":
+                    subset = [r for r in forecasts if r["family"] == family]
+                    lookup = {(r["seed"],r["method"]): float(r["common_equal_relative_error"]) for r in subset}
+                    ca, co = "support_band50", comparator
+                else:
+                    subset = [r for r in controls if r["family"] == family and r["n"] == "1024" and r["estimand"] == "marginal"]
+                    lookup = {(r["seed"],r["method"]): float(r["relative_delta"]) for r in subset}
+                    ca = "training_support_band50"
+                    co = "training_hist_se" if comparator == "historical_se_penalty" else "training_support_mix50"
+                seeds = sorted({r["seed"] for r in subset})
+                m,lo,hi = mean_ci([lookup[(s,ca)]-lookup[(s,co)] for s in seeds])
+                direct.append({"family":family,"track":track,"comparator":comparator,"mean":m,"lo":lo,"hi":hi})
+    write_csv(dst/"direct_aptc_comparisons.csv", direct)
     write_csv(dst/"summary.csv", summary); write_csv(dst/"comparisons.csv", paired); write_csv(dst/"forecasts.csv", fs)
     for name in ["rows.csv", "controls.csv", "forecasts.csv", "first_execution_receipt.json"]:
         # Per-seed forecast diagnostics get their own name to preserve summary.
@@ -96,7 +116,7 @@ def build():
     for family in ["gaussian", "student_t4", "asymmetric_crash"]:
         row = next(r for r in summary if r["family"] == family and r["n"] == "1024" and r["estimand"] == "marginal" and r["recipe"] == "paired")
         cc = [r for r in paired if r["family"] == family and r["n"] == "1024" and r["estimand"] == "marginal" and r["comparator"] in required]
-        gates[family] = {"harm_pass": row["harm_hi"] <= .05, "switch_pass": row["switch_lo"] >= .1,
+        gates[family] = {"harm_pass": bool(row["harm_hi"] <= .05), "switch_pass": bool(row["switch_lo"] >= .1),
                          "all_comparators_pass": all(r["hi"] < 0 for r in cc)}
     atomic_json(dst/"decision.json", {"family_gates": gates, "go": all(all(v.values()) for v in gates.values()),
                 "novel_method_claim": False, "source_csv_hashes": {k: sha256(src/f"{k}.csv") for k in ["rows", "controls", "forecasts"]}})
@@ -105,12 +125,15 @@ def build():
                 ["family", "n", "recipe", "switches", "harms", "coverage", "relative_delta", "radius_ratio", "chosen_band"]),
                 "## Conditional stress at n1024", table([r for r in summary if r["estimand"] == "next_conditional" and r["n"] == "1024"],
                 ["family", "recipe", "switches", "harms", "coverage", "relative_delta"]),
-                "## Paired gate versus strong controls, marginal n1024", table([r for r in paired if r["estimand"] == "marginal" and r["n"] == "1024" and r["comparator"] in required+["all_history_hist_se"]],
+                "## Paired gate versus strong controls, marginal n1024", table([r for r in paired if r["estimand"] == "marginal" and r["n"] == "1024" and r["comparator"] in required+["all_history_hist_se", "paired_no_band"]],
                 ["family", "comparator", "mean", "lo", "hi"]),
                 "Negative differences favor gate. Paired seed bootstrap intervals are pointwise descriptive; all comparisons and conditional strata are in CSV.",
                 "## Common-target forecast diagnostics (training512, marginal truth)", table(fs,
                 ["family", "method", "common_equal_relative_error", "bank_level_mae", "bank_contrast_mae", "same_choice_as_hist"]),
                 "Forecast errors and allocation risk are separate. Bank contrast MAE does not have the same scale as level MAE and is not a proof of risk improvement.",
+                "## Direct APTC comparisons (descriptive secondary analysis)", table(direct,
+                ["family", "track", "comparator", "mean", "lo", "hi"]),
+                "APTC minus comparator, both fit to the same training512. Negative favors APTC. The risk track uses population marginal ES, normalized by the training historical baseline ES; the error track uses common equal-weight relative absolute error. These additional paired summaries were formed after execution from prespecified logged metrics, with no method changes and no multiplicity-adjusted superiority claim.",
                 "## Preregistered decision", "```json\n"+json.dumps(gates, indent=2)+"\n```",
                 "The gate is a generic statistical control; even a pass would not establish novelty or finite-sample safety. See DECISION_GAP_DECISION.md for adjudication and limitations."]
     (ROOT/"docs/DECISION_GAP_RESULTS.md").write_text("\n\n".join(sections)+"\n")

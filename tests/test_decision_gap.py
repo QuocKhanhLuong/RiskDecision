@@ -41,3 +41,12 @@ def test_truth_is_only_evaluation_and_negative_es_allowed():
     assert rows[0]["relative_delta"] == -.5
     assert rows[0]["relative_regret"] == 0
     assert rows[0]["harm"] == 0
+
+
+def test_candidate_removal_reoptimizes_over_remaining_menu():
+    z = np.random.default_rng(17).normal(size=256)
+    x = np.column_stack([z, z+.5, z+2, z])
+    r = intervals(x, np.eye(4), 1, 999, 11)
+    assert r["choices"]["paired"] == 2
+    assert r["choices"]["paired_no_band"] == 1
+    assert r["radii"]["paired_no_band"] < 1e-12

@@ -1,0 +1,26 @@
+{
+  "family_gates": {
+    "gaussian": {
+      "harm_pass": true,
+      "switch_pass": false,
+      "all_comparators_pass": false
+    },
+    "student_t4": {
+      "harm_pass": true,
+      "switch_pass": false,
+      "all_comparators_pass": false
+    },
+    "asymmetric_crash": {
+      "harm_pass": true,
+      "switch_pass": false,
+      "all_comparators_pass": false
+    }
+  },
+  "go": false,
+  "novel_method_claim": false,
+  "source_csv_hashes": {
+    "rows": "6ae11c2aa9bda26f13ce7ff0a674d6734a32514f85ef4fb1807ca30e9d5d105b",
+    "controls": "b19e3070f50f8e0aa5ea1938e27824970ca1b5dae34c489164a226d6c8d02280",
+    "forecasts": "87b37e96a668f9ede22414c0939485093a66c98cdd4dff1cb4971868b86630db"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cases": 1000,
+  "recomputed_metrics": 208000,
+  "model_refits": 30,
+  "csv_rows_matched_to_cases": 60000,
+  "report_table_cells": 870,
+  "source_identity": "d8547b67bff17bf051db70a8092f11ef8f5ccab7554e6f2e0fe1e9600f8d468b",
+  "source_guard": true,
+  "report_sha256": "fe2bd420a5295ebaee15af3e107cc97e3ef717841fde61c9a9866b105242e90b",
+  "decision_table_cells": 20,
+  "decision_report_sha256": "06b93074e637e80e06456d23722d18fee9fc41a614d993d3838cd1c30d861061"
+}

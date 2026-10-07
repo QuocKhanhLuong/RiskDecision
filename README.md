@@ -4,6 +4,7 @@
 
 ## Start here
 
+- [Decision-gap falsification and novelty verdict](docs/DECISION_GAP_DECISION.md), [executed results](docs/DECISION_GAP_RESULTS.md), [frozen protocol](docs/DECISION_GAP_PROTOCOL.md), and [Orca AGY review adjudication](docs/DECISION_GAP_REVIEW.md)
 - [Latest tail-band mechanism result and decision](docs/TAIL_BAND_DECISION.md), [executed results](docs/TAIL_BAND_RESULTS.md) and [frozen protocol](docs/TAIL_BAND_PROTOCOL.md)
 - [Latest calibration feasibility decision](docs/CALIBRATION_RESEARCH_DECISION.md) and [executed coverage results](docs/SIMULTANEOUS_CALIBRATION_RESULTS.md)
 - [Latest correction mechanism diagnosis and decision](docs/CORRECTION_RESEARCH_DECISION.md)
@@ -39,6 +40,8 @@ A separately frozen synthetic coverage audit then passed70 tests and executed500
 
 A subsequent Gaussian mechanism experiment passed 80 tests and ran 200 new series / 6,000 diagnostic and bounded-control rows. At calibration n=256 with independent base anchors, an oracle SE width swap improved simultaneous coverage from 21.5% to 87%; a base-sample fixed-scale multiplier control reached 97% with roughly 65% wider median normalized hinge radii. Fixed population anchors still undercovered with plug-in max-t, isolating anchor estimation from this failure. A separate known-bounded-loss DKW control covered all clipped-ES targets but gave wide intervals. These are diagnostic controls, not a novel method, market confirmation or promotion of APTC.
 
+A frozen decision-gap experiment subsequently passed 85 tests and ran 1,000 new synthetic series. Paired ES contrasts produced narrower intervals and useful switches versus stale training decisions, but the gate lost to full-history historical+SE in all five marginal-risk settings. Removing APTC from the candidate menu did not establish a robust incremental gate benefit. Direct descriptive comparisons retain a positive Student-t4 allocation signal and a negative asymmetric-crash result; neither clears algorithmic novelty. Two real AGY reviews completed through Orca and were critically adjudicated. No market final test was rerun.
+
 ## Layout
 
 ```text
@@ -48,11 +51,13 @@ local_market/              Frozen two-track empirical runner, scoring and audits
 correction_audit/          Separate development-only mechanism instrumentation
 coverage_audit/            Frozen synthetic simultaneous-coverage feasibility audit
 tail_band_audit/           Gaussian width/anchor interventions and bounded ES control
+decision_gap_audit/        Held-out paired ES gates and same-history controls
 configs/                   Frozen market protocol and source/data hashes
 results/local_market/      Public aggregate market results, no per-date data
 results/correction_diagnostic_v1/  Public mechanism aggregates and audit receipts
 results/coverage_audit_v1/  Public coverage aggregates and audit receipts
 results/tail_band_v1/      Public paired mechanism and bounded-control aggregates
+results/decision_gap_v1/   Decision, forecast, component-ablation and review receipts
 prompts/                   Complete Astra assignment for local market experiments
 docs/                      Import receipts and local evaluation requirements
 scripts/import_chat_archives.py
