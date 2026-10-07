@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "verifier_sha256": "2f53eb68d992cf134c185597cb73bef8cd1be75cfa098226c48e8ffbd3455db1",
+  "origins": 768,
+  "path_clusters": 32,
+  "rows": 16896,
+  "bootstrap_refits_recomputed_without_refitting": 24576,
+  "null_estimates_retained": 0,
+  "primary_status": "COMPLETE",
+  "paired_contrasts_verified": 1368,
+  "maximum_discrepancies": {
+    "objective": 1.1990451076471231e-08,
+    "hac": 3.552713678800501e-15,
+    "bootstrap": 2.220446049250313e-15,
+    "filter": 1.7763568394002505e-15,
+    "decomposition": 1.3322676295501878e-15
+  },
+  "protected_files_unchanged": 229,
+  "seconds": 83.03205487481318,
+  "scope": "numerical/statistical verification, not independent peer review or temporal calibration guarantee"
+}

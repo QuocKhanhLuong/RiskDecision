@@ -1,0 +1,16 @@
+{
+  "origins": 768,
+  "locked_decisions": 2304,
+  "main_optimizer_success": 2304,
+  "bootstrap_refits": 24576,
+  "bootstrap_optimizer_success": 24576,
+  "max_main_gap": 1.8957280190079473e-11,
+  "max_bootstrap_gap": 1.6360246490876307e-11,
+  "warnings": 0,
+  "ar_coefficients_clipped": 0,
+  "negative_bootstrap_replications": 8618,
+  "negative_bootstrap_mean_corrections": 171,
+  "max_bootstrap_mc_se": 0.13084673524047635,
+  "case_compute_seconds": 124.50284458952956,
+  "null_estimates": 0
+}

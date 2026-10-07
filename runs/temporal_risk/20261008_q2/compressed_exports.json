@@ -1,0 +1,29 @@
+[
+  {
+    "source_path": "runs/temporal_risk/20261008_q2/pilot/diagnostics.json",
+    "published_path": "runs/temporal_risk/20261008_q2/pilot/diagnostics.json.gz",
+    "source_sha256": "dcd988d42aae4112934a859c322946b4fd0e7b9ba4dec9c12e64de25d4d04b4e",
+    "published_sha256": "e80391059a7fd3cd63488b9318d7359e92ad4c135c312014738876589e2b3488",
+    "original_bytes": 59333801,
+    "compressed_bytes": 7285455,
+    "byte_roundtrip_verified": true
+  },
+  {
+    "source_path": "runs/temporal_risk/20261008_q2/pilot/estimates.csv",
+    "published_path": "runs/temporal_risk/20261008_q2/pilot/estimates.csv.gz",
+    "source_sha256": "c2a1bf86696be8868ca6f517aad4dc798b95cbee9782432f322dde85950bd28a",
+    "published_sha256": "b7bc28a1d426df42b3a978c62e9b30fbef923cb8a8e42251ce61d4696e0d47de",
+    "original_bytes": 9102599,
+    "compressed_bytes": 1864120,
+    "byte_roundtrip_verified": true
+  },
+  {
+    "source_path": "runs/temporal_risk/20261008_q2/development/diagnostics.json",
+    "published_path": "runs/temporal_risk/20261008_q2/development/diagnostics.json.gz",
+    "source_sha256": "cd541d201c6db7d4be62af7a1cf004c8fa179cd5340cefbd9073f883826b4ca7",
+    "published_sha256": "661664d94de88a611680ca7cfa543c4f1fd403a12b2696ff608a4e0fa551543e",
+    "original_bytes": 3709822,
+    "compressed_bytes": 455802,
+    "byte_roundtrip_verified": true
+  }
+]

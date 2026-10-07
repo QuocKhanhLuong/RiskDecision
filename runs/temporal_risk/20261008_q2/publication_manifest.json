@@ -1,0 +1,195 @@
+{
+  "scope": "exact compact publication allowlist; self-excluded; large exports lossless gzip",
+  "base_sha": "fee458eef4069f9eea36929508e9f92ecc19d047",
+  "branch": "research/temporal-risk-q2",
+  "run": "runs/temporal_risk/20261008_q2",
+  "published_files": {
+    "docs/experiments/20261008_temporal_risk_q2.md": {
+      "sha256": "894bd03474d571d7d5dac3875d52ae52eddbf01856c8f2ff0d43049f7824d0b1",
+      "bytes": 12609
+    },
+    "runs/temporal_risk/20261008_q2/RESULTS.md": {
+      "sha256": "3803d93aee929884d72d86235ce9603fa46dd21669f516431166c3589ffe9a98",
+      "bytes": 2435
+    },
+    "runs/temporal_risk/20261008_q2/compressed_exports.json": {
+      "sha256": "cdff1d4481ed8df61646d6f8e29beba02cde471be70a17362359fc6016e41301",
+      "bytes": 1353
+    },
+    "runs/temporal_risk/20261008_q2/development/benchmark.json": {
+      "sha256": "5b5cd037e8fee47672ce3e7c510285e9cc434e6d623654e0d1a05f7901bea3f6",
+      "bytes": 1327
+    },
+    "runs/temporal_risk/20261008_q2/development/case_index.csv": {
+      "sha256": "9d88df2d95d14be938c3e4c6b55691456272f9f91b577d56ed8aaea34d78db41",
+      "bytes": 6058
+    },
+    "runs/temporal_risk/20261008_q2/development/diagnostics.json.gz": {
+      "sha256": "661664d94de88a611680ca7cfa543c4f1fd403a12b2696ff608a4e0fa551543e",
+      "bytes": 455802
+    },
+    "runs/temporal_risk/20261008_q2/development/estimates.csv": {
+      "sha256": "92f296ff0491bd294ae8e71b67b1f0f37c41ca74b96625eebd95ae4017f585d0",
+      "bytes": 568641
+    },
+    "runs/temporal_risk/20261008_q2/development/freeze.json": {
+      "sha256": "aadebc3a10fca4ef3d4f51d3fae349c843a6112ebbb5f981ff795c26d4c1cd2e",
+      "bytes": 5030
+    },
+    "runs/temporal_risk/20261008_q2/development/progress.jsonl": {
+      "sha256": "03066412cf8465f9a6e41397533b22826ab6f7660834941fa1de2606c3b0450f",
+      "bytes": 11569
+    },
+    "runs/temporal_risk/20261008_q2/development/receipt.json": {
+      "sha256": "cb0ed8b43306542ff346803dcded0f4ad505a6d0c6af583f2097187a37941538",
+      "bytes": 307
+    },
+    "runs/temporal_risk/20261008_q2/development.log": {
+      "sha256": "be1cb45a62041e08c485c7f84b1dbfb603154e34d64f8848ea1029c57b9cba94",
+      "bytes": 4088
+    },
+    "runs/temporal_risk/20261008_q2/development_selection.json": {
+      "sha256": "36dd4103a1d12c33355d0ef529bcadee3bcdbe1b37b8210f6bf9cf279187dea6",
+      "bytes": 108972
+    },
+    "runs/temporal_risk/20261008_q2/gate_summary.json": {
+      "sha256": "fe99e28e7df1458e6640f67d94deab9f026d263b9e282b9bc0f7d74c2bdf34d2",
+      "bytes": 494
+    },
+    "runs/temporal_risk/20261008_q2/pilot/case_index.csv": {
+      "sha256": "a0b99924edc04c9a41d0afddacf8bcedc689886ae9b12b354b7c6c150c54891c",
+      "bytes": 96086
+    },
+    "runs/temporal_risk/20261008_q2/pilot/diagnostics.json.gz": {
+      "sha256": "e80391059a7fd3cd63488b9318d7359e92ad4c135c312014738876589e2b3488",
+      "bytes": 7285455
+    },
+    "runs/temporal_risk/20261008_q2/pilot/estimates.csv.gz": {
+      "sha256": "b7bc28a1d426df42b3a978c62e9b30fbef923cb8a8e42251ce61d4696e0d47de",
+      "bytes": 1864120
+    },
+    "runs/temporal_risk/20261008_q2/pilot/freeze.json": {
+      "sha256": "69539130e0e1d30839b82a611be10edbfb1c1f95db546d11032cec2af387e759",
+      "bytes": 5118
+    },
+    "runs/temporal_risk/20261008_q2/pilot/paired.csv": {
+      "sha256": "359845d55b313ef6281bea02e971ab5585d46cacb51a728dde489029d8651c96",
+      "bytes": 219425
+    },
+    "runs/temporal_risk/20261008_q2/pilot/progress.jsonl": {
+      "sha256": "6f4bd102f96f9ad3a7a6ebf8c309ac5d6fdd1809b899a47ea483eba1e47e331a",
+      "bytes": 275124
+    },
+    "runs/temporal_risk/20261008_q2/pilot/receipt.json": {
+      "sha256": "81e060ad9ec4e3562f140c5b2a16c71136ea52341b78f40d6d23d3abab845ac3",
+      "bytes": 310
+    },
+    "runs/temporal_risk/20261008_q2/pilot/shift_effect.csv": {
+      "sha256": "dfd7818118a6420d2f82d8510634916df17efb09965ad6c7459d9e94b2d16347",
+      "bytes": 23901
+    },
+    "runs/temporal_risk/20261008_q2/pilot/summary.csv": {
+      "sha256": "8a0d2255bdbba17aaa179f090fd91b4a120efcf00da95a3f792183dd7f01ce06",
+      "bytes": 312934
+    },
+    "runs/temporal_risk/20261008_q2/pilot_full.log": {
+      "sha256": "46c7b7e931e61ab4319408f6ae448106687c7b9cbc1a1563025d5ee73c4152bd",
+      "bytes": 54856
+    },
+    "runs/temporal_risk/20261008_q2/pilot_initial_completion.json": {
+      "sha256": "f1fca7a6074c85cdde93a8336432f550062d68a02e9dfee14677e6829032455e",
+      "bytes": 311
+    },
+    "runs/temporal_risk/20261008_q2/pilot_partial.log": {
+      "sha256": "c00bcfae85edea453245c4ae762794a56721dc288b7286d3e1dfbc554670d5cb",
+      "bytes": 720
+    },
+    "runs/temporal_risk/20261008_q2/pilot_resume.log": {
+      "sha256": "d4ca9655e8889e80211658d060e0c6775b248d74acd4766ced8956c5232187ec",
+      "bytes": 1031
+    },
+    "runs/temporal_risk/20261008_q2/preflight.json": {
+      "sha256": "47f37d404512e4a886c4ff9c376ff4b7d75841b1041ac7a9becaf0755e199ca8",
+      "bytes": 1162851
+    },
+    "runs/temporal_risk/20261008_q2/preflight.log": {
+      "sha256": "f20d6637625753461485cd654022b28f4b4963f14dbed480eef8bbe0ba135a62",
+      "bytes": 132
+    },
+    "runs/temporal_risk/20261008_q2/resume_verification.json": {
+      "sha256": "1892313121281d3717293796a45f9da1f980a86b927fd8a698ac9c75fd2f5294",
+      "bytes": 98267
+    },
+    "runs/temporal_risk/20261008_q2/source_receipt.json": {
+      "sha256": "ed92e51c29b89108890092657bb3112d8abb463b0952d4271e7c6d2919b55d09",
+      "bytes": 1308
+    },
+    "runs/temporal_risk/20261008_q2/tests.log": {
+      "sha256": "4794a2281da8df08ad7879d187142b5dab63f6ec199c820999ff078e9a661f31",
+      "bytes": 179
+    },
+    "runs/temporal_risk/20261008_q2/tests.xml": {
+      "sha256": "5f0a6ac31eaef648832f89f6ca1d59326b6a0970a37dcba751bc35e2c7e5118e",
+      "bytes": 11310
+    },
+    "runs/temporal_risk/20261008_q2/verification.json": {
+      "sha256": "5b77c52e892b794d4f5676e6e20f0ffb7095cce4bbf0efb818e5e7d568598277",
+      "bytes": 740
+    },
+    "runs/temporal_risk/20261008_q2/verification.log": {
+      "sha256": "ee80a86faebf5d1588d456d04ae85604f25aeda75385a1211cd7131ef425c52e",
+      "bytes": 60726
+    },
+    "scripts/verify_temporal_risk.py": {
+      "sha256": "2f53eb68d992cf134c185597cb73bef8cd1be75cfa098226c48e8ffbd3455db1",
+      "bytes": 12317
+    },
+    "temporal_risk/PROTOCOL.md": {
+      "sha256": "345b81d57c94dca4287ae5e466def9b046f18ab6b05475ea7ba86d69ea0a8d86",
+      "bytes": 8714
+    },
+    "temporal_risk/README.md": {
+      "sha256": "7ddfa7c994db21ae4d5cca04a1d535199456b89220338a1cfbf399a654479dbc",
+      "bytes": 3905
+    },
+    "temporal_risk/__init__.py": {
+      "sha256": "6761e0d3c2d34b559687dfcacc9db2d489d180eb6048c7c71c48707c1514bdf0",
+      "bytes": 77
+    },
+    "temporal_risk/analysis.py": {
+      "sha256": "329be781ea9db6a4c4623b15f34391ed3010971fd9c48b406de9fff0aa6e16c2",
+      "bytes": 4571
+    },
+    "temporal_risk/config.json": {
+      "sha256": "c3b6a14cf717e874fbcfcb570e306b9aa73c47070502fd9b1bae8273bccacc40",
+      "bytes": 2295
+    },
+    "temporal_risk/dgp.py": {
+      "sha256": "e59d51022ba7cb227421391210d859eea3fc60af6b009090b12b0feb17cb6de5",
+      "bytes": 3346
+    },
+    "temporal_risk/models.py": {
+      "sha256": "47236987ac914c0e2560c70a3aad81705152603a145f9ee37ed9b10eb6fe7a5e",
+      "bytes": 6166
+    },
+    "temporal_risk/run.py": {
+      "sha256": "994c2108289070fde41d2488aeb1424de5be156240227c5046aab11ee091713f",
+      "bytes": 15516
+    },
+    "tests/test_temporal_risk.py": {
+      "sha256": "b295b11759b1c16bf3f7b764e869b2458780b2c99bd735093195e6bfb09cd9c0",
+      "bytes": 8866
+    }
+  },
+  "excluded": [
+    "uncompressed originals where gzip is published",
+    "full case checkpoint payloads",
+    "synthetic NPZ paths",
+    "runtime locks",
+    "caches"
+  ],
+  "protected_previous_files": 229,
+  "independent_path_clusters": 32,
+  "overlapping_origins": 768,
+  "new_market_data": false
+}

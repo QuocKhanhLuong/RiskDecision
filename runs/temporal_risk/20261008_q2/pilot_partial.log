@@ -1,0 +1,12 @@
+pilot:   0%|          | 0/768 [00:00<?, ?origin/s]pilot:   0%|          | 1/768 [00:00<01:44,  7.37origin/s]pilot:   0%|          | 2/768 [00:00<02:11,  5.84origin/s]pilot:   0%|          | 3/768 [00:00<02:19,  5.47origin/s]pilot:   1%|          | 4/768 [00:00<02:02,  6.22origin/s]pilot:   1%|          | 5/768 [00:00<02:12,  5.77origin/s]pilot:   1%|          | 5/768 [00:00<02:09,  5.87origin/s]
+{
+  "status": "PARTIAL_RESUMABLE",
+  "cases_present": 5,
+  "failed_cases": 0,
+  "new_cases": 5,
+  "resumed_cases": 0,
+  "rows": 110,
+  "fingerprint": "21071c7f2acad52831980d4b88f7894114215357a081cb1c67a1747afa3b8d48",
+  "session_seconds": 0.8622761662118137,
+  "finished_utc": "2026-10-07T17:53:17.338967+00:00"
+}

@@ -1,0 +1,175 @@
+{
+  "created_utc": "2026-10-07T17:51:05.220924+00:00",
+  "fingerprint": "2830c70a84c386de5d02eae1ca1de668aaef042088ba09045c13bee37fb627b0",
+  "git_head": "fee458eef4069f9eea36929508e9f92ecc19d047",
+  "identity": {
+    "config": {
+      "acf_consecutive": 3,
+      "acf_max_lag": 32,
+      "acf_threshold": 0.1,
+      "block_candidates": [
+        8,
+        16,
+        32
+      ],
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 891042,
+      "compute_cap_seconds": 600,
+      "compute_gate_margin": 2.0,
+      "development_seeds": [
+        2026108998,
+        2026108999
+      ],
+      "dgp": {
+        "correlation": 0.35,
+        "dim": 8,
+        "high_mean_shift": -0.25,
+        "high_scale": 2.5,
+        "means": [
+          0.06,
+          0.04,
+          0.02,
+          0.0,
+          -0.02,
+          0.03,
+          0.01,
+          -0.01
+        ],
+        "phi": 0.6,
+        "shift_time": 768,
+        "std": [
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.2,
+          1.3,
+          1.1,
+          0.95
+        ],
+        "transition0": [
+          [
+            0.97,
+            0.03
+          ],
+          [
+            0.12,
+            0.88
+          ]
+        ],
+        "transition1": [
+          [
+            0.9,
+            0.1
+          ],
+          [
+            0.04,
+            0.96
+          ]
+        ]
+      },
+      "effective_model": {
+        "ar_clip": 0.98,
+        "block_length": 16,
+        "bootstrap_refits": 16,
+        "ewma_lambda": 0.94,
+        "tau": 0.1
+      },
+      "failure_policy": "any missing method cell makes its contrast INCOMPLETE; retain failures and all windows",
+      "fit": {
+        "active_tol": 1e-07,
+        "alpha": 0.05,
+        "face_margin_tol": 1e-05,
+        "feasibility_tol": 1e-08,
+        "gap_tol": 1e-05,
+        "max_condition": 10000000000.0,
+        "maxiter": 500,
+        "min_eigenvalue": 1e-10,
+        "newton_polish_steps": 10,
+        "slsqp_ftol": 1e-13,
+        "stationarity_tol": 1e-06,
+        "threshold_bounds": [
+          -50.0,
+          50.0
+        ],
+        "weak_multiplier_tol": 1e-05,
+        "weight_cap": 0.5
+      },
+      "inference_unit": "path seed, average origins before bootstrap; matched worlds not independent replication",
+      "job_order_seed": 891043,
+      "model": {
+        "ar_clip": 0.98,
+        "bootstrap_refits": 16,
+        "ewma_lambda": 0.94,
+        "tau": 0.1
+      },
+      "origins": [
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960
+      ],
+      "primary": {
+        "baseline": "iid_oic",
+        "method": "ar_gaussian",
+        "metric": "squared_relative_error",
+        "period": "all",
+        "policy": "full512",
+        "target": "conditional",
+        "world": "ar1_stationary"
+      },
+      "sample_size_rationale": "32 independent path clusters; bounded feasibility, no universal superiority power claim",
+      "schema": 1,
+      "seeds": {
+        "start": 2026109000,
+        "stop": 2026109032
+      },
+      "stage": "development",
+      "window": 512,
+      "worlds": [
+        "ar1_stationary",
+        "markov_stationary",
+        "markov_shift"
+      ]
+    },
+    "environment": {
+      "device": "CPU",
+      "packages": {
+        "numpy": "2.3.5",
+        "pytest": "9.0.2",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "tqdm": "4.67.1"
+      },
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+      "threads": {
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      }
+    },
+    "inputs": {
+      "preflight_sha256": "47f37d404512e4a886c4ff9c376ff4b7d75841b1041ac7a9becaf0755e199ca8",
+      "selection_sha256": "36dd4103a1d12c33355d0ef529bcadee3bcdbe1b37b8210f6bf9cf279187dea6"
+    },
+    "sources": {
+      "continuous_cvar/evaluation.py": "acadf2e790c7d8013f55174db40c6ad22d8bb8fb5b0b6152bbd997004c507773",
+      "continuous_cvar/model.py": "671920315848545501faebba69431ce1611ac548e3742a9725c2b0f6695728b3",
+      "continuous_cvar_face/model.py": "096d73b7fa88aa2b0b68a4fbbe95e59e7005314df78510e0574def61f8b17fd7",
+      "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7",
+      "temporal_risk/PROTOCOL.md": "345b81d57c94dca4287ae5e466def9b046f18ab6b05475ea7ba86d69ea0a8d86",
+      "temporal_risk/__init__.py": "6761e0d3c2d34b559687dfcacc9db2d489d180eb6048c7c71c48707c1514bdf0",
+      "temporal_risk/analysis.py": "329be781ea9db6a4c4623b15f34391ed3010971fd9c48b406de9fff0aa6e16c2",
+      "temporal_risk/dgp.py": "e59d51022ba7cb227421391210d859eea3fc60af6b009090b12b0feb17cb6de5",
+      "temporal_risk/models.py": "47236987ac914c0e2560c70a3aad81705152603a145f9ee37ed9b10eb6fe7a5e",
+      "temporal_risk/run.py": "994c2108289070fde41d2488aeb1424de5be156240227c5046aab11ee091713f"
+    }
+  }
+}
