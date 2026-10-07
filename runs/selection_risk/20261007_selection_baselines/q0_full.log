@@ -1,0 +1,11 @@
+q0:   0%|          | 0/320 [00:00<?, ?instance/s]q0:  42%|████▏     | 133/320 [00:00<00:00, 264.17instance/s]q0:  85%|████████▍ | 271/320 [00:01<00:00, 270.71instance/s]q0: 100%|██████████| 320/320 [00:01<00:00, 270.55instance/s]
+{
+  "status": "COMPLETE",
+  "fingerprint": "928fd04f5d6e3dd3aa4712be7f27bf9fb0bde8dffe58a28fd4189e9e1a358908",
+  "cases_present": 320,
+  "cases_executed_this_session": 320,
+  "cases_resumed": 0,
+  "crossed_rows": 11200,
+  "session_seconds": 3.2772546659689397,
+  "finished_utc": "2026-10-07T15:07:18.583191+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "verifier_sha256": "e61637ecc70f040cfeee0d2f50712ee4bc69fad686988198d366cf95d3d3bc2b",
+  "counts": {
+    "q0": {
+      "cases": 320,
+      "crossed_rows": 11200,
+      "split_rows": 0,
+      "summary_means": 875
+    },
+    "pilot": {
+      "cases": 128,
+      "crossed_rows": 3072,
+      "split_rows": 512,
+      "summary_means": 360
+    }
+  },
+  "protected_tracked_files_unchanged": 39,
+  "imported_original_files_unchanged": 931,
+  "max_frozen_objective_quadrature_discrepancy": 3.318234575999668e-12,
+  "primary_paired_cluster_interval_reproduced": true,
+  "seconds": 4.764285458019003,
+  "scope": "Separate numerical verification; not independent reviewer, market validation or OIC reproduction"
+}

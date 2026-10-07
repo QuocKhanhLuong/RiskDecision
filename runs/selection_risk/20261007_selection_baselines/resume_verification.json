@@ -1,0 +1,37 @@
+{
+  "status": "PASS_VALUES_AND_ARRAYS",
+  "byte_identical_files": 137,
+  "format_only_change": [
+    "q0/crossed_rows.csv"
+  ],
+  "q0_csv_records_verified_by_column_name": 11200,
+  "limitation": "Q0 first full resume serializes columns in checkpoint key order; header order and file hash change, field values and record order do not. No byte-identical CSV claim.",
+  "resume_receipts": {
+    "q0": {
+      "cases_executed_this_session": 0,
+      "cases_present": 320,
+      "cases_resumed": 320,
+      "crossed_rows": 11200,
+      "fingerprint": "928fd04f5d6e3dd3aa4712be7f27bf9fb0bde8dffe58a28fd4189e9e1a358908",
+      "finished_utc": "2026-10-07T15:12:34.872129+00:00",
+      "session_seconds": 2.1495978750754148,
+      "status": "COMPLETE"
+    },
+    "pilot": {
+      "cases_executed_this_session": 0,
+      "cases_present": 128,
+      "cases_resumed": 128,
+      "crossed_rows": 3072,
+      "fingerprint": "f2e86706c4aadaca3c51902028589e87b8ff27db62ed13dbf05fdb7484497ebe",
+      "finished_utc": "2026-10-07T15:12:33.646316+00:00",
+      "session_seconds": 1.0528024591039866,
+      "status": "COMPLETE"
+    }
+  },
+  "partial_resume": {
+    "first_session_new_cases": 3,
+    "completion_session_new_cases": 125,
+    "completion_session_resumed": 3
+  },
+  "refit_on_completed_resume": false
+}

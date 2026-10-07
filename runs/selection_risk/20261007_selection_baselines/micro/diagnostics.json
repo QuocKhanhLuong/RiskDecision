@@ -1,0 +1,62 @@
+[
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          170,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107999
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          20,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107999
+  }
+]

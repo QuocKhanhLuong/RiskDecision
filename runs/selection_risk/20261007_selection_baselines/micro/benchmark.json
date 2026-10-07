@@ -1,0 +1,18 @@
+{
+  "cap_seconds": 900,
+  "cases": 2,
+  "config_sha256": "0a71cdb9ace9628cb85526477802eae01be21cd154b1814f01ab207a2314a73a",
+  "estimated_pilot_seconds_with_margin": 19.504899948835373,
+  "metrics_used_to_select_methods": false,
+  "observed_compute_seconds": 0.2031760411337018,
+  "source_hashes": {
+    "quant_research_v2/src/research.py": "8b8d0e5ca2540e3e8ceed8d27cce77185bc318b8266c929ca2dbb329c0e98700",
+    "selection_risk/OIC_APPLICABILITY.md": "f1a7e35b0b95923d975aab15d5c170655a6a8df1489f94eb808afed0e06f1b36",
+    "selection_risk/__init__.py": "3ebb322c47e8f54871c97818004e7465f19669b6d98eb3152f40d5a18cd9feed",
+    "selection_risk/core.py": "316557c904878f573dbca4a3e9d2b654bb29c163b79f5056c97a740c93d8f71a",
+    "selection_risk/preflight.py": "77d636719b0440a720a344a5a07ccd8fcd5b995649d568cf2028c0f072f1e2e3",
+    "selection_risk/run.py": "bfef7e31e6f41715738395643bb94cb9738cc92a3d43e7450f698089a5b39169",
+    "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7",
+    "selection_risk/statistics.py": "37cd673cb6db9aaca34c4c4b3ce24ba292cf6241ae455a9eb0437735af7b58d8"
+  }
+}

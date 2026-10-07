@@ -1,0 +1,10 @@
+{
+  "cases_executed_this_session": 0,
+  "cases_present": 128,
+  "cases_resumed": 128,
+  "crossed_rows": 3072,
+  "fingerprint": "f2e86706c4aadaca3c51902028589e87b8ff27db62ed13dbf05fdb7484497ebe",
+  "finished_utc": "2026-10-07T15:12:33.646316+00:00",
+  "session_seconds": 1.0528024591039866,
+  "status": "COMPLETE"
+}

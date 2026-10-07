@@ -1,0 +1,11 @@
+micro:   0%|          | 0/2 [00:00<?, ?instance/s]micro: 100%|██████████| 2/2 [00:00<00:00,  9.78instance/s]
+{
+  "status": "COMPLETE",
+  "fingerprint": "9269231fec9414a49ebeedb1f9fec6572459b78c3e940a2c641b6c36a2a91b8e",
+  "cases_present": 2,
+  "cases_executed_this_session": 2,
+  "cases_resumed": 0,
+  "crossed_rows": 48,
+  "session_seconds": 0.21393212513066828,
+  "finished_utc": "2026-10-07T15:07:15.410081+00:00"
+}

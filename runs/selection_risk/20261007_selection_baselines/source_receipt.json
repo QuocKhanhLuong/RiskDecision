@@ -1,0 +1,9 @@
+{
+  "status": "VERIFIED_SOURCE",
+  "url": "https://arxiv.org/html/2306.10081v4",
+  "version": "arXiv v4 2025-07-21",
+  "retrieved_utc": "2026-10-07T15:07:46.544683+00:00",
+  "sha256": "99d750d9c2dd78952e15a69344734b3660630ffdaa22ff10d52b0b96a82cd60c",
+  "raw_source_committed": false,
+  "implementation_status": "OIC NOT_RUN; applicability note read before baseline implementation"
+}

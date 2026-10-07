@@ -1,0 +1,11 @@
+pilot:   0%|          | 0/128 [00:00<?, ?instance/s]pilot:   7%|▋         | 9/128 [00:00<00:07, 15.32instance/s]pilot:  13%|█▎        | 17/128 [00:01<00:08, 12.65instance/s]pilot:  19%|█▉        | 24/128 [00:01<00:08, 11.64instance/s]pilot:  23%|██▎       | 30/128 [00:02<00:08, 11.33instance/s]pilot:  28%|██▊       | 36/128 [00:03<00:08, 11.24instance/s]pilot:  33%|███▎      | 42/128 [00:03<00:07, 11.03instance/s]pilot:  38%|███▊      | 48/128 [00:04<00:07, 11.00instance/s]pilot:  42%|████▏     | 54/128 [00:04<00:06, 10.99instance/s]pilot:  47%|████▋     | 60/128 [00:05<00:06, 10.95instance/s]pilot:  52%|█████▏    | 66/128 [00:05<00:05, 10.88instance/s]pilot:  56%|█████▋    | 72/128 [00:06<00:05, 10.90instance/s]pilot:  61%|██████    | 78/128 [00:06<00:04, 10.91instance/s]pilot:  66%|██████▌   | 84/128 [00:07<00:04, 10.97instance/s]pilot:  70%|███████   | 90/128 [00:08<00:03, 11.03instance/s]pilot:  75%|███████▌  | 96/128 [00:08<00:02, 11.04instance/s]pilot:  80%|███████▉  | 102/128 [00:09<00:02, 11.01instance/s]pilot:  84%|████████▍ | 108/128 [00:09<00:01, 10.97instance/s]pilot:  89%|████████▉ | 114/128 [00:10<00:01, 10.87instance/s]pilot:  94%|█████████▍| 120/128 [00:10<00:00, 10.84instance/s]pilot:  98%|█████████▊| 126/128 [00:11<00:00, 10.83instance/s]pilot: 100%|██████████| 128/128 [00:11<00:00, 11.11instance/s]
+{
+  "status": "COMPLETE",
+  "fingerprint": "f2e86706c4aadaca3c51902028589e87b8ff27db62ed13dbf05fdb7484497ebe",
+  "cases_present": 128,
+  "cases_executed_this_session": 125,
+  "cases_resumed": 3,
+  "crossed_rows": 3072,
+  "session_seconds": 12.4976123329252,
+  "finished_utc": "2026-10-07T15:08:35.656745+00:00"
+}

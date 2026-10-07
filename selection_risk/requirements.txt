@@ -1,0 +1,2 @@
+-r ../quant_research_v2/requirements.txt
+tqdm==4.67.1

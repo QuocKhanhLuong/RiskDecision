@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "stage": "exploratory_historical_reuse",
+  "families": ["gaussian", "asymmetric_crash", "student_t4", "markov_volatility"],
+  "seeds": {"start": 4000, "stop": 4080},
+  "forecasters": ["historical", "historical_se_penalty", "gmm_pooled", "support_mix50", "support_band50"],
+  "selectors": ["equal_weight", "historical", "historical_se_penalty", "gmm_pooled", "support_mix50", "support_band50"],
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 871031,
+  "interval_unit": "seed cluster; average families within seed; fixed bank is not independent samples",
+  "q": 0.95
+}

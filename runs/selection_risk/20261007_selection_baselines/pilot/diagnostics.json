@@ -1,0 +1,3842 @@
+[
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          123,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107021
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          42,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107018
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107060
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          120,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107007
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          199,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107046
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          15,
+          164,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.7362665189751
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107032
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          164,
+          222,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 877.0540718934175
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107018
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          85,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107020
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          18,
+          101,
+          94,
+          156,
+          125,
+          0,
+          7,
+          1
+        ],
+        "ess": 868.406901675122
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107031
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          39,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107009
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107008
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          221,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107012
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          88,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107017
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          119,
+          18,
+          0,
+          146,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 867.2349115923176
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107048
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          17,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107050
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          10,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107055
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          59,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107006
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          60,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107058
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          240,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107015
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          190,
+          96,
+          126,
+          57,
+          222,
+          196,
+          240,
+          0
+        ],
+        "ess": 860.6744568282838
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107022
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          124,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107054
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          150,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107027
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107002
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          13,
+          196,
+          28,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 875.1332079926771
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107039
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          112,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107013
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          261,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107024
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          153,
+          13,
+          80,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 877.0957548928004
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107041
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          13,
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 875.5710967632644
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107062
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          6,
+          153,
+          166,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 872.8321746210587
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107063
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          28,
+          25,
+          10,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 874.2362833662759
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107007
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          106,
+          20,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 873.7654850981847
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107053
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          127,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107025
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          18,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107040
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          15,
+          18,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 877.5186270393267
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107059
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          12,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107014
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107042
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          270,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107017
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          25,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107026
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          259,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107010
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          245,
+          15,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 875.2614418438013
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107027
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          232,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107028
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          5,
+          13,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "ess": 874.0768659899999
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107045
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          25,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107004
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          112,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107032
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          16,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107023
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          277,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107000
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          276,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107060
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          111,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107038
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107016
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          162,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107031
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          89,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107005
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          130,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107034
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          8,
+          15,
+          5,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 874.4959709077692
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107025
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          280,
+          16,
+          0,
+          257,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 874.1597330054082
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107038
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          182,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107047
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          222,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107016
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          10,
+          57,
+          25,
+          24,
+          0,
+          1,
+          2,
+          3
+        ],
+        "ess": 875.9243814514075
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107005
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          121,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107030
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          144,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107008
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          231,
+          105,
+          257,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 876.9064709506731
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107020
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          48,
+          27,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.3971135585255
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107028
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          122,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107030
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          255,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107051
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          225,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107010
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          268,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107058
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          31,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107001
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          13,
+          8,
+          18,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 870.5636517245271
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107021
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          18,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107043
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          263,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107019
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          112,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107033
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          164,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107046
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          164,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107037
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          118,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107061
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          39,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107063
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          14,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107040
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107015
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          106,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107052
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          272,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107042
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          178,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107009
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          29,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107034
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          212,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107053
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          45,
+          172,
+          0,
+          26,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 875.5052122752567
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107049
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          66,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107022
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          31,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107003
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          186,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107033
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          257,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107049
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          279,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107044
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          63,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107023
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          23,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107051
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          73,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107047
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          253,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107003
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          27,
+          16,
+          0,
+          192,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 868.4917098089138
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107035
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          63,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107035
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          93,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107013
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          163,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107029
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          237,
+          50,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.5936777346323
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107061
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          33,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107062
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          268,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107057
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          225,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107004
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          32,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107045
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          169,
+          99,
+          21,
+          115,
+          0,
+          1,
+          2,
+          3
+        ],
+        "ess": 876.5965087169028
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107001
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          42,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107014
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          156,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107059
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107029
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          275,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107052
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          183,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107036
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107019
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          11,
+          28,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 873.5946254394481
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107036
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          48,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107026
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          21,
+          26,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.8843390805235
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107054
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          260,
+          6,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 874.8726572241593
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107043
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          277,
+          250,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.615315348798
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107000
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          18,
+          16,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 877.3020749417724
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107006
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          186,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107011
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          67,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107002
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          9,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107044
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          8,
+          83,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.7934352722896
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107041
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          49,
+          197,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ess": 876.7034948874149
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107037
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          116,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107050
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          127,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107039
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          261,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107024
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          4,
+          19,
+          0,
+          243,
+          1,
+          2,
+          3,
+          5
+        ],
+        "ess": 862.6838721311253
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107011
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          25,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107056
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          92,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107048
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          91,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107056
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          27,
+          163,
+          120,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ess": 869.4876903939082
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107057
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          248,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "asymmetric_crash",
+    "seed": 2026107012
+  },
+  {
+    "assertions": {
+      "decisions_locked_before_truth": true,
+      "historical_penalty_exact_surface_identity": true,
+      "same_bank_all_forecasters": true
+    },
+    "diagnostics": {
+      "gmm": {
+        "converged": true,
+        "warnings": []
+      },
+      "runtime_warnings": [],
+      "support_band50": {
+        "converged": true,
+        "directions": [
+          104,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ess": 877.7142857142858
+      }
+    },
+    "family": "gaussian",
+    "seed": 2026107055
+  }
+]

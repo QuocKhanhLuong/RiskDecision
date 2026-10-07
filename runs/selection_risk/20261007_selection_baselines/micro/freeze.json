@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-07T15:07:15.183580+00:00",
+  "fingerprint": "9269231fec9414a49ebeedb1f9fec6572459b78c3e940a2c641b6c36a2a91b8e",
+  "git_head": "f6dcffdf6ab7e22a9246aadb17df437e3aae8c6e",
+  "identity": {
+    "config": {
+      "bank_size": 285,
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 871032,
+      "cap": 0.5,
+      "compute_cap_seconds": 900,
+      "dim": 8,
+      "execution_stage": "micro",
+      "families": [
+        "gaussian",
+        "asymmetric_crash"
+      ],
+      "forecasters": [
+        "historical",
+        "historical_se_penalty",
+        "support_mix50",
+        "support_band50"
+      ],
+      "job_order_seed": 871033,
+      "method_selection": "none; frozen historical settings; no new variant search",
+      "microbenchmark_seed": 2026107999,
+      "n_train": 512,
+      "oic": "NOT_RUN; see OIC_APPLICABILITY.md",
+      "primary": "paired mean squared relative frozen-objective error: split_A_to_B minus resubstitution_A, same locked w_A and v_A",
+      "primary_scale": "dimensionless squared relative error; negative favors independent split",
+      "q": 0.95,
+      "replication": "64 paired seed clusters, 2 families within cluster, 128 instances; bounded feasibility pilot, no powered superiority claim",
+      "schema": 1,
+      "secondary": [
+        "signed relative objective error",
+        "relative ES error on common targets",
+        "selected true ES and bank regret",
+        "two-fold fixed-objective error",
+        "holdout empirical ES error",
+        "threshold gap to population ES"
+      ],
+      "seeds": {
+        "start": 2026107000,
+        "stop": 2026107064
+      },
+      "selectors": [
+        "equal_weight",
+        "historical",
+        "historical_se_penalty",
+        "support_mix50",
+        "support_band50"
+      ],
+      "split_n": 256,
+      "stage": "bounded_fresh_iid_pilot",
+      "stopping": "no interim outcome stopping or tuning; if estimate exceeds cap, do not open pilot; report NOT_RUN",
+      "truth_access": "evaluator only after all weights and thresholds are locked"
+    },
+    "environment": {
+      "device": "CPU",
+      "packages": {
+        "numpy": "2.3.5",
+        "pytest": "9.0.2",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "tqdm": "4.67.1"
+      },
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+      "threads": {
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      }
+    },
+    "inputs": {
+      "seed_audit": "d50391e9b3b45722f878d9f79d29ce40ff3b9c718c4778304aa5d8e4fd1ba203"
+    },
+    "sources": {
+      "quant_research_v2/src/research.py": "8b8d0e5ca2540e3e8ceed8d27cce77185bc318b8266c929ca2dbb329c0e98700",
+      "selection_risk/OIC_APPLICABILITY.md": "f1a7e35b0b95923d975aab15d5c170655a6a8df1489f94eb808afed0e06f1b36",
+      "selection_risk/__init__.py": "3ebb322c47e8f54871c97818004e7465f19669b6d98eb3152f40d5a18cd9feed",
+      "selection_risk/core.py": "316557c904878f573dbca4a3e9d2b654bb29c163b79f5056c97a740c93d8f71a",
+      "selection_risk/preflight.py": "77d636719b0440a720a344a5a07ccd8fcd5b995649d568cf2028c0f072f1e2e3",
+      "selection_risk/run.py": "bfef7e31e6f41715738395643bb94cb9738cc92a3d43e7450f698089a5b39169",
+      "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7",
+      "selection_risk/statistics.py": "37cd673cb6db9aaca34c4c4b3ce24ba292cf6241ae455a9eb0437735af7b58d8"
+    }
+  }
+}

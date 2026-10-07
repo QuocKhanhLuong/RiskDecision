@@ -1,0 +1,11 @@
+q0:   0%|          | 0/320 [00:00<?, ?instance/s]q0: 100%|██████████| 320/320 [00:00<00:00, 3650.14instance/s]
+{
+  "status": "COMPLETE",
+  "fingerprint": "928fd04f5d6e3dd3aa4712be7f27bf9fb0bde8dffe58a28fd4189e9e1a358908",
+  "cases_present": 320,
+  "cases_executed_this_session": 0,
+  "cases_resumed": 320,
+  "crossed_rows": 11200,
+  "session_seconds": 2.1495978750754148,
+  "finished_utc": "2026-10-07T15:12:34.872129+00:00"
+}
