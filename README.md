@@ -1,84 +1,38 @@
 # RiskDecision
 
-**Portfolio tail-risk learning after optimization. Current measured evidence is synthetic only. No market backtest has been completed in the imported studies.**
+**Hướng hiện hành: đánh giá rủi ro sau tối ưu danh mục, tách selection optimism khỏi thay đổi thị trường.** Evidence đã có là mô phỏng; chưa có market backtest hoặc thuật toán mới đã thắng.
 
-## Start here
+> Một model đo rủi ro và một policy chọn danh mục là hai thành phần khác nhau. Phải chấm forecast trên cùng danh mục trước khi kết luận model nào dự báo tốt hơn.
 
-- [Astra local execution prompt](prompts/ASTRA_LOCAL_MARKET_EXPERIMENTS.md)
-- [Import status and complete historical snapshots](docs/IMPORT_STATUS.md)
-- [Local execution plan](docs/LOCAL_EXECUTION_PLAN.md)
-- [v2 results in Vietnamese](quant_research_v2/RESULTS_VI.md)
-- [v2 method](quant_research_v2/docs/METHOD_V2.md)
-- [Dataset provenance audit](quant_research_v2/docs/DATASET_AUDIT.md)
-- [Original pilot method](quant_tailrisk_pilot/docs/METHOD.md)
+## Đọc và chạy tiếp
 
-## Research question and current decision
+| Tài liệu | Nội dung |
+|---|---|
+| [Trạng thái nghiên cứu](docs/RESEARCH_STATE.md) | Câu hỏi, method, findings, cách đọc lại kết quả |
+| [Thí nghiệm tiếp theo](docs/NEXT_EXPERIMENTS.md) | Q0 crossed matrix -> Q1 OIC -> Q2 temporal -> Q3 ECB |
+| [Hướng tiềm năng](docs/POTENTIAL_DIRECTIONS.md) | Ba nhánh có gate; chưa claim novelty |
+| [Data và runbook](docs/DATA_AND_REPRODUCIBILITY.md) | Snapshot còn thiếu, import, license, commands |
+| [Nguồn](docs/SOURCES.md) | OIC, entropy pooling, joint VaR/ES và reports gốc |
+| [Prompt Astra](prompts/ASTRA_NEXT_RUN.md) | Nhiệm vụ giới hạn cho lượt chạy local tiếp |
 
-Does optimizing a portfolio amplify optimism in its estimated tail risk, and can distributional correction improve the selected portfolio's risk estimate without sacrificing decision quality?
+## Kết quả cần nhớ
 
-The optimizer's curse, entropy pooling, CVaR regularization and filtered historical simulation are prior art. APTC is a candidate prototype, not a proven new algorithm.
+- 80 validation + 320 test instances thuộc bốn synthetic families; không phải thị trường thật.
+- Own-selected relative ES error: historical+penalty 14.30%, APTC v2 15.01%. Không phải mức lỗ vốn.
+- Historical và historical+penalty có cùng risk forecasts, chỉ khác lựa chọn w. Không gọi penalty là forecaster mới tốt hơn.
+- Crossed review trên cùng portfolios chưa chứng minh APTC hơn historical. Band tốt hơn ép khớp point moment nhưng gần pure mixture.
+- Markov oracle biết trạng thái thật; model không biết. Phải tách chênh lệch thông tin khỏi lỗi estimator.
 
-The v2 synthetic study reports 80 validation instances and 320 held-out test instances across four simulation families and 18 configurations. Validation selected `historical_se_penalty` as the leading baseline and `support_band50` as the candidate. Mean relative selected-portfolio ES error is approximately 14.30% versus 15.01%. These are estimation errors, not portfolio losses or investment returns. The candidate has not established superiority over strong equal-information controls.
+Nguồn: [results v2](quant_research_v2/RESULTS_VI.md) và [state/reanalysis](docs/RESEARCH_STATE.md). Đây là consolidation ngày 2026-10-07, không experiment mới.
 
-## Layout
+## Model và nhiệm vụ hiện tại
 
-```text
-quant_tailrisk_pilot/       Original v1 study (separate from v2)
-quant_research_v2/          Current synthetic engine, tests, data loaders, reports
-prompts/                   Complete Astra assignment for local market experiments
-docs/                      Import receipts and local evaluation requirements
-scripts/import_chat_archives.py
-archives_manifest.json     Original archive checksums and counts
-```
+Giữ GMM/APTC v1/v2, historical, uncertainty-penalty, pure mixture và covariance/FHS controls làm baselines. **Tạm dừng APTC variant search.** OIC có prior art rất sát, phải audit và tái lập đúng assumptions. Hướng tiềm năng ML/DL chỉ mở sau failure mode đã được xác định.
 
-The direct GitHub import contains executable research code, tests, documentation and selected result files. It is NOT the complete 931-file historical snapshot: full per-seed arrays, detailed tables, figures and some ancillary files remain in the two original ZIPs. Restore them before running the historical full-artifact audit. No missing result is replaced with a regenerated or fabricated file.
+Chạy ngay Q0 và chuẩn bị Q1; tải/audit ECB được phép song song nhưng không dùng final-market outcomes để chọn model. Không có lệnh OIC/crossed runner mới trong consolidation: Astra sẽ triển khai theo spec, không giả vờ đã chạy.
 
-## Complete the historical import
+## Giữ lịch sử, giảm log
 
-Download the original ChatGPT attachments with these exact names:
+`quant_tailrisk_pilot/`, `quant_research_v2/`, importer và archive manifest giữ nguyên bytes. Logs/plans/prompt handoff dài ở root chuyển sang [archive](archive/README.md); prompt cũ chỉ còn redirect. Snapshot trước dọn: branch `archive/pre-consolidation-20261007`, commit `41bcdc0`.
 
-- `Quant_Tail_Risk_Method_and_Pilot.zip`
-- `Quant_Risk_v2_Code_Results.zip`
-
-Then, from this repository root:
-
-```bash
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads" --verify-only
-python3 scripts/import_chat_archives.py --archive-dir "$HOME/Downloads"
-```
-
-The importer checks both complete archive SHA256 values, 931 member files, CRCs and existing file equality. It rejects path escapes, symlinks and differing existing files. It does not download market data, overwrite different content, modify Git refs or push automatically. Commit restored historical files separately from later method changes.
-
-## Set up and test
-
-Use a Python version compatible with the pinned dependencies. Python 3.13 matches the original reported environment; verify local package availability rather than silently changing pins.
-
-```bash
-cd quant_research_v2
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python -m pytest -q
-```
-
-The current handoff reran the v2 suite: 26 tests passed. This is not a new empirical experiment or independent scientific review. Historical reruns/audits write result files; use an isolated copy under `work/` to preserve original snapshots.
-
-## Official data starter commands
-
-Run from `quant_research_v2/` after reading the local prompt:
-
-```bash
-python src/market_data.py --source ecb --out ../data/raw/ecb
-python src/run_market_risk.py \
-  --levels ../data/raw/ecb/levels.csv \
-  --out ../runs/ecb_smoke --from-date 2010-01-01 --to-date 2015-12-31 \
-  --stride 5 --limit 20
-```
-
-These are prototype starter commands, not a certified market protocol. Stride five samples one-period forecast dates; it is NOT a five-day holding horizon. Final evaluation must audit publication times, incomplete-date gaps, VaR/ES scoring and solver warnings. Separate forecasting on common portfolio losses from evaluating each model's own selected portfolio.
-
-Reference FX moves do not include execution prices, carry, spread or funding. Do not report trading profit or Sharpe from them. Yield curves need separate fixed-income loss construction; never pass yield levels into the FX return function.
-
-## Data and publication policy
-
-Keep new market raw data, per-date caches, credentials and local environments out of Git unless usage terms and publication scope explicitly permit them. The historical synthetic snapshots may be imported as requested. No third-party dataset license is inferred from this repository being public. Preserve sources/citations and report negative results and NOT RUN boundaries.
+Main chưa chứa đủ 931 historical files; xem runbook để import archives có checksum khi cần. Không tái tạo số cũ rồi gọi là original archive. Raw market data, new caches/logs và outputs giữ local theo gitignore. Reproduction lịch sử chạy worktree riêng để bảo toàn measured reports.

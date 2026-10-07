@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-07",
+  "kind": "documentation_consolidation_no_new_experiment",
+  "base_commit": "41bcdc07799458b2a425bd0014e62a6695de5012",
+  "backup_branch": "archive/pre-consolidation-20261007",
+  "archive_docs_tree_sha": "cc0b882e8734d04dd3aabb6d7e68f7f9fc71c025",
+  "archive_prompts_tree_sha": "5d926f2529023ef1bcedcc9b9f59843301b79a21",
+  "preserve_exact": ["quant_tailrisk_pilot/", "quant_research_v2/", "scripts/", "archives_manifest.json", ".gitignore"],
+  "moves": {"docs/": "archive/20261007/docs/", "prompts/ASTRA_LOCAL_MARKET_EXPERIMENTS.md": "archive/20261007/prompts/ASTRA_LOCAL_MARKET_EXPERIMENTS.md", "README.md": "archive/20261007/README.md"},
+  "active_entry": "docs/RESEARCH_STATE.md",
+  "next_task": "Q0 crossed evaluation and Q1 OIC applicability/baseline pilot",
+  "not_done": ["new_training", "market_backtest", "OIC_reproduction", "full_931_file_import", "new_algorithm_claim"],
+  "history_rewritten": false,
+  "test_suite_rerun_in_this_update": false
+}
