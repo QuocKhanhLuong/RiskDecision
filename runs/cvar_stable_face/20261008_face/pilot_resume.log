@@ -1,0 +1,12 @@
+pilot:   0%|          | 0/128 [00:00<?, ?case/s]pilot: 100%|██████████| 128/128 [00:00<00:00, 1919.56case/s]
+{
+  "status": "COMPLETE",
+  "fingerprint": "2e8a5e59e51284fcc3b52b1a60822c96f815e85caf80dfa887ddd138236a050e",
+  "cases_present": 128,
+  "failed_cases": 0,
+  "new_cases": 0,
+  "resumed_cases": 128,
+  "rows": 3200,
+  "session_seconds": 1.265978000126779,
+  "finished_utc": "2026-10-07T17:18:08.876332+00:00"
+}

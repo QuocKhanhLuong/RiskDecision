@@ -1,0 +1,14 @@
+{
+  "successful_test_command": "rtk proxy .venv/bin/python -m pytest -q tests quant_research_v2/tests --junitxml=runs/cvar_stable_face/20261008_face/tests.xml",
+  "failed_collection_command": "rtk proxy .venv/bin/python -m pytest -q --junitxml=runs/cvar_stable_face/20261008_face/tests.xml",
+  "test_failure_reason": "unscoped collection also found archived test copies with duplicate module names; no tests ran in failed invocation",
+  "pilot_seed_status_at_first_preflight": "NO_LOCAL_OBSERVED_COLLISIONS",
+  "pilot_replay": false,
+  "partial_then_complete": "3 new, then 125 new/3 resumed",
+  "full_resume": "0 new/128 resumed",
+  "verification_programs": [
+    "scripts/verify_cvar_stable_face.py",
+    "scripts/verify_cvar_face_vertices.py"
+  ],
+  "receipt_utc": "2026-10-07T17:22:02.485291+00:00"
+}

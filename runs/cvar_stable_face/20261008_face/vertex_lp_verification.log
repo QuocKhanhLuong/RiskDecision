@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "POST_RUN numerical verification on old seen cases only; not fresh vertex evidence",
+  "verifier_sha256": "6e562da75923f97d231e919274266550e751fd06d695a45b7b39c70e5f89cc0e",
+  "historical_arrays_matched_previous_receipt": 128,
+  "vertex_targets": 14,
+  "fresh_pilot_vertex_targets": 0,
+  "seconds": 0.028886833926662803
+}

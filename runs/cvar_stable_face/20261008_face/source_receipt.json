@@ -1,0 +1,11 @@
+{
+  "status": "PRIMARY_SOURCE_REREAD",
+  "url": "https://arxiv.org/html/2306.10081v4",
+  "version": "v4",
+  "local_review_date": "2026-10-08 Asia/Ho_Chi_Minh",
+  "read_scope": "Appendix 7.3.3 constrained assumptions and local KKT context",
+  "downloaded_again": false,
+  "previous_download_receipt": "runs/continuous_cvar/20261007_oic_v3/source_receipt.json",
+  "previous_html_sha256": "99d750d9c2dd78952e15a69344734b3660630ffdaa22ff10d52b0b96a82cd60c",
+  "scope": "source motivation; stable-face derivation is ours; no claim to verify asymptotic theorem"
+}

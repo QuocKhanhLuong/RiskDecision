@@ -1,0 +1,19 @@
+{
+  "config_sha256": "82c5718f58f8d48ee2a14d344bbd6bb9932b34338daa2af53f1dcfa57ff9256c",
+  "estimated_pilot_seconds": 20.156287997961044,
+  "metrics_used_to_select_model_or_tau": false,
+  "numerical_gates_pass": true,
+  "observed_case_seconds": 0.15747099998407066,
+  "sources": {
+    "continuous_cvar/evaluation.py": "acadf2e790c7d8013f55174db40c6ad22d8bb8fb5b0b6152bbd997004c507773",
+    "continuous_cvar/model.py": "671920315848545501faebba69431ce1611ac548e3742a9725c2b0f6695728b3",
+    "continuous_cvar_face/APPLICABILITY.md": "fed258e606d6de418ba78c992fd5bedb5fd952a2fedb06c3d350dfdfa254d99e",
+    "continuous_cvar_face/__init__.py": "7af1eb3aa1e6094652c1e3f346d24345aa16a038ea38a12b61d3fab965a80800",
+    "continuous_cvar_face/audit.py": "1120b72ae8324d2682cee2d492215400b7c39391214fef3ee546031d1190a00d",
+    "continuous_cvar_face/model.py": "096d73b7fa88aa2b0b68a4fbbe95e59e7005314df78510e0574def61f8b17fd7",
+    "continuous_cvar_face/run.py": "2ed1803c1bcf6a112d47f38d771c707d8eda5c0fc714d8cf895ceaa044bdeefc",
+    "quant_research_v2/src/research.py": "8b8d0e5ca2540e3e8ceed8d27cce77185bc318b8266c929ca2dbb329c0e98700",
+    "selection_risk/core.py": "316557c904878f573dbca4a3e9d2b654bb29c163b79f5056c97a740c93d8f71a",
+    "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7"
+  }
+}

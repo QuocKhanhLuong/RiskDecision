@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="2" failures="0" skipped="0" tests="2" time="1.284" timestamp="2026-10-08T00:12:03.113446+07:00" hostname="Alvins-MacBook-Pro"><testcase classname="" name="runs.selection_risk.20261007_selection_baselines.historical_snapshot.quant_research_v2.tests.test_market" time="0.000"><error message="collection failure">import file mismatch:
+imported module 'test_market' has this __file__ attribute:
+  /Users/alvinluong/RiskDecision/quant_research_v2/tests/test_market.py
+which is not the same as the test file we want to collect:
+  /Users/alvinluong/RiskDecision/runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_market.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules</error></testcase><testcase classname="" name="runs.selection_risk.20261007_selection_baselines.historical_snapshot.quant_research_v2.tests.test_research" time="0.000"><error message="collection failure">import file mismatch:
+imported module 'test_research' has this __file__ attribute:
+  /Users/alvinluong/RiskDecision/quant_research_v2/tests/test_research.py
+which is not the same as the test file we want to collect:
+  /Users/alvinluong/RiskDecision/runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_research.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules</error></testcase></testsuite></testsuites>

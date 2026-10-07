@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "families": [
+    "gaussian",
+    "asymmetric_crash"
+  ],
+  "seeds": {
+    "start": 2026108000,
+    "stop": 2026108064
+  },
+  "development_seed": 2026107998,
+  "n_train": 512,
+  "split_n": 256,
+  "dim": 8,
+  "alpha": 0.05,
+  "weight_cap": 0.5,
+  "threshold_bounds": [
+    -50.0,
+    50.0
+  ],
+  "taus": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "primary_tau": 0.1,
+  "primary": "full512 OIC_FACE minus raw in squared relative smoothed-objective estimation error at the same locked decision",
+  "secondary": [
+    "signed relative smooth-objective error",
+    "half256 OIC_KKT versus independent256 at identical locked decisions",
+    "continuous true ES and population-optimal continuous regret",
+    "smoothing gap",
+    "active-set diagnostics",
+    "tau sensitivity"
+  ],
+  "sample_size_rationale": "64 paired seed clusters, 128 cases: bounded feasibility pilot, not powered universal superiority",
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 881042,
+  "job_order_seed": 881043,
+  "slsqp_ftol": 1e-13,
+  "maxiter": 500,
+  "newton_polish_steps": 10,
+  "active_tol": 1e-07,
+  "feasibility_tol": 1e-08,
+  "stationarity_tol": 1e-06,
+  "gap_tol": 1e-05,
+  "min_eigenvalue": 1e-10,
+  "max_condition": 10000000000.0,
+  "weak_multiplier_tol": 1e-05,
+  "compute_cap_seconds": 600,
+  "compute_gate_margin": 2.0,
+  "failure_policy": "retain all cases; null weak/invalid face correction; primary INCOMPLETE unless all 128 valid at primary tau",
+  "selection": "no model, smoothing level or seed selection from pilot results",
+  "truth_access": "population parameters only after every fit and estimate is locked",
+  "name": "continuous_cvar_stable_face_20261008",
+  "face_margin_tol": 1e-05,
+  "development_vertex_seeds": [
+    2026107101,
+    2026107106,
+    2026107154,
+    2026107158
+  ],
+  "seen_regression_run": "runs/continuous_cvar/20261007_oic_v3",
+  "method": "same fitter; capped-simplex stable-face certificate; OIC_FACE"
+}

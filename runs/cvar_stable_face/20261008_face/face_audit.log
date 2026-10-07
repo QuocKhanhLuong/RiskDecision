@@ -1,0 +1,15 @@
+seen-array face audit:   0%|          | 0/128 [00:00<?, ?case/s]seen-array face audit:  12%|█▏        | 15/128 [00:00<00:00, 148.63case/s]seen-array face audit:  24%|██▍       | 31/128 [00:00<00:00, 153.95case/s]seen-array face audit:  38%|███▊      | 48/128 [00:00<00:00, 158.46case/s]seen-array face audit:  51%|█████     | 65/128 [00:00<00:00, 162.56case/s]seen-array face audit:  65%|██████▍   | 83/128 [00:00<00:00, 166.56case/s]seen-array face audit:  79%|███████▉  | 101/128 [00:00<00:00, 169.02case/s]seen-array face audit:  93%|█████████▎| 119/128 [00:00<00:00, 170.62case/s]seen-array face audit: 100%|██████████| 128/128 [00:00<00:00, 166.26case/s]
+{
+  "status": "PASS",
+  "scope": "DEVELOPMENT_REGRESSION_SEEN_ARRAYS; no population risk metrics read or combined",
+  "config_sha256": "82c5718f58f8d48ee2a14d344bbd6bb9932b34338daa2af53f1dcfa57ff9256c",
+  "cases": 128,
+  "fit_targets": 1152,
+  "old_invalid": 14,
+  "face_invalid": 0,
+  "max_kkt_difference": 1.1546319456101628e-14,
+  "max_existing_correction_difference": 7.105427357601002e-14,
+  "decisions_and_arrays_unchanged": true,
+  "seconds": 0.7781364170368761,
+  "finished_utc": "2026-10-07T17:14:21.491621+00:00"
+}

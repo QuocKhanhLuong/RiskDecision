@@ -1,0 +1,15 @@
+{
+  "cases": 128,
+  "fits": 1152,
+  "all_optimizer_success": true,
+  "warnings": 0,
+  "face_invalid": 0,
+  "original_gate_invalid": 0,
+  "vertex_fit_targets": 0,
+  "minimum_face_margin": 4.492929205812679e-05,
+  "max_convex_gap": 3.164402073707606e-11,
+  "min_reduced_eigenvalue": 0.025359602820672563,
+  "max_reduced_condition": 402.7593120897639,
+  "case_compute_seconds": 9.0818180013448,
+  "unchanged_protected_files": 176
+}
