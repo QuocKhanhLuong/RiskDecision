@@ -1,0 +1,4 @@
+{"event":"session_start","fingerprint":"ca857505fd0d34df5875172fb5d79543aa87911a9e6106313cf52f6ad59df657","utc":"2026-10-07T16:05:15.193542+00:00"}
+{"completed":1,"eta_seconds":0.07103329198434949,"event":"case_complete","family":"gaussian","seconds":0.07103329198434949,"seed":2026107998,"status":"COMPLETE","total":2,"utc":"2026-10-07T16:05:15.268246+00:00"}
+{"completed":2,"eta_seconds":0.0,"event":"case_complete","family":"asymmetric_crash","seconds":0.06952045811340213,"seed":2026107998,"status":"COMPLETE","total":2,"utc":"2026-10-07T16:05:15.338758+00:00"}
+{"error":"TypeError(\"dict() got multiple values for keyword argument 'utc'\")","event":"session_interrupted","seconds":0.15143658290617168,"utc":"2026-10-07T16:05:15.344937+00:00"}

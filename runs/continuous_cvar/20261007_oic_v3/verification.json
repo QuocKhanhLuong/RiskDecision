@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "verifier_sha256": "2a6f92fe0791e795bc537ae5c8765fac5c0453e3b527bced1bee5b4916e59739",
+  "protected_files_unchanged": 112,
+  "instances": 128,
+  "estimate_rows": 3200,
+  "fit_targets_checked": 1152,
+  "null_oic_preserved": 14,
+  "primary_incomplete_preserved": true,
+  "secondary_cluster_ci_reproduced": true,
+  "previous_completed_case_arrays_identical": 124,
+  "max_augmented_kkt_correction_difference": 8.615330671091215e-14,
+  "max_direct_quadrature_difference": 2.6471211000966832e-08,
+  "seconds": 12.48561633285135,
+  "scope": "Numerical audit, not independent peer review or general OIC theorem"
+}

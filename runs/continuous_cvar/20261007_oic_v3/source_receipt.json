@@ -1,0 +1,24 @@
+{
+  "url": "https://arxiv.org/html/2306.10081v4",
+  "version": "v4",
+  "local_download_completed_utc": "2026-10-07T16:16:03.124186+00:00",
+  "sha256": "99d750d9c2dd78952e15a69344734b3660630ffdaa22ff10d52b0b96a82cd60c",
+  "bytes": 2406345,
+  "read_scope": [
+    "Definitions 2.7 and 2.8",
+    "Theorems 2.6 and 2.9",
+    "Appendix 7.3.3",
+    "Example 6.4"
+  ],
+  "status": "READ_PRIMARY_SOURCE",
+  "implementation": "KKT-derived adaptation; not authors code reproduction",
+  "raw_html_committed": false,
+  "environment": {
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.13.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "tqdm": "4.67.1"
+  }
+}

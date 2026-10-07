@@ -1,0 +1,17 @@
+development:   0%|          | 0/2 [00:00<?, ?case/s]development: 100%|██████████| 2/2 [00:00<00:00, 14.01case/s]development: 100%|██████████| 2/2 [00:00<00:00, 13.99case/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/alvinluong/RiskDecision/continuous_cvar/run.py", line 269, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/alvinluong/RiskDecision/continuous_cvar/run.py", line 266, in main
+    else:execute(args.stage,args.out,args.max_new_cases)
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alvinluong/RiskDecision/continuous_cvar/run.py", line 256, in execute
+    atomic_json(run.out/'receipt.json',receipt);run.event('session_end',**receipt);print(json.dumps(receipt,indent=2))
+                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alvinluong/RiskDecision/selection_risk/runtime.py", line 108, in event
+    stream.write(canonical(dict(utc=utc(), event=event, **fields)) + "\n")
+                           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'utc'

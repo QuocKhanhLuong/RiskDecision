@@ -1,0 +1,12 @@
+development:   0%|          | 0/2 [00:00<?, ?case/s]development: 100%|██████████| 2/2 [00:00<00:00, 13.90case/s]development: 100%|██████████| 2/2 [00:00<00:00, 13.87case/s]
+{
+  "status": "COMPLETE",
+  "fingerprint": "f255ab7ebbdfa9a50ef4306f812e5e9ed3f1eaa2931178612bccf7f8b2d53213",
+  "cases_present": 2,
+  "failed_cases": 0,
+  "new_cases": 2,
+  "resumed_cases": 0,
+  "rows": 50,
+  "session_seconds": 0.15271645900793374,
+  "finished_utc": "2026-10-07T16:08:23.475021+00:00"
+}

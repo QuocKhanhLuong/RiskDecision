@@ -1,0 +1,4 @@
+{"event":"session_start","fingerprint":"8b731b839e41bff64f91a467e9f7cee779fb262ab2d971efd86e73b951d8f1ad","utc":"2026-10-07T16:12:19.121961+00:00"}
+{"completed":1,"eta_seconds":0.07104958314448595,"event":"case_complete","family":"gaussian","seconds":0.07104958314448595,"seed":2026107998,"status":"COMPLETE","total":2,"utc":"2026-10-07T16:12:19.196996+00:00"}
+{"completed":2,"eta_seconds":0.0,"event":"case_complete","family":"asymmetric_crash","seconds":0.06902879104018211,"seed":2026107998,"status":"COMPLETE","total":2,"utc":"2026-10-07T16:12:19.266986+00:00"}
+{"cases_present":2,"event":"session_end","failed_cases":0,"fingerprint":"8b731b839e41bff64f91a467e9f7cee779fb262ab2d971efd86e73b951d8f1ad","finished_utc":"2026-10-07T16:12:19.273713+00:00","new_cases":2,"resumed_cases":0,"rows":50,"session_seconds":0.15181491686962545,"status":"COMPLETE","utc":"2026-10-07T16:12:19.273939+00:00"}

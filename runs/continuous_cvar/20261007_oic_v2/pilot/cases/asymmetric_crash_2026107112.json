@@ -1,0 +1,12 @@
+{
+  "fingerprint": "d30e15bb64c5e01238ea343420190f6addfdcec3215efc8ae8d8d0ed5e539314",
+  "payload": {
+    "error": "RuntimeError(\"Population oracle gate failed: {'feasibility': 4.440892098500626e-16, 'stationarity': 4.440892098500626e-16, 'dual_violation': 0.15050541147842866, 'complementarity': 5.81385555534432e-17, 'convex_gap_bound': 1.199040866595169e-14, 'raw_gap_bound': 1.199040866595169e-14, 'constraint_rank': 8, 'constraint_rows': 9, 'tangent_dimension': 1, 'min_tangent_eigenvalue': 0.6134989443499983, 'tangent_condition': 1.0, 'active_lower': [0, 1, 2, 4, 6, 7], 'active_upper': [3, 5], 'multipliers': [-2.5173068653911805, 0.4838342017236182, 0.4155404895675134, 0.20023262083994514, 0.44393981154350926, 0.34755879727508104, 0.3950250824097235, -0.15050541147842866, -0.08067045055336039], 'min_active_multiplier': -0.15050541147842866, 'weak_active_set': True, 'threshold_bound_active': False, 'projected_score_mean_norm': 2.220446049250313e-16, 'numerical_gate': False, 'optimizer_success': True, 'optimizer_status': 0, 'optimizer_message': 'Optimization terminated successfully'}\")",
+    "family": "asymmetric_crash",
+    "rows": [],
+    "seconds": 0.0,
+    "seed": 2026107112,
+    "status": "FAILED"
+  },
+  "payload_sha256": "b9db7ed3068dcafe83f6b97650d1eec9fded8bdbae4a7629ac8bdc71973c0e8e"
+}

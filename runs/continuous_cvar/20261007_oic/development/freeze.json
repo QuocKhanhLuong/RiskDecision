@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-10-07T16:05:15.181949+00:00",
+  "fingerprint": "ca857505fd0d34df5875172fb5d79543aa87911a9e6106313cf52f6ad59df657",
+  "git_head": "35fcea7818488101e0bd17796cfc8d1b649c1db9",
+  "identity": {
+    "config": {
+      "active_tol": 1e-07,
+      "alpha": 0.05,
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 871042,
+      "compute_cap_seconds": 600,
+      "compute_gate_margin": 2.0,
+      "development_seed": 2026107998,
+      "dim": 8,
+      "failure_policy": "preserve all cases; null invalid OIC; primary INCOMPLETE unless all 128 valid at primary tau",
+      "families": [
+        "gaussian",
+        "asymmetric_crash"
+      ],
+      "feasibility_tol": 1e-08,
+      "gap_tol": 1e-05,
+      "job_order_seed": 871043,
+      "max_condition": 10000000000.0,
+      "maxiter": 500,
+      "min_eigenvalue": 1e-10,
+      "n_train": 512,
+      "newton_polish_steps": 10,
+      "primary": "full512 OIC_KKT minus raw in squared relative smoothed-objective estimation error at the same locked decision",
+      "primary_tau": 0.1,
+      "sample_size_rationale": "64 paired seed clusters, 128 cases: bounded feasibility pilot, not powered universal superiority",
+      "schema": 1,
+      "secondary": [
+        "signed relative smooth-objective error",
+        "half256 OIC_KKT versus independent256 at identical locked decisions",
+        "continuous true ES and population-optimal continuous regret",
+        "smoothing gap",
+        "active-set diagnostics",
+        "tau sensitivity"
+      ],
+      "seeds": {
+        "start": 2026107100,
+        "stop": 2026107164
+      },
+      "selection": "no model, smoothing level or seed selection from pilot results",
+      "slsqp_ftol": 1e-13,
+      "split_n": 256,
+      "stage": "development",
+      "stationarity_tol": 1e-06,
+      "taus": [
+        0.05,
+        0.1,
+        0.2
+      ],
+      "threshold_bounds": [
+        -50.0,
+        50.0
+      ],
+      "truth_access": "population parameters only after every fit and estimate is locked",
+      "weak_multiplier_tol": 1e-05,
+      "weight_cap": 0.5
+    },
+    "environment": {
+      "device": "CPU",
+      "packages": {
+        "numpy": "2.3.5",
+        "pytest": "9.0.2",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "tqdm": "4.67.1"
+      },
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+      "threads": {
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      }
+    },
+    "inputs": {
+      "preflight_sha256": "86b67e2bc24f0d2ff61e7211e11bdcb3122b1b9acb722422a3a4e4500e9bc347"
+    },
+    "sources": {
+      "continuous_cvar/OIC_APPLICABILITY.md": "72ba6d6c04f0a912316a591580b8eb4efa3d15eb48c9d829a5b5447a0a6dbf7e",
+      "continuous_cvar/__init__.py": "4806ecc29da481b2f51cd45c88623ef0d3072b644ea3e4ca0be654593fa7e1fd",
+      "continuous_cvar/evaluation.py": "9400557826fcb167355a06fd7e587f0f4220cb8eee5ac559dfefdef94933c15f",
+      "continuous_cvar/model.py": "671920315848545501faebba69431ce1611ac548e3742a9725c2b0f6695728b3",
+      "continuous_cvar/run.py": "9d2fcebd5d8d1eb8fd2c1e9803455bf5f85061987c5ca3643a0a57e1d4541068",
+      "quant_research_v2/src/research.py": "8b8d0e5ca2540e3e8ceed8d27cce77185bc318b8266c929ca2dbb329c0e98700",
+      "selection_risk/core.py": "316557c904878f573dbca4a3e9d2b654bb29c163b79f5056c97a740c93d8f71a",
+      "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7"
+    }
+  }
+}

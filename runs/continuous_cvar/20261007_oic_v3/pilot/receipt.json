@@ -1,0 +1,11 @@
+{
+  "cases_present": 128,
+  "failed_cases": 0,
+  "fingerprint": "76f72ef93ad9d1806839f023e220b97fdc8c3edba5070b15870d19f94ebc91ce",
+  "finished_utc": "2026-10-07T16:20:00.207816+00:00",
+  "new_cases": 0,
+  "resumed_cases": 128,
+  "rows": 3200,
+  "session_seconds": 1.1461531668901443,
+  "status": "COMPLETE"
+}

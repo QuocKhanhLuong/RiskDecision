@@ -1,0 +1,17 @@
+{
+  "config_sha256": "813a056840ffb8536aca3f40099b4773327329ca86be5f85f79f11018026d688",
+  "estimated_pilot_seconds": 18.11471477150917,
+  "metrics_used_to_select_model_or_tau": false,
+  "numerical_gates_pass": true,
+  "observed_case_seconds": 0.1415212091524154,
+  "sources": {
+    "continuous_cvar/OIC_APPLICABILITY.md": "72ba6d6c04f0a912316a591580b8eb4efa3d15eb48c9d829a5b5447a0a6dbf7e",
+    "continuous_cvar/__init__.py": "4806ecc29da481b2f51cd45c88623ef0d3072b644ea3e4ca0be654593fa7e1fd",
+    "continuous_cvar/evaluation.py": "9400557826fcb167355a06fd7e587f0f4220cb8eee5ac559dfefdef94933c15f",
+    "continuous_cvar/model.py": "671920315848545501faebba69431ce1611ac548e3742a9725c2b0f6695728b3",
+    "continuous_cvar/run.py": "4725f7d38d08bcb55246ccfb2c2cbea430c7b1a4100c1933b27aac1304551691",
+    "quant_research_v2/src/research.py": "8b8d0e5ca2540e3e8ceed8d27cce77185bc318b8266c929ca2dbb329c0e98700",
+    "selection_risk/core.py": "316557c904878f573dbca4a3e9d2b654bb29c163b79f5056c97a740c93d8f71a",
+    "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7"
+  }
+}

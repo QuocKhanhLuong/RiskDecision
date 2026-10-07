@@ -1,0 +1,12 @@
+pilot:   0%|          | 0/128 [00:00<?, ?case/s]pilot:   2%|▏         | 2/128 [00:00<00:08, 14.23case/s]pilot:   2%|▏         | 3/128 [00:00<00:08, 14.13case/s]
+{
+  "status": "PARTIAL_RESUMABLE",
+  "fingerprint": "d30e15bb64c5e01238ea343420190f6addfdcec3215efc8ae8d8d0ed5e539314",
+  "cases_present": 3,
+  "failed_cases": 0,
+  "new_cases": 3,
+  "resumed_cases": 0,
+  "rows": 75,
+  "session_seconds": 0.21742054191417992,
+  "finished_utc": "2026-10-07T16:08:40.488996+00:00"
+}
