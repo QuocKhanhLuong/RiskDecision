@@ -1,0 +1,12 @@
+pilot:   0%|          | 0/512 [00:00<?, ?origin/s]pilot:  19%|█▉        | 97/512 [00:00<00:00, 967.67origin/s]pilot:  38%|███▊      | 194/512 [00:00<00:00, 797.43origin/s]pilot:  54%|█████▍    | 276/512 [00:00<00:00, 487.65origin/s]pilot:  65%|██████▌   | 335/512 [00:00<00:00, 472.22origin/s]pilot:  84%|████████▍ | 431/512 [00:00<00:00, 595.47origin/s]pilot: 100%|██████████| 512/512 [00:00<00:00, 628.45origin/s]
+{
+  "status": "COMPLETE",
+  "cases_present": 512,
+  "new_cases": 0,
+  "resumed_cases": 512,
+  "failed_cases": 0,
+  "rows": 7168,
+  "fingerprint": "b7d6c5de335678e76ea7deb729b11a9d2c74f08c8c7f6a55eb7c3e99c5ce80a8",
+  "session_seconds": 1.7812947081401944,
+  "finished_utc": "2026-10-07T18:44:59.440886+00:00"
+}

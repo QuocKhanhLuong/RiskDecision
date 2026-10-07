@@ -1,0 +1,187 @@
+{
+  "scope": "exact publication allowlist, manifest self-excluded; lossless exports plus all synthetic checkpoint/path payloads",
+  "base_sha": "3203bb34966ad8e029ea684e6cadf1b9c9bacbd1",
+  "branch": "research/markov-hmm-q2",
+  "published_files": {
+    "docs/experiments/20261008_markov_hmm_q2.md": {
+      "sha256": "5315ca00467b6412d3f0ef507640d89c3db1ba1b21926ea43f405d0e37eab27e",
+      "bytes": 10625
+    },
+    "markov_hmm/PROTOCOL.md": {
+      "sha256": "afb446c6578f92147dd055d269caa97e31ea63f6b6180e150dbc163013e8717e",
+      "bytes": 7673
+    },
+    "markov_hmm/README.md": {
+      "sha256": "763c7128e4be9d7bf486757f83f88baac567d78ce6c9c9f5335ad8747f1363d6",
+      "bytes": 3324
+    },
+    "markov_hmm/__init__.py": {
+      "sha256": "d08502737f5a06e4bfb1d7496a92748cc767ae9355c30a861828df2b9b500d5a",
+      "bytes": 66
+    },
+    "markov_hmm/analysis.py": {
+      "sha256": "84452ce4d8cf05d57c3d6dcb307a59c83b594542bd204421260a972fc031c128",
+      "bytes": 3181
+    },
+    "markov_hmm/config.json": {
+      "sha256": "535eb3a03d88f6a214ea53d2e4c5210c771f396e40ccfa9db36e58b6d212e0d8",
+      "bytes": 2619
+    },
+    "markov_hmm/model.py": {
+      "sha256": "62834db203d51e598dc4af785af5755dfc44e73cfa9c491e4fe6820d45bc7c91",
+      "bytes": 8172
+    },
+    "markov_hmm/requirements.txt": {
+      "sha256": "b086e572c29f298b6ce87057373f5766c96241af055a0a8dd311aeba8910398e",
+      "bytes": 16
+    },
+    "markov_hmm/run.py": {
+      "sha256": "41dd6ef587e99323595294d191394a052ddada2a40a07adf1b0a64742001637c",
+      "bytes": 13167
+    },
+    "runs/markov_hmm/20261008_q2_hmm/RESULTS.md": {
+      "sha256": "d8b8d8384a8ab3af327ed13a96f8fb7599c536ccc1da5e1349e0eb7703399a44",
+      "bytes": 2754
+    },
+    "runs/markov_hmm/20261008_q2_hmm/checkpoint_manifest.json": {
+      "sha256": "f047a52070492d093b70d5c38bb1c93ace749d1aa06f82f8a3fcda9e1dd9d469",
+      "bytes": 97420
+    },
+    "runs/markov_hmm/20261008_q2_hmm/checkpoint_payloads.tar.gz": {
+      "sha256": "9744c27dfa03d6de23475876d5b0a371ddfe37c4c4ad670dd413f1f78a85af6a",
+      "bytes": 11055620
+    },
+    "runs/markov_hmm/20261008_q2_hmm/compressed_exports.json": {
+      "sha256": "b2ed9d712fc2ce49c4c92d1e75c478946f8d7b16bc088689ab4b32773b20d353",
+      "bytes": 1130
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/benchmark.json": {
+      "sha256": "cb8e328bb7755f8554ca88269344f93e1a6d853755041298cac4218201be28af",
+      "bytes": 1689
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/case_index.csv": {
+      "sha256": "05d2a5a30d5363c471826f44c88c8bd0fd5adc94e2a535dcbdf81f99416d08f8",
+      "bytes": 4065
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/diagnostics.json.gz": {
+      "sha256": "34c2fc9eaeeaa4b00c69148dd754123d92d44ac645826c02b088db17208eb94b",
+      "bytes": 368785
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/estimates.csv": {
+      "sha256": "b48ba7cd0fe3926e088708124f1d979b1ef3a15107b35aeb7371f6b9159c73ae",
+      "bytes": 162384
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/freeze.json": {
+      "sha256": "a4642c7b0b644d202c048ad1b21ab64a8ee024d945974b1edcdf1562452ae9f0",
+      "bytes": 8075
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/progress.jsonl": {
+      "sha256": "f1a8638586c4c9705a079ff18fc76c5b30c45beceb9bf0304e4b589af56880e2",
+      "bytes": 7890
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development/receipt.json": {
+      "sha256": "891db26a5b5ba85acd1ffe8f57ec6c1112026de48862637620ec33f99b1395b3",
+      "bytes": 307
+    },
+    "runs/markov_hmm/20261008_q2_hmm/development.log": {
+      "sha256": "af3e52da81c9dab561f7c1bee9b3b74f96d592801a521c6aacea1e0895d110f9",
+      "bytes": 2876
+    },
+    "runs/markov_hmm/20261008_q2_hmm/gate_summary.json": {
+      "sha256": "a3be13498a5768ee30531db44d5707b7bbbad86d41db40c13994ed115bf08010",
+      "bytes": 424
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/case_index.csv": {
+      "sha256": "ac92b400d488dd0696dc873aba49164b58776acf01e2b46efaf0af147067a274",
+      "bytes": 64238
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/diagnostics.json.gz": {
+      "sha256": "a965555fea22187941b30595ec107ce69ca87a70dde27796a9adf4d3c6b44e2c",
+      "bytes": 5869769
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/estimates.csv.gz": {
+      "sha256": "39d4904a6e903f936f7fd7b6dc45e83bdb639a5363bd0f60c6ed7d0c1f50f4f0",
+      "bytes": 444845
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/freeze.json": {
+      "sha256": "b0c07edb08e27bb740c87024c09f9c6bb6664a8b556d64a6adb77e1125f9967e",
+      "bytes": 8163
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/paired.csv": {
+      "sha256": "4252a5a82b23f539156eed4c876c571d9f8d6fb8cbb8eb720358b415a95683bf",
+      "bytes": 36066
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/progress.jsonl": {
+      "sha256": "df06a35a625d00e76ae484265414122c671433ca33d323eb878ae78ef1c8095b",
+      "bytes": 184369
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/receipt.json": {
+      "sha256": "747a19f480f9526041643317c61798df864ca7f3f7c9b8030d7c2ffda6678fa6",
+      "bytes": 310
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/shift_effect.csv": {
+      "sha256": "c9a719b6221057c37ac9b4be58a336123b09d1422fe5907075edbe78cc30ab2e",
+      "bytes": 7879
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot/summary.csv": {
+      "sha256": "fd3595ca12f2f7cd3f238c88efcb246253db451544a7f39d52229b3f24c6f1e1",
+      "bytes": 49031
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot_full.log": {
+      "sha256": "fbc3b7a312c6bf6534124e1b74616b94817f0f029a0f372cb9d3d958a054b87f",
+      "bytes": 36045
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot_initial_completion.json": {
+      "sha256": "b4fe8bdd8764cce23f18022200813579607734d5484cbb47c016c57c33f750de",
+      "bytes": 308
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot_partial.log": {
+      "sha256": "98b6b9e4d6b396863f183f7a37d6e1d30e2ea648e83943a51cf75f50a4179fa6",
+      "bytes": 719
+    },
+    "runs/markov_hmm/20261008_q2_hmm/pilot_resume.log": {
+      "sha256": "717037e838331ec175f455e7b4266e5267662107c5945514ef5a503e2206cc24",
+      "bytes": 809
+    },
+    "runs/markov_hmm/20261008_q2_hmm/preflight.json": {
+      "sha256": "a58a21d0b517252d29aebe711ffe8290286dc23f3db2a88435b6bb82b6e5c0bf",
+      "bytes": 1300785
+    },
+    "runs/markov_hmm/20261008_q2_hmm/preflight.log": {
+      "sha256": "c43930f7eb1ef5d7875a6c4a7f036d16e918f0c03bac955c6e973484bb535c83",
+      "bytes": 132
+    },
+    "runs/markov_hmm/20261008_q2_hmm/resume_verification.json": {
+      "sha256": "710f0ff15f6e91166042bece757e806b6efa6b9b1708fcf52fc4239b9fed8fb9",
+      "bytes": 66968
+    },
+    "runs/markov_hmm/20261008_q2_hmm/source_receipt.json": {
+      "sha256": "200db45f75491a4aa1905a70786fa1df19aa0ea394c466c3136f2987271321e4",
+      "bytes": 899
+    },
+    "runs/markov_hmm/20261008_q2_hmm/tests.log": {
+      "sha256": "428efb5295db31314c55f92efb3f31fb8002d003921edf395f2250b219e7533b",
+      "bytes": 179
+    },
+    "runs/markov_hmm/20261008_q2_hmm/tests.xml": {
+      "sha256": "d9f9d8620afaf17bc8df1e8d49e24a9c9710cf3f2146ffa363f2abd21e2a47fc",
+      "bytes": 12421
+    },
+    "runs/markov_hmm/20261008_q2_hmm/verification.json": {
+      "sha256": "5bea240ff95c431181546630c95bf64e6515a546c6eb3cbbbdb2e7bc16dfdeb9",
+      "bytes": 574
+    },
+    "runs/markov_hmm/20261008_q2_hmm/verification.log": {
+      "sha256": "bc06fb83fc820f050538d61c81aa76252ee315470f615300b2a4a0a65d0e5aa4",
+      "bytes": 23796
+    },
+    "scripts/verify_markov_hmm.py": {
+      "sha256": "cdb69e14f5b3119f72c345dc15ec54a333d681ec24e54882299eeb2f583065b7",
+      "bytes": 10508
+    },
+    "tests/test_markov_hmm.py": {
+      "sha256": "210d3af07a1327669c9b0d4713d7f6889524f29b8abd31af2c2c63136d2d3287",
+      "bytes": 7454
+    }
+  }
+}

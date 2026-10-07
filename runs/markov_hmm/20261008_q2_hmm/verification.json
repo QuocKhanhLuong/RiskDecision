@@ -1,0 +1,18 @@
+{
+  "cases": 512,
+  "max_errors": {
+    "likelihood": 1.7280399333685637e-11,
+    "objective": 8.69015970295095e-12,
+    "posterior": 2.9976021664879227e-15,
+    "truth_filter": 1.6653345369377348e-15
+  },
+  "paired_contrasts_checked": 216,
+  "path_clusters": 32,
+  "protected_files_unchanged": 274,
+  "restart_scores_checked": 1536,
+  "rows": 7168,
+  "scope": "numerical/software audit, no refitting; not independent peer review",
+  "seconds": 50.81193837500177,
+  "status": "PASS",
+  "verifier_sha256": "cdb69e14f5b3119f72c345dc15ec54a333d681ec24e54882299eeb2f583065b7"
+}

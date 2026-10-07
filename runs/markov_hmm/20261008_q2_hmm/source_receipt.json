@@ -1,0 +1,26 @@
+{
+  "accessed_utc": "2026-10-07T18:42:16.337749+00:00",
+  "sources": [
+    {
+      "url": "https://hmmlearn.readthedocs.io/en/stable/tutorial.html",
+      "status": "READ_OFFICIAL_DOCUMENTATION",
+      "scope": "custom initialization, EM local optima, training-score restarts"
+    },
+    {
+      "url": "https://hmmlearn.readthedocs.io/en/stable/api.html#hmmlearn.hmm.GaussianHMM",
+      "status": "READ_OFFICIAL_DOCUMENTATION",
+      "scope": "GaussianHMM full covariance, fit, posterior scoring and monitor"
+    }
+  ],
+  "installed_source_read": [
+    "hmmlearn.hmm.GaussianHMM._do_mstep",
+    "hmmlearn.base.BaseHMM.fit",
+    "hmmlearn.base.ConvergenceMonitor"
+  ],
+  "implementation": "hmmlearn 0.3.3; ordinary full-covariance ML settings; source/package hashes in preflight",
+  "not_claimed": [
+    "original-paper reproduction",
+    "temporal prediction guarantee",
+    "method novelty"
+  ]
+}

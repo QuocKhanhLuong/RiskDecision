@@ -1,0 +1,217 @@
+{
+  "created_utc": "2026-10-07T18:39:57.447234+00:00",
+  "fingerprint": "670670fe16384e002e2303df49580281fd4de3d2953dd49877ec624cdde35734",
+  "git_head": "3203bb34966ad8e029ea684e6cadf1b9c9bacbd1",
+  "identity": {
+    "config": {
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 991042,
+      "compute_cap_seconds": 600,
+      "compute_gate_margin": 2.0,
+      "development_seeds": [
+        2026109998,
+        2026109999
+      ],
+      "dgp": {
+        "correlation": 0.35,
+        "dim": 8,
+        "high_mean_shift": -0.25,
+        "high_scale": 2.5,
+        "means": [
+          0.06,
+          0.04,
+          0.02,
+          0.0,
+          -0.02,
+          0.03,
+          0.01,
+          -0.01
+        ],
+        "phi": 0.6,
+        "shift_time": 768,
+        "std": [
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.2,
+          1.3,
+          1.1,
+          0.95
+        ],
+        "transition0": [
+          [
+            0.97,
+            0.03
+          ],
+          [
+            0.12,
+            0.88
+          ]
+        ],
+        "transition1": [
+          [
+            0.9,
+            0.1
+          ],
+          [
+            0.04,
+            0.96
+          ]
+        ]
+      },
+      "failure_policy": "any missing method cell makes its contrast INCOMPLETE; retain failures and all windows",
+      "fit": {
+        "active_tol": 1e-07,
+        "alpha": 0.05,
+        "face_margin_tol": 1e-05,
+        "feasibility_tol": 1e-08,
+        "gap_tol": 1e-05,
+        "max_condition": 10000000000.0,
+        "maxiter": 500,
+        "min_eigenvalue": 1e-10,
+        "newton_polish_steps": 10,
+        "slsqp_ftol": 1e-13,
+        "stationarity_tol": 1e-06,
+        "threshold_bounds": [
+          -50.0,
+          50.0
+        ],
+        "weak_multiplier_tol": 1e-05,
+        "weight_cap": 0.5
+      },
+      "hmm": {
+        "initial_covariance_ridge": 0.001,
+        "initial_quantiles": [
+          0.5,
+          0.7,
+          0.85
+        ],
+        "initial_self_transition": 0.9,
+        "maxiter": 200,
+        "min_eigenvalue": 1e-08,
+        "min_scale": 1e-08,
+        "n_components": 2,
+        "negative_gain_tol": 1e-06,
+        "tol": 0.0001
+      },
+      "inference_unit": "path seed, average origins before bootstrap; matched worlds not independent replication",
+      "job_order_seed": 991043,
+      "methods": [
+        "raw",
+        "iid_oic",
+        "gaussian_iid",
+        "ar_gaussian",
+        "ewma_gaussian",
+        "hmm_filtered",
+        "hmm_stationary"
+      ],
+      "model": {
+        "ar_clip": 0.98,
+        "ewma_lambda": 0.94,
+        "tau": 0.1
+      },
+      "origins": [
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960
+      ],
+      "policies": [
+        "full512",
+        "equal512"
+      ],
+      "primary": {
+        "baseline": "gaussian_iid",
+        "method": "hmm_filtered",
+        "metric": "conditional_squared_relative_error",
+        "period": "all",
+        "policy": "full512",
+        "world": "markov_stationary"
+      },
+      "sample_size_rationale": "32 independent path clusters; bounded feasibility, no universal superiority power claim",
+      "schema": 1,
+      "seeds": {
+        "start": 2026110000,
+        "stop": 2026110032
+      },
+      "stage": "development",
+      "window": 512,
+      "worlds": [
+        "markov_stationary",
+        "markov_shift"
+      ]
+    },
+    "environment": {
+      "device": "CPU",
+      "hmmlearn": {
+        "files": {
+          "__init__.py": "60e94b23dff54b64c8d7250e7280f2a6deda783ea0756d19db0355ab1e69c380",
+          "_emissions.py": "e5e3332bcebc37682802936e7918edd38b6e2aab9c8b86a2ece3ee63854375a9",
+          "_hmmc.cpython-313-darwin.so": "179f2519470ed7aed4e9e89e41ea964d55c526a35196fd3b3faf3c542fae47b5",
+          "_kl_divergence.py": "95864a4a78b6e6b6ea5d9982a9c684c3084685c5ed44479bc3c5bd627a6fd028",
+          "_utils.py": "b61c5e6cce58e10267e2c0a77c0b3ac068bccea1499c2a0f0718e7f4fde721a9",
+          "base.py": "bb3e50ab5c55d30c8f506ada01d09cc253695f501135b844ab1d80b6063ad326",
+          "hmm.py": "f01a75d2c9b7109ebd26ab6b91a33b7179a8fd4e79fb132130b70436ff347521",
+          "stats.py": "9242d0913cb5fefb4d242894dc2eaf45c6b68a7d89a924a16b3f0df97d20f7c5",
+          "tests/__init__.py": "f363728643d21f4caae041efef1815e3c78eb1858ee647f46d9d3844f0729206",
+          "tests/conftest.py": "394fb3a251a6add5745eadce16ec6c7f9ee1fc0e702271908eeb2c612ddb16e6",
+          "tests/test_base.py": "349233d35869c2f21447ac68d8bab30fe1dd7260c57c25785bce1abb02a99f2e",
+          "tests/test_categorical_hmm.py": "0d6f7db9d4b6d27425e25cda63d2fdc20fcd399f51eb7e44f5e5e296d9cef498",
+          "tests/test_gaussian_hmm.py": "b845e5a9300fd4c37cbe3c369c5b983d40664c537ecca5e7f97c185c35d6e744",
+          "tests/test_gmm_hmm.py": "4912ce2152563c259dedc467e01f370f72908ae793168d412518c5ea87fc0446",
+          "tests/test_gmm_hmm_multisequence.py": "05f2a6dc8adc818b683a2d84274b9d9a553f4997599cfd3ad7ef2b62bbb2453e",
+          "tests/test_gmm_hmm_new.py": "5f7be0429fa6b577640d4edc9606d756c7058d7c0305f009b3a7c3605b71ccfb",
+          "tests/test_kl_divergence.py": "f6ddd89a74102837350af885e64a0dc1d543ca55bee9cea2616428127ae671d9",
+          "tests/test_multinomial_hmm.py": "03614da3be83c9da4404e019156f3e5e4c47901297233aaa97d0b2917762c4f2",
+          "tests/test_poisson_hmm.py": "b71f4cd0bbec47c0f61b643c60a5ac3dfa84c3d481ed0864b85c5642cbd5a7f5",
+          "tests/test_utils.py": "48888ca560ecb5f7f8e799a23d1f9d9a0b3ebc022d054353b925d67026820ff9",
+          "tests/test_variational_categorical.py": "42d1d19e787efec212bf61978f731a8f6d38628285d5805b9c759985df952bb3",
+          "tests/test_variational_gaussian.py": "0e8571efb8e03f345ae8b77fe15c1424497a0e150e7fec07d1c6c17dbe495873",
+          "utils.py": "19a8b7372c385e87cd868f7f37d575a93529e0f6c56e11c30d0d0495092cd57d",
+          "vhmm.py": "9ae9ee3bb21f4b7f17b1fea0efdbfe1c94cd4caabd503504756b5c8a48137fd6"
+        },
+        "version": "0.3.3"
+      },
+      "packages": {
+        "numpy": "2.3.5",
+        "pytest": "9.0.2",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "tqdm": "4.67.1"
+      },
+      "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+      "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+      "threads": {
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      }
+    },
+    "inputs": {
+      "preflight_sha256": "a58a21d0b517252d29aebe711ffe8290286dc23f3db2a88435b6bb82b6e5c0bf"
+    },
+    "sources": {
+      "continuous_cvar/evaluation.py": "acadf2e790c7d8013f55174db40c6ad22d8bb8fb5b0b6152bbd997004c507773",
+      "continuous_cvar/model.py": "671920315848545501faebba69431ce1611ac548e3742a9725c2b0f6695728b3",
+      "continuous_cvar_face/model.py": "096d73b7fa88aa2b0b68a4fbbe95e59e7005314df78510e0574def61f8b17fd7",
+      "markov_hmm/PROTOCOL.md": "afb446c6578f92147dd055d269caa97e31ea63f6b6180e150dbc163013e8717e",
+      "markov_hmm/__init__.py": "d08502737f5a06e4bfb1d7496a92748cc767ae9355c30a861828df2b9b500d5a",
+      "markov_hmm/analysis.py": "84452ce4d8cf05d57c3d6dcb307a59c83b594542bd204421260a972fc031c128",
+      "markov_hmm/model.py": "62834db203d51e598dc4af785af5755dfc44e73cfa9c491e4fe6820d45bc7c91",
+      "markov_hmm/requirements.txt": "b086e572c29f298b6ce87057373f5766c96241af055a0a8dd311aeba8910398e",
+      "markov_hmm/run.py": "41dd6ef587e99323595294d191394a052ddada2a40a07adf1b0a64742001637c",
+      "selection_risk/runtime.py": "b615b5d953996c487d6b99b766256f4c7a97f4044cb3df5e74c39bc42b2818c7",
+      "temporal_risk/analysis.py": "329be781ea9db6a4c4623b15f34391ed3010971fd9c48b406de9fff0aa6e16c2",
+      "temporal_risk/dgp.py": "e59d51022ba7cb227421391210d859eea3fc60af6b009090b12b0feb17cb6de5",
+      "temporal_risk/models.py": "47236987ac914c0e2560c70a3aad81705152603a145f9ee37ed9b10eb6fe7a5e",
+      "temporal_risk/run.py": "994c2108289070fde41d2488aeb1424de5be156240227c5046aab11ee091713f"
+    }
+  }
+}

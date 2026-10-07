@@ -1,0 +1,14 @@
+{
+  "cases": 512,
+  "restart_fits": 1536,
+  "selected_converged": 512,
+  "all_restarts_converged": true,
+  "all_restarts_admissible": true,
+  "max_iterations": 47,
+  "at_iteration_cap": 0,
+  "min_standardized_covariance_eigenvalue": 0.11598225237479684,
+  "min_effective_state_occupancy": 38.59651480022713,
+  "max_portfolio_convex_gap": 9.384493182551523e-12,
+  "warnings": 0,
+  "case_compute_seconds": 54.17812679614872
+}

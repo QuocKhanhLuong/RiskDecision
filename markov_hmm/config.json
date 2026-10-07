@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "seeds": {
+    "start": 2026110000,
+    "stop": 2026110032
+  },
+  "development_seeds": [
+    2026109998,
+    2026109999
+  ],
+  "worlds": [
+    "markov_stationary",
+    "markov_shift"
+  ],
+  "origins": [
+    512,
+    576,
+    640,
+    704,
+    768,
+    832,
+    896,
+    960
+  ],
+  "window": 512,
+  "fit": {
+    "alpha": 0.05,
+    "weight_cap": 0.5,
+    "threshold_bounds": [
+      -50.0,
+      50.0
+    ],
+    "slsqp_ftol": 1e-13,
+    "maxiter": 500,
+    "newton_polish_steps": 10,
+    "active_tol": 1e-07,
+    "feasibility_tol": 1e-08,
+    "stationarity_tol": 1e-06,
+    "gap_tol": 1e-05,
+    "min_eigenvalue": 1e-10,
+    "max_condition": 10000000000.0,
+    "weak_multiplier_tol": 1e-05,
+    "face_margin_tol": 1e-05
+  },
+  "model": {
+    "tau": 0.1,
+    "ewma_lambda": 0.94,
+    "ar_clip": 0.98
+  },
+  "dgp": {
+    "dim": 8,
+    "phi": 0.6,
+    "means": [
+      0.06,
+      0.04,
+      0.02,
+      0.0,
+      -0.02,
+      0.03,
+      0.01,
+      -0.01
+    ],
+    "std": [
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.1,
+      0.95
+    ],
+    "correlation": 0.35,
+    "high_scale": 2.5,
+    "high_mean_shift": -0.25,
+    "transition0": [
+      [
+        0.97,
+        0.03
+      ],
+      [
+        0.12,
+        0.88
+      ]
+    ],
+    "transition1": [
+      [
+        0.9,
+        0.1
+      ],
+      [
+        0.04,
+        0.96
+      ]
+    ],
+    "shift_time": 768
+  },
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 991042,
+  "job_order_seed": 991043,
+  "primary": {
+    "world": "markov_stationary",
+    "policy": "full512",
+    "period": "all",
+    "method": "hmm_filtered",
+    "baseline": "gaussian_iid",
+    "metric": "conditional_squared_relative_error"
+  },
+  "compute_cap_seconds": 600,
+  "compute_gate_margin": 2.0,
+  "sample_size_rationale": "32 independent path clusters; bounded feasibility, no universal superiority power claim",
+  "failure_policy": "any missing method cell makes its contrast INCOMPLETE; retain failures and all windows",
+  "inference_unit": "path seed, average origins before bootstrap; matched worlds not independent replication",
+  "policies": [
+    "full512",
+    "equal512"
+  ],
+  "methods": [
+    "raw",
+    "iid_oic",
+    "gaussian_iid",
+    "ar_gaussian",
+    "ewma_gaussian",
+    "hmm_filtered",
+    "hmm_stationary"
+  ],
+  "hmm": {
+    "n_components": 2,
+    "initial_quantiles": [
+      0.5,
+      0.7,
+      0.85
+    ],
+    "initial_self_transition": 0.9,
+    "initial_covariance_ridge": 0.001,
+    "maxiter": 200,
+    "tol": 0.0001,
+    "negative_gain_tol": 1e-06,
+    "min_eigenvalue": 1e-08,
+    "min_scale": 1e-08
+  }
+}

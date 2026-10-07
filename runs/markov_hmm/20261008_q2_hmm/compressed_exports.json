@@ -1,0 +1,29 @@
+[
+  {
+    "original": "development/diagnostics.json",
+    "published": "development/diagnostics.json.gz",
+    "original_sha256": "a8f9a25c91d4597a83a4f6186a76db75c31c9028c2911c732edbe0df2abb2d23",
+    "published_sha256": "34c2fc9eaeeaa4b00c69148dd754123d92d44ac645826c02b088db17208eb94b",
+    "original_bytes": 2585963,
+    "published_bytes": 368785,
+    "roundtrip_verified": true
+  },
+  {
+    "original": "pilot/diagnostics.json",
+    "published": "pilot/diagnostics.json.gz",
+    "original_sha256": "fa07e48b3f112777d2c655832e4159e69a1c0c52ef3990bc4743f616b316d793",
+    "published_sha256": "a965555fea22187941b30595ec107ce69ca87a70dde27796a9adf4d3c6b44e2c",
+    "original_bytes": 41344469,
+    "published_bytes": 5869769,
+    "roundtrip_verified": true
+  },
+  {
+    "original": "pilot/estimates.csv",
+    "published": "pilot/estimates.csv.gz",
+    "original_sha256": "3424036b208a7d2cedfc15b6884433c57d8a56ec2348a1a0f44cffc51158a1f1",
+    "published_sha256": "39d4904a6e903f936f7fd7b6dc45e83bdb639a5363bd0f60c6ed7d0c1f50f4f0",
+    "original_bytes": 2592724,
+    "published_bytes": 444845,
+    "roundtrip_verified": true
+  }
+]

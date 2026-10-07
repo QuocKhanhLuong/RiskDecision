@@ -1,0 +1,12 @@
+development:   0%|          | 0/32 [00:00<?, ?origin/s]development:   3%|▎         | 1/32 [00:00<00:03,  8.37origin/s]development:   6%|▋         | 2/32 [00:00<00:03,  9.03origin/s]development:   9%|▉         | 3/32 [00:00<00:03,  9.02origin/s]development:  12%|█▎        | 4/32 [00:00<00:03,  9.25origin/s]development:  16%|█▌        | 5/32 [00:00<00:02,  9.23origin/s]development:  19%|█▉        | 6/32 [00:00<00:02,  9.12origin/s]development:  22%|██▏       | 7/32 [00:00<00:02,  9.29origin/s]development:  25%|██▌       | 8/32 [00:00<00:02,  9.26origin/s]development:  28%|██▊       | 9/32 [00:00<00:02,  9.32origin/s]development:  31%|███▏      | 10/32 [00:01<00:02,  9.37origin/s]development:  34%|███▍      | 11/32 [00:01<00:02,  9.42origin/s]development:  38%|███▊      | 12/32 [00:01<00:02,  9.50origin/s]development:  41%|████      | 13/32 [00:01<00:01,  9.56origin/s]development:  44%|████▍     | 14/32 [00:01<00:01,  9.62origin/s]development:  47%|████▋     | 15/32 [00:01<00:01,  9.65origin/s]development:  50%|█████     | 16/32 [00:01<00:01,  9.63origin/s]development:  53%|█████▎    | 17/32 [00:01<00:01,  9.68origin/s]development:  56%|█████▋    | 18/32 [00:01<00:01,  9.69origin/s]development:  59%|█████▉    | 19/32 [00:02<00:01,  9.71origin/s]development:  62%|██████▎   | 20/32 [00:02<00:01,  9.64origin/s]development:  66%|██████▌   | 21/32 [00:02<00:01,  9.62origin/s]development:  69%|██████▉   | 22/32 [00:02<00:01,  9.61origin/s]development:  72%|███████▏  | 23/32 [00:02<00:00,  9.64origin/s]development:  75%|███████▌  | 24/32 [00:02<00:00,  9.58origin/s]development:  78%|███████▊  | 25/32 [00:02<00:00,  9.62origin/s]development:  81%|████████▏ | 26/32 [00:02<00:00,  9.58origin/s]development:  84%|████████▍ | 27/32 [00:02<00:00,  9.61origin/s]development:  88%|████████▊ | 28/32 [00:02<00:00,  9.67origin/s]development:  91%|█████████ | 29/32 [00:03<00:00,  9.71origin/s]development:  94%|█████████▍| 30/32 [00:03<00:00,  9.62origin/s]development:  97%|█████████▋| 31/32 [00:03<00:00,  9.57origin/s]development: 100%|██████████| 32/32 [00:03<00:00,  9.61origin/s]development: 100%|██████████| 32/32 [00:03<00:00,  9.51origin/s]
+{
+  "status": "COMPLETE",
+  "cases_present": 32,
+  "new_cases": 32,
+  "resumed_cases": 0,
+  "failed_cases": 0,
+  "rows": 448,
+  "fingerprint": "670670fe16384e002e2303df49580281fd4de3d2953dd49877ec624cdde35734",
+  "session_seconds": 3.3888763750437647,
+  "finished_utc": "2026-10-07T18:40:00.850187+00:00"
+}
