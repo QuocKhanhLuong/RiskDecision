@@ -1,0 +1,100 @@
+{
+  "freeze_sha256": "1da27a5ddc79a03808d2fbc49767f9c630482075258a361cf686fae2f742c6c7",
+  "result_sha256": "de432cc14c900dc571fe7748c5ce5eb44fb525ce63c4c489d698fbfd9257689b",
+  "result": {
+    "task": {
+      "j": 2,
+      "family": "uniform"
+    },
+    "scope": "exploratory construction; mathematical identities exact; LP numerical diagnostic",
+    "atoms": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "alpha": [
+      "3/4",
+      "1/2"
+    ],
+    "weights": [
+      "1/2",
+      "1/2"
+    ],
+    "pstar": [
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4"
+    ],
+    "components": [
+      [
+        "5/32",
+        "11/32",
+        "43/160",
+        "37/160"
+      ],
+      [
+        "1/4",
+        "3/16",
+        "57/160",
+        "33/160"
+      ],
+      [
+        "11/32",
+        "7/32",
+        "1/8",
+        "5/16"
+      ]
+    ],
+    "epsilon": "1/8",
+    "exact_maximum": "9/4",
+    "exact_boundary_gap_lower_bound": "1/64",
+    "lp_results": [
+      {
+        "omitted_component": null,
+        "value": 2.25,
+        "q": [
+          0.3333333333333343,
+          0.33333333333333287,
+          0.33333333333333276
+        ],
+        "primal_residual": 2.220446049250313e-16
+      },
+      {
+        "omitted_component": 0,
+        "value": 2.234375,
+        "q": [
+          0.0,
+          0.5,
+          0.5
+        ],
+        "primal_residual": 0.0
+      },
+      {
+        "omitted_component": 1,
+        "value": 2.234375,
+        "q": [
+          0.5,
+          0.0,
+          0.5
+        ],
+        "primal_residual": 0.0
+      },
+      {
+        "omitted_component": 2,
+        "value": 2.21875,
+        "q": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "primal_residual": 0.0
+      }
+    ],
+    "lp_solves": 4,
+    "numerical_warnings": [],
+    "elapsed_seconds": 0.002427666913717985,
+    "passed": true
+  }
+}

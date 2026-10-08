@@ -1,0 +1,5 @@
+development preflight:   0%|          | 0/3 [00:00<?, ?case/s]development preflight:  67%|██████▋   | 2/3 [00:00<00:00,  2.34case/s]development preflight: 100%|██████████| 3/3 [00:21<00:00,  8.78s/case]development preflight: 100%|██████████| 3/3 [00:21<00:00,  7.11s/case]
+{
+  "projected_seconds": 1606.5453090146184,
+  "passed": true
+}

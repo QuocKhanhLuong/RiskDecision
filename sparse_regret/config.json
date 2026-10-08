@@ -1,0 +1,14 @@
+{
+  "seed_namespace": "riskdecision/sparse-regret/20261008/v1",
+  "lp_actions": [2, 8],
+  "lp_scenarios": [8, 24],
+  "scale_actions": [64, 256],
+  "scale_scenarios": [32, 128],
+  "components": [3, 6, 12],
+  "alphas": [0.05, 0.2, 1.0],
+  "replicates": 2,
+  "timing_repetitions": 3,
+  "rational_replicates": 12,
+  "numeric_atol": 2e-8,
+  "preflight_projection_limit_seconds": 1800
+}

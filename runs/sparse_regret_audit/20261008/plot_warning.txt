@@ -1,0 +1,7 @@
+Initial plotting invocation completed successfully but printed Fontconfig:
+No writable cache directories: /opt/homebrew/var/cache/fontconfig,
+/Users/alvinluong/.cache/fontconfig, /Users/alvinluong/.fontconfig.
+Matplotlib built its font cache in /private/tmp/riskdecision-mpl.
+This is a plotting environment warning, not a numerical solver warning.
+Visual inspection found P3 overlapping the first title; the export script
+was adjusted and plots regenerated. Measured checkpoints were unchanged.

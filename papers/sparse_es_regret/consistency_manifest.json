@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "numeric_facts": [
+    {
+      "fact_id": "N001",
+      "concept": "cases",
+      "section": "Abstract",
+      "value": 168,
+      "unit": "count",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 168,
+      "analysis_set": "frozen computational matrix",
+      "evidence_ids": [
+        "E103"
+      ]
+    },
+    {
+      "fact_id": "N002",
+      "concept": "cases",
+      "section": "Results",
+      "value": 168,
+      "unit": "count",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 168,
+      "analysis_set": "frozen computational matrix",
+      "evidence_ids": [
+        "E103"
+      ]
+    },
+    {
+      "fact_id": "N003",
+      "concept": "lp_calls",
+      "section": "Abstract",
+      "value": 29847,
+      "unit": "count",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 168,
+      "analysis_set": "frozen computational matrix",
+      "evidence_ids": [
+        "E103"
+      ]
+    },
+    {
+      "fact_id": "N004",
+      "concept": "lp_calls",
+      "section": "Results",
+      "value": 29847,
+      "unit": "count",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 168,
+      "analysis_set": "frozen computational matrix",
+      "evidence_ids": [
+        "E103"
+      ]
+    },
+    {
+      "fact_id": "N005",
+      "concept": "max_regret_error",
+      "section": "Abstract",
+      "value": 1.0436096431476471e-14,
+      "unit": "absolute loss",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 168,
+      "analysis_set": "frozen computational matrix",
+      "evidence_ids": [
+        "E103"
+      ]
+    },
+    {
+      "fact_id": "N006",
+      "concept": "max_regret_error",
+      "section": "Results",
+      "value": 1.0436096431476471e-14,
+      "unit": "absolute loss",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 168,
+      "analysis_set": "frozen computational matrix",
+      "evidence_ids": [
+        "E103"
+      ]
+    },
+    {
+      "fact_id": "N007",
+      "concept": "exploratory_constructions",
+      "section": "Results",
+      "value": 16,
+      "unit": "count",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 16,
+      "analysis_set": "post-study deterministic general-J construction",
+      "evidence_ids": [
+        "E108"
+      ]
+    },
+    {
+      "fact_id": "N008",
+      "concept": "exploratory_spectral_lp_calls",
+      "section": "Results",
+      "value": 104,
+      "unit": "count",
+      "denominator": null,
+      "numerator": null,
+      "sample_size": 16,
+      "analysis_set": "post-study deterministic general-J construction",
+      "evidence_ids": [
+        "E108"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "method_id": "M001",
+      "name": "Full-vector and witness agreement of edge evaluation with configured references",
+      "analysis_intent": "descriptive",
+      "outcome_ids": [
+        "O001"
+      ],
+      "protocol_status": "prespecified"
+    },
+    {
+      "method_id": "M002",
+      "name": "Exact dual-basis identities and unrestricted spectral LP on full simplex and every face",
+      "analysis_intent": "exploratory",
+      "outcome_ids": [
+        "O002"
+      ],
+      "protocol_status": "post_hoc"
+    }
+  ],
+  "results": [
+    {
+      "result_id": "R001",
+      "method_id": "M001",
+      "outcome_id": "O001",
+      "analysis_intent": "descriptive",
+      "evidence_ids": [
+        "E103"
+      ],
+      "reported_sections": [
+        "Abstract",
+        "Results"
+      ],
+      "sample_size": 168
+    },
+    {
+      "result_id": "R002",
+      "method_id": "M002",
+      "outcome_id": "O002",
+      "analysis_intent": "exploratory",
+      "evidence_ids": [
+        "E108"
+      ],
+      "reported_sections": [
+        "Results"
+      ],
+      "sample_size": 16
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "evidence_id": "E001",
+      "title": "Conditional Value-at-Risk for General Loss Distributions",
+      "authors": [
+        "R. Tyrrell Rockafellar",
+        "Stanislav Uryasev"
+      ],
+      "year": 2002,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://sites.math.washington.edu/~rtr/papers/rtr187-CVaR2.pdf"
+      },
+      "locator": "Theorem 10, equations 28-31",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E002",
+      "title": "Portfolio selection under distributional uncertainty: A relative robust CVaR approach",
+      "authors": [
+        "Dashan Huang",
+        "Shushang Zhu",
+        "Frank J. Fabozzi",
+        "Masao Fukushima"
+      ],
+      "year": 2010,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://doi.org/10.1016/j.ejor.2009.07.010",
+        "doi": "10.1016/j.ejor.2009.07.010"
+      },
+      "locator": "Sections 2-3, equations 4-8, footnote 4",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E003",
+      "title": "Worst-Case Conditional Value-at-Risk with Application to Robust Portfolio Management",
+      "authors": [
+        "Shushang Zhu",
+        "Masao Fukushima"
+      ],
+      "year": 2009,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://doi.org/10.1287/opre.1080.0684",
+        "doi": "10.1287/opre.1080.0684"
+      },
+      "locator": "2005 author report, Theorem 1, equations 4-11",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E004",
+      "title": "Fitting heavy-tailed mixture models with CVaR constraints",
+      "authors": [
+        "Giorgi Pertaia",
+        "Stan Uryasev"
+      ],
+      "year": 2019,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://doi.org/10.1515/demo-2019-0019",
+        "doi": "10.1515/demo-2019-0019"
+      },
+      "locator": "Proposition 3.2 and Section 3.3",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E005",
+      "title": "On the coherence of Expected Shortfall",
+      "authors": [
+        "Carlo Acerbi",
+        "Dirk Tasche"
+      ],
+      "year": 2002,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://arxiv.org/abs/cond-mat/0104295"
+      },
+      "locator": "Proposition 4.2, Corollary 4.3, equations 4.8 and 4.11-4.12",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E006",
+      "title": "On the Concavity of Expected Shortfall",
+      "authors": [
+        "Mikhail Tselishchev"
+      ],
+      "year": 2019,
+      "source_type": "preprint",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://arxiv.org/abs/1910.00640"
+      },
+      "locator": "main theorem equation 12 and spectral extension",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E007",
+      "title": "Extreme Points of Moment Sets",
+      "authors": [
+        "Gerhard Winkler"
+      ],
+      "year": 1988,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://doi.org/10.1287/moor.13.4.581",
+        "doi": "10.1287/moor.13.4.581"
+      },
+      "locator": "publisher abstract",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E008",
+      "title": "GENERALIZATION ANALYSIS FOR CVaR-BASED MINIMAX REGRET OPTIMIZATION",
+      "authors": [
+        "Tao Yanfang",
+        "Deng Hao"
+      ],
+      "year": 2025,
+      "source_type": "journal_article",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://sxzz.whu.edu.cn/html/2025/2/20250202.htm"
+      },
+      "locator": "equations 3.1-3.2, assumptions 1-3, Theorem 1",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E009",
+      "title": "Distributionally Robust Regret Minimization",
+      "authors": [
+        "Eilyan Bitar"
+      ],
+      "year": 2024,
+      "source_type": "preprint",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://arxiv.org/html/2412.15406v1"
+      },
+      "locator": "Sections 1-3, equations 21-22",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E010",
+      "title": "Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity",
+      "authors": [
+        "Zheqi Fan"
+      ],
+      "year": 2026,
+      "source_type": "preprint",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486600"
+      },
+      "locator": "SSRN abstract and metadata, posted 2026-09-21, revised 2026-09-28",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E101",
+      "title": "Working proof and sharpness supplement",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "papers/sparse_es_regret/THEORY.md",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E102",
+      "title": "Frozen protocol and source contract",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "runs/sparse_regret_audit/20261008/frozen/freeze.json",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E103",
+      "title": "Completed fixed computational matrix",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "runs/sparse_regret_audit/20261008/frozen/summary.json",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E104",
+      "title": "Continuous-law and exact spectral diagnostics",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "runs/sparse_regret_audit/20261008/extensions.json",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E105",
+      "title": "Independent saved-witness and preservation verification",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "runs/sparse_regret_audit/20261008/verification.json",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E106",
+      "title": "All computational timings and figures",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "runs/sparse_regret_audit/20261008/computational_cells.csv",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E107",
+      "title": "Prior compositional full policy report, read only",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "docs/experiments/20261008_compositional_risk_full.md",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E110",
+      "title": "Targeted prior-art audit and access limits",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "papers/sparse_es_regret/PRIOR_ART.md",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E011",
+      "title": "On the extreme points of moments sets",
+      "authors": [
+        "Iosif Pinelis"
+      ],
+      "year": 2012,
+      "source_type": "preprint",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://arxiv.org/abs/1204.0249"
+      },
+      "locator": "Theorem1, Corollaries4-5, Theorem12; arXiv version inspected; 2016 journal metadata separate",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E012",
+      "title": "Extreme points and faces in the moment problem",
+      "authors": [
+        "Didier Henrion",
+        "Martin Kružík",
+        "Stephan Weis"
+      ],
+      "year": 2026,
+      "source_type": "preprint",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://arxiv.org/abs/2606.21391"
+      },
+      "locator": "Theorem2.6, Proposition3.2, moment-extreme section; full public primary HTML/PDF",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E013",
+      "title": "Validation-Calibrated Risk-Function Ambiguity for Minimax-Regret Portfolio Optimization",
+      "authors": [
+        "Zheqi Fan"
+      ],
+      "year": 2026,
+      "source_type": "preprint",
+      "confidentiality": "public",
+      "identifiers": {
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7492399"
+      },
+      "locator": "Abstract/metadata only; full text inaccessible; not a full-text comparison",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    },
+    {
+      "evidence_id": "E108",
+      "title": "General-J sharpness construction checks and checkpoint verification",
+      "authors": [],
+      "year": 2026,
+      "source_type": "other",
+      "confidentiality": "public",
+      "identifiers": {},
+      "locator": "runs/sparse_regret_audit/20261008/sharpness_family/verification.json; each exact construction plus full and boundary spectral LP controls",
+      "verification": {
+        "status": "unverified",
+        "source_opened": true,
+        "verified_by": "",
+        "verified_on": ""
+      }
+    }
+  ]
+}

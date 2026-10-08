@@ -1,0 +1,111 @@
+{
+  "issues": [
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E101",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E102",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E103",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E104",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E105",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E106",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E107",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E108",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E110",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E101",
+      "location": "sources[10]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E102",
+      "location": "sources[11]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E103",
+      "location": "sources[12]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E104",
+      "location": "sources[13]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E105",
+      "location": "sources[14]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E106",
+      "location": "sources[15]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E107",
+      "location": "sources[16]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E110",
+      "location": "sources[17]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E108",
+      "location": "sources[21]",
+      "severity": "warning"
+    }
+  ],
+  "status": "pass",
+  "summary": {
+    "errors": 0,
+    "network_used": false,
+    "sources_checked": 22,
+    "warnings": 18
+  },
+  "tool": "check_references"
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "claims": 28,
+  "claim_hashes_verified": true,
+  "local_evidence_hashes_verified": 9,
+  "local_links_verified": 13,
+  "historical_files_unchanged": 4137,
+  "checkpoint_hashes_unchanged": 168,
+  "frozen_sources_unchanged": true,
+  "spectral_checkpoints_unchanged": 16,
+  "final_tests_passed": 167,
+  "export_hashes_verified": true,
+  "source_scope": "final prepublication working tree; publication manifest excludes its own hash"
+}

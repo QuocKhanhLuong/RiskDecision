@@ -1,0 +1,190 @@
+{
+  "audit": "sparse_regret_audit/20261008",
+  "date": "2026-10-08",
+  "focal_question": "Does an exact all-edge certificate for relative expected-shortfall regret over the full simplex of finitely supported component laws add a defensible contribution around a fixed finite action bank?",
+  "access_policy": "Primary sources only where possible; no paywall or access-control bypass; record abstract-only and indexed-excerpt evidence separately from full text.",
+  "search_budget": "bounded focused search; no experiments or model training",
+  "queries": [
+    {
+      "id": "q01",
+      "query": "Portfolio selection under distributional uncertainty Huang relative robust CVaR DOI 10.1016/j.ejor.2009.07.010 full text",
+      "purpose": "Locate the primary paper and its exact relative-CVaR regret definition.",
+      "primary_sources": [
+        {
+          "title": "Portfolio selection under distributional uncertainty: A relative robust CVaR approach (repository item)",
+          "url": "https://repository.kulib.kyoto-u.ac.jp/items/aea5f2a7-481d-4835-ad7c-0e01c56e18cb/full",
+          "access": "public institutional repository; metadata marks open access"
+        },
+        {
+          "title": "Huang et al. 2010 PDF",
+          "url": "https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/87374/1/j.ejor.2009.07.010.pdf",
+          "access": "public PDF URL; indexed full-text excerpts available"
+        },
+        {
+          "title": "Huang et al. 2010 DOI",
+          "url": "https://doi.org/10.1016/j.ejor.2009.07.010",
+          "access": "publisher DOI; abstract/metadata, article page access limited in this environment"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "query": "Huang relative robust CVaR equation 4 equation 5 equation 6 Theorem 1 finite scenarios",
+      "purpose": "Verify the exact law set, benchmark, and finite-scenario optimization formulation.",
+      "primary_sources": [
+        {
+          "title": "Huang et al. 2010 repository PDF",
+          "url": "https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/87374/1/j.ejor.2009.07.010.pdf",
+          "access": "indexed full-text excerpts used for Section 2, Section 3, equations (4)-(6), and Theorem 1"
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "query": "Zhu Fukushima worst-case CVaR mixture distribution set theorem full text",
+      "purpose": "Find the primary full-simplex mixture-law theorem and distinguish absolute WCVaR from relative regret.",
+      "primary_sources": [
+        {
+          "title": "Worst-case CVaR under portfolio insurance with mixture distribution ambiguity (technical report)",
+          "url": "https://www-optima.amp.i.kyoto-u.ac.jp/~fuku/papers/2005-006.pdf",
+          "access": "open primary PDF; full text readable"
+        },
+        {
+          "title": "Worst-case CVaR portfolio selection (Operations Research article DOI)",
+          "url": "https://doi.org/10.1287/opre.1080.0684",
+          "access": "official article metadata/abstract"
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "query": "Zhu Fukushima P_M lambda_i Theorem 1 WCVaR min alpha max i F_i",
+      "purpose": "Extract exact mixture-set and minimax theorem statements.",
+      "primary_sources": [
+        {
+          "title": "Zhu and Fukushima primary PDF",
+          "url": "https://www-optima.amp.i.kyoto-u.ac.jp/~fuku/papers/2005-006.pdf",
+          "access": "open full text; mixture set at PDF pp. 4-5, Theorem 1 at pp. 4-6, Theorem 2 around pp. 9-10"
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "query": "Fan 2026 Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity SSRN 7486600",
+      "purpose": "Check the closest contemporary ES minimax-regret formulation.",
+      "primary_sources": [
+        {
+          "title": "Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486600",
+          "access": "public abstract listing; direct manuscript request returned HTTP 403"
+        },
+        {
+          "title": "Fan 2026 SSRN DOI",
+          "url": "https://doi.org/10.2139/ssrn.7486600",
+          "access": "DOI metadata/abstract route; full manuscript not accessed"
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "query": "expected shortfall minimax regret finite mixture engines admissible set extreme points Fan portfolio",
+      "purpose": "Identify whether Fan's abstract-level claim concerns probability-law mixtures or tail-risk-engine mixtures.",
+      "primary_sources": [
+        {
+          "title": "Fan 2026 SSRN abstract",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486600",
+          "access": "abstract only; no section/theorem verification possible"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "query": "portfolio robustness prediction decision mixture model learning mean CVaR Zhu Fan Li 2014 DOI",
+      "purpose": "Check learned mixture-weight ambiguity and robust CVaR overlap.",
+      "primary_sources": [
+        {
+          "title": "Portfolio management with robustness in both prediction and decision: A mixture model based learning approach",
+          "url": "https://doi.org/10.1016/j.jedc.2014.08.015",
+          "access": "official publisher abstract/metadata; full article page access limited"
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "query": "relative robust CVaR minmax regret expected return bounded CVaR Benati Conde 2022 DOI",
+      "purpose": "Check later relative-robust scenario/CVaR algorithms that cite or extend Huang.",
+      "primary_sources": [
+        {
+          "title": "A relative robust approach on expected returns with bounded CVaR for portfolio selection",
+          "url": "https://doi.org/10.1016/j.ejor.2021.04.038",
+          "access": "official abstract; open repository full-text copy located"
+        },
+        {
+          "title": "Benati and Conde open repository full text",
+          "url": "https://idus.us.es/server/api/core/bitstreams/b108c989-0c25-45fa-9e29-b3b5b4d2e780/content",
+          "access": "public repository PDF/content route; Section 4 formulation excerpts available"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "query": "regime-switching ambiguity set distributionally robust CVaR portfolio Pun Wang Yan 2023 DOI",
+      "purpose": "Check conditional/regime-aware CVaR ambiguity as an adjacent threat.",
+      "primary_sources": [
+        {
+          "title": "Data-Driven Distributionally Robust CVaR Portfolio Optimization Under A Regime-Switching Ambiguity Set",
+          "url": "https://doi.org/10.1287/msom.2023.1229",
+          "access": "official INFORMS abstract/metadata"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "query": "robust min-max portfolio strategies rival forecast risk scenarios Rustem Becker Marty 2000 DOI",
+      "purpose": "Check older rival-scenario minmax portfolio precedent.",
+      "primary_sources": [
+        {
+          "title": "Robust min-max portfolio strategies for rival forecast and risk scenarios",
+          "url": "https://doi.org/10.1016/S0165-1889(99)00088-3",
+          "access": "official publisher abstract/metadata"
+        },
+        {
+          "title": "Imperial College author copy",
+          "url": "https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/business-school/public/working-papers/2000/WP2000-17.pdf",
+          "access": "public author PDF"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "query": "full probability simplex mixture CVaR regret support two components edge enumeration",
+      "purpose": "Adversarially search for a direct prior support-two/edge theorem.",
+      "primary_sources": [],
+      "access": "no direct primary theorem located in bounded search; absence is not evidence of novelty"
+    },
+    {
+      "id": "q12",
+      "query": "expected shortfall relative regret distributional uncertainty finite mixture laws LP edge theorem",
+      "purpose": "Search the exact interaction of relative ES regret and mixture-law geometry.",
+      "primary_sources": [],
+      "access": "no direct primary theorem located in bounded search; absence is not evidence of novelty"
+    },
+    {
+      "id": "q13",
+      "query": "Huang relative robust CVaR citations mixture distribution worst case CVaR regret",
+      "purpose": "Follow the primary citation neighborhood around Huang and separate known scenario methods from the candidate claim.",
+      "primary_sources": [
+        {
+          "title": "Huang et al. 2010 repository PDF",
+          "url": "https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/87374/1/j.ejor.2009.07.010.pdf",
+          "access": "public PDF/indexed text"
+        },
+        {
+          "title": "Benati and Conde 2022 DOI",
+          "url": "https://doi.org/10.1016/j.ejor.2021.04.038",
+          "access": "official abstract"
+        }
+      ]
+    }
+  ]
+}

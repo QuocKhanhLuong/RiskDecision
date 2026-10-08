@@ -1,0 +1,18 @@
+validate resume:   0%|          | 0/168 [00:00<?, ?case/s]validate resume: 100%|██████████| 168/168 [00:00<00:00, 163452.35case/s]
+simplex audit:   0%|          | 0/168 [00:00<?, ?case/s]simplex audit:   1%|          | 2/168 [00:00<00:20,  8.07case/s]simplex audit:   2%|▏         | 3/168 [00:00<00:17,  9.24case/s]
+{
+  "utc": "2026-10-08T12:01:42.772283+00:00",
+  "resumed": 0,
+  "new": 3,
+  "elapsed_seconds": 0.3380112089216709,
+  "completed": 3,
+  "expected": 168,
+  "complete": false,
+  "all_checks_passed": true,
+  "max_error": 8.326672684688674e-17,
+  "max_witness_error": 1.6653345369377348e-16,
+  "argmin_disagreements": 0,
+  "warning_count": 0,
+  "lp_calls": 421,
+  "rational_systems": 0
+}

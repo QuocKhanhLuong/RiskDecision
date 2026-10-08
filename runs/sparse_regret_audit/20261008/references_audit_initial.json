@@ -1,0 +1,424 @@
+{
+  "issues": [
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E001",
+      "location": "sources[0]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E002",
+      "location": "sources[1]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E003",
+      "location": "sources[2]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E004",
+      "location": "sources[3]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E005",
+      "location": "sources[4]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E006",
+      "location": "sources[5]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E007",
+      "location": "sources[6]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E008",
+      "location": "sources[7]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E009",
+      "location": "sources[8]",
+      "severity": "error"
+    },
+    {
+      "code": "INVALID_SOURCE_TYPE",
+      "item_id": "E010",
+      "location": "sources[9]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[0]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[0]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[10]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[10]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[10]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[11]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[11]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[11]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[12]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[12]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[12]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[13]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[13]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[13]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[14]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[14]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[14]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[15]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[15]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[15]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[16]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[16]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[16]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[17]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "local_path",
+      "location": "sources[17]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "sha256",
+      "location": "sources[17]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[1]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[1]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[2]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[2]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[3]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[3]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[4]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[4]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[5]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[5]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[6]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[6]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[7]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[7]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[8]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[8]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "ai_access",
+      "location": "sources[9]",
+      "severity": "error"
+    },
+    {
+      "code": "UNKNOWN_SCHEMA_FIELD",
+      "item_id": "human_verification",
+      "location": "sources[9]",
+      "severity": "error"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E101",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E102",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E103",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E104",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E105",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E106",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E107",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_IDENTIFIER_TO_CHECK",
+      "item_id": "E110",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E101",
+      "location": "sources[10]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E102",
+      "location": "sources[11]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E103",
+      "location": "sources[12]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E104",
+      "location": "sources[13]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E105",
+      "location": "sources[14]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E106",
+      "location": "sources[15]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E107",
+      "location": "sources[16]",
+      "severity": "warning"
+    },
+    {
+      "code": "NO_SOURCE_IDENTIFIER",
+      "item_id": "E110",
+      "location": "sources[17]",
+      "severity": "warning"
+    }
+  ],
+  "status": "fail",
+  "summary": {
+    "errors": 54,
+    "network_used": false,
+    "sources_checked": 18,
+    "warnings": 16
+  },
+  "tool": "check_references"
+}

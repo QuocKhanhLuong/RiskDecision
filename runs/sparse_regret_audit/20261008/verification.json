@@ -1,0 +1,11 @@
+{
+  "all_input_recipes_verified": true,
+  "cases": 168,
+  "exact_rational_witnesses": 72,
+  "max_saved_witness_error": 1.1324274851176597e-14,
+  "passed": true,
+  "preserved_partial_checkpoints": 3,
+  "preserved_prior_files": 4137,
+  "scope": "Saved inputs, full regret vectors, rational and floating witnesses; no retiming or new model selection.",
+  "source_fingerprint": "3768946e9fd8a403f94c86967cb229cc3e2bdb8996f5cbb3032e6610aa33d338"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "document_type": "working mathematical and computational technical note",
+  "writing_package_complete": true,
+  "novelty_priority_confirmed": false,
+  "submission_ready": false,
+  "human_source_verification": "pending",
+  "authors": "UNASSIGNED",
+  "venue": "UNSELECTED",
+  "funding": "UNRESOLVED",
+  "conflicts": "UNRESOLVED",
+  "ai_use": "Codex root and two AI reviewers derived/reviewed proofs, implemented code, ran checks, searched sources, and drafted text; AI is not an author.",
+  "unresolved": [
+    "Two Fan full texts unavailable; abstract-only distinction cannot exclude closer lemmas",
+    "Generic moment sparsity attributed; significance of ES-specific specialization and general-J sharpness still needs assessment",
+    "Human assessment of novelty and venue significance"
+  ],
+  "new_exploratory_extension": "All-J sharpness proof,16 exact constructions,104 full/boundary LP checks; independent AI audit including two corrected formulas"
+}

@@ -1,0 +1,65 @@
+{
+  "contract": {
+    "config": {
+      "alphas": [
+        0.05,
+        0.2,
+        1.0
+      ],
+      "components": [
+        3,
+        6,
+        12
+      ],
+      "lp_actions": [
+        2,
+        8
+      ],
+      "lp_scenarios": [
+        8,
+        24
+      ],
+      "numeric_atol": 2e-08,
+      "preflight_projection_limit_seconds": 1800,
+      "rational_replicates": 12,
+      "replicates": 2,
+      "scale_actions": [
+        64,
+        256
+      ],
+      "scale_scenarios": [
+        32,
+        128
+      ],
+      "seed_namespace": "riskdecision/sparse-regret/20261008/v1",
+      "timing_repetitions": 3
+    },
+    "files": {
+      "bank_regret/__init__.py": "27181dfaaef31fadaf66067aff8adbdb190df07f7b11c16466a376baedcac895",
+      "bank_regret/core.py": "62841408b1ac12243556ef41796d28f39b34e0966ace6b5b07958c76f9c27ab8",
+      "bank_regret/run.py": "a19232b9a52b4a79dbafce863ab0d1f1628760f6a6e99d4a5cc57236f1f7373f",
+      "bank_regret/study.py": "3fbe47e2f9a9d477a258cf3612e659951ef26989e04e2046be0abcd8ff695197",
+      "mixture_order/__init__.py": "8b193d8880ded897b0dbf3bbc7b14de1c19d1ac470479f15cb96b5cfa383ea00",
+      "mixture_order/core.py": "f7f7bde5bed5f81cd67a145bf2ed985fa0fd9b35a3d91710d5a5c296a7dda34b",
+      "mixture_order/run.py": "e2bdb829d8975e782a576015139d68394f05fc107004569c1c29a86eaccb6783",
+      "sparse_regret/PROTOCOL.md": "a9b458f9722f0071c3e8afa5e845a226baebb477e069f5d2e82d92260781aee5",
+      "sparse_regret/__init__.py": "e495636ef65464801f7dcffc376e38d9d909d1f0d0b1be23fd46bf3884920e07",
+      "sparse_regret/config.json": "7fde1849bdb7831cae0f26a1ec82f8783679c5546195270c6cb1ff15b661448c",
+      "sparse_regret/core.py": "2cf1de505105c1eb0adc4a00a5e3f30b2a0c6a4cfd109276290543e4e9745f81",
+      "sparse_regret/rational.py": "2db05e7d645a89d2b831e204dc0ad401f3aa8f252acd7587d65561f7e84e6032",
+      "sparse_regret/run.py": "d1aec148a828aaeca662648edf82aa96aadb9b26bc4a87feb6c965e45e1a429c",
+      "tests/test_sparse_regret.py": "589112bc9097843730cd1a65ae312569fcde30620ded53495b9e8a908e759f5f"
+    },
+    "numpy": "2.3.5",
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+    "scipy": "1.17.0",
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "fingerprint": "3768946e9fd8a403f94c86967cb229cc3e2bdb8996f5cbb3032e6610aa33d338",
+  "utc": "2026-10-08T12:00:56.262071+00:00"
+}

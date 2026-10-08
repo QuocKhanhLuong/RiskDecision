@@ -1,0 +1,17 @@
+{
+  "riskdecision-huang2010-full.pdf": {
+    "bytes": 300338,
+    "sha256": "3ac939e86111e47fa7247a21594419ed1d5dd3deed2447a907a93b9788a79acd",
+    "committed": false
+  },
+  "riskdecision-zhu2005.pdf": {
+    "bytes": 287808,
+    "sha256": "d19779a265bbe1a0e5dd9b60ab3b24bda8766c8e7bf31d9bdfe86cf889d860f6",
+    "committed": false
+  },
+  "riskdecision-pertaia2019-full.pdf": {
+    "bytes": 480927,
+    "sha256": "fed82ff684943e3dea0015c0f836bf1c08229b569f9762e58137f25a51046410",
+    "committed": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "all_checks_passed": true,
+  "argmin_disagreements": 0,
+  "complete": true,
+  "completed": 168,
+  "expected": 168,
+  "lp_calls": 29847,
+  "max_error": 1.0436096431476471e-14,
+  "max_witness_error": 1.1324274851176597e-14,
+  "rational_systems": 4960,
+  "warning_count": 0
+}

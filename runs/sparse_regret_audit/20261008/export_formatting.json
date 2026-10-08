@@ -1,0 +1,6 @@
+{
+  "change": "Derived CSV exports normalized to LF; review trailing whitespace stripped. Numerical payloads and frozen source unchanged.",
+  "exporter_sha256": "50e7b79deb6c4260a8f8621762ae36299f32f7771232bb5b74f396d6c5ac2e83",
+  "export_receipt_sha256": "6376f25c2e71c1e453403cdc2786ecb047c7b59aa505106253e88379770f113d",
+  "original_export_log": "export.log retained from preceding export; current regenerated hashes in export_receipt.json"
+}

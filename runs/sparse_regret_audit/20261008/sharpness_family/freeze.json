@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "j": 1,
+      "family": "uniform"
+    },
+    {
+      "j": 2,
+      "family": "uniform"
+    },
+    {
+      "j": 3,
+      "family": "uniform"
+    },
+    {
+      "j": 4,
+      "family": "uniform"
+    },
+    {
+      "j": 5,
+      "family": "uniform"
+    },
+    {
+      "j": 6,
+      "family": "uniform"
+    },
+    {
+      "j": 7,
+      "family": "uniform"
+    },
+    {
+      "j": 8,
+      "family": "uniform"
+    },
+    {
+      "j": 1,
+      "family": "unequal"
+    },
+    {
+      "j": 2,
+      "family": "unequal"
+    },
+    {
+      "j": 3,
+      "family": "unequal"
+    },
+    {
+      "j": 4,
+      "family": "unequal"
+    },
+    {
+      "j": 5,
+      "family": "unequal"
+    },
+    {
+      "j": 6,
+      "family": "unequal"
+    },
+    {
+      "j": 7,
+      "family": "unequal"
+    },
+    {
+      "j": 8,
+      "family": "unequal"
+    }
+  ],
+  "scope": "exploratory analytic construction, not pre-registered stochastic experiment",
+  "source": {
+    "scripts/check_spectral_sharpness.py": "b088beda11b3b2fc0050618644b6a4e763da3808dfbd29239f83df7e3abd59bc",
+    "sparse_regret/rational.py": "2db05e7d645a89d2b831e204dc0ad401f3aa8f252acd7587d65561f7e84e6032"
+  },
+  "environment": {
+    "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

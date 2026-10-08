@@ -1,0 +1,165 @@
+{
+  "E001": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "full relevant theorem read"
+    },
+    "human_verification": "pending"
+  },
+  "E002": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "actual repository PDF; root and reviewer read relevant sections"
+    },
+    "human_verification": "pending"
+  },
+  "E003": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "actual 28-page author report; journal metadata separate"
+    },
+    "human_verification": "pending"
+  },
+  "E004": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "actual author-linked 10-page PDF"
+    },
+    "human_verification": "pending"
+  },
+  "E005": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "primary arXiv PDF relevant theorem read"
+    },
+    "human_verification": "pending"
+  },
+  "E006": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "primary PDF reviewed; earlier full-text reading reused"
+    },
+    "human_verification": "pending"
+  },
+  "E007": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "abstract only; full text NOT READ"
+    },
+    "human_verification": "pending"
+  },
+  "E008": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "official HTML formulation and theoretical sections read"
+    },
+    "human_verification": "pending"
+  },
+  "E009": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "primary HTML relevant sections read"
+    },
+    "human_verification": "pending"
+  },
+  "E010": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "abstract only; full text HTTP403; no alternate found"
+    },
+    "human_verification": "pending"
+  },
+  "E101": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "papers/sparse_es_regret/THEORY.md",
+    "sha256": "d1f34ba2079ba084afe55432413299d40fc0ef997df5660be9a8241d648e09f7"
+  },
+  "E102": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "runs/sparse_regret_audit/20261008/frozen/freeze.json",
+    "sha256": "5a0c30bbde2faa5583d95fc3fda7cdeffce454cc24de4239bb24829cf24d3623"
+  },
+  "E103": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "runs/sparse_regret_audit/20261008/frozen/summary.json",
+    "sha256": "11a52136f135e58115f8024cd7e3db7f60c5ca3e3a44a990887d2b9684c7825f"
+  },
+  "E104": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "runs/sparse_regret_audit/20261008/extensions.json",
+    "sha256": "535e7f0b72b18905c742baaf774a6774495869430e46175d7b5fb7dc3c697286"
+  },
+  "E105": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "runs/sparse_regret_audit/20261008/verification.json",
+    "sha256": "1e89c4aaceedd2e1dec25083a7e3b46909a63ac6ea6df3d2cf3d3b76f7a6b5ba"
+  },
+  "E106": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "runs/sparse_regret_audit/20261008/computational_cells.csv",
+    "sha256": "c3844c9b147275e812e32901a1905e2a0fa171a0a339061ff10e4670337775b4"
+  },
+  "E107": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "docs/experiments/20261008_compositional_risk_full.md",
+    "sha256": "19ba3c6972a9b238b1c8fdc8436da7904e715aa9b082bcac2e6f525dafd6f680"
+  },
+  "E110": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "local artifact inspected; human verification pending"
+    },
+    "local_path": "papers/sparse_es_regret/PRIOR_ART.md",
+    "sha256": "6b09ebb3daa73a0619d0b343a22c84c745fbf59313e1849287ba973ccbefddf8"
+  },
+  "E011": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "primary full relevant sections read"
+    },
+    "human_verification": "pending"
+  },
+  "E012": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "primary full relevant sections read"
+    },
+    "human_verification": "pending"
+  },
+  "E013": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "abstract/metadata only; fulltext403; author page no alternate"
+    },
+    "human_verification": "pending"
+  },
+  "E108": {
+    "ai_access": {
+      "date": "2026-10-08",
+      "status": "executed exact arithmetic and LP diagnostics; human verification pending"
+    },
+    "local_path": "runs/sparse_regret_audit/20261008/sharpness_family/verification.json",
+    "sha256": "864e233c1b81ca7ea99bf03f40115e28a9c7abd97696698df8186405de2cdf4a"
+  }
+}

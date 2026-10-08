@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-08",
+  "scope": "actual additional targeted web queries, not an exhaustive systematic search",
+  "queries": [
+    "\"Extreme points of moment sets\" Winkler pdf",
+    "\"7486600\" Fan",
+    "\"ES regret\" \"mixture\" sparse",
+    "Pinelis On the extreme points of moments sets arxiv",
+    "\"Fan\" \"engine\" \"expected shortfall\" \"regret\"",
+    "\"Extreme points and faces in the moment problem\" Henrion",
+    "\"Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity\" pdf",
+    "\"Zheqi Fan\" research HKUST portfolio",
+    "\"spectral risk\" \"mixture\" \"support\" worst",
+    "\"CVaR\" \"mixture\" \"two distributions\"",
+    "\"spectral\" \"mixture\" \"sharp\" risk measure",
+    "\"CVaR\" \"regret\" \"quantile\" sparse support"
+  ],
+  "primary_access": [
+    {
+      "url": "https://arxiv.org/pdf/1204.0249",
+      "status": "read relevant full theorem text; reviewer full PDF"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.21391v1",
+      "status": "read relevant full theorem text; reviewer full PDF"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7492399",
+      "status": "indexed primary abstract only; not fulltext"
+    },
+    {
+      "url": "https://home.cs.colorado.edu/~raf/media/papers/elic-complex-journal.pdf",
+      "status": "search discovery only; open502; NOT_READ"
+    }
+  ]
+}

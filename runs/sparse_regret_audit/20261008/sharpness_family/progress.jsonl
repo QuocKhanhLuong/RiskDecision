@@ -1,0 +1,16 @@
+{"task": {"j": 1, "family": "uniform"}, "elapsed_seconds": 0.004979582969099283, "passed": true}
+{"task": {"j": 2, "family": "uniform"}, "elapsed_seconds": 0.002427666913717985, "passed": true}
+{"task": {"j": 3, "family": "uniform"}, "elapsed_seconds": 0.0038096250500530005, "passed": true}
+{"task": {"j": 4, "family": "uniform"}, "elapsed_seconds": 0.004541292088106275, "passed": true}
+{"task": {"j": 5, "family": "uniform"}, "elapsed_seconds": 0.006911084055900574, "passed": true}
+{"task": {"j": 6, "family": "uniform"}, "elapsed_seconds": 0.009496625047177076, "passed": true}
+{"task": {"j": 7, "family": "uniform"}, "elapsed_seconds": 0.013134124921634793, "passed": true}
+{"task": {"j": 8, "family": "uniform"}, "elapsed_seconds": 0.01778441690839827, "passed": true}
+{"task": {"j": 1, "family": "unequal"}, "elapsed_seconds": 0.0017704172059893608, "passed": true}
+{"task": {"j": 2, "family": "unequal"}, "elapsed_seconds": 0.0021982910111546516, "passed": true}
+{"task": {"j": 3, "family": "unequal"}, "elapsed_seconds": 0.003125583054497838, "passed": true}
+{"task": {"j": 4, "family": "unequal"}, "elapsed_seconds": 0.0051409590523689985, "passed": true}
+{"task": {"j": 5, "family": "unequal"}, "elapsed_seconds": 0.006509416038170457, "passed": true}
+{"task": {"j": 6, "family": "unequal"}, "elapsed_seconds": 0.008917832979932427, "passed": true}
+{"task": {"j": 7, "family": "unequal"}, "elapsed_seconds": 0.0127916659694165, "passed": true}
+{"task": {"j": 8, "family": "unequal"}, "elapsed_seconds": 0.01824529212899506, "passed": true}

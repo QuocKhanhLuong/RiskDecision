@@ -1,0 +1,23 @@
+integrable-law checks:   0%|          | 0/4 [00:00<?, ?it/s]integrable-law checks:  25%|██▌       | 1/4 [00:00<00:00,  9.84it/s]integrable-law checks:  50%|█████     | 2/4 [00:00<00:00,  5.50it/s]integrable-law checks:  75%|███████▌  | 3/4 [00:00<00:00,  4.97it/s]integrable-law checks: 100%|██████████| 4/4 [00:01<00:00,  2.97it/s]integrable-law checks: 100%|██████████| 4/4 [00:01<00:00,  3.61it/s]
+{
+  "passed": true,
+  "source_sha256": "17caae7cf44c5e79b3a24f1c54cb1e291aaaca3cd40ca6e1fb582a38c554d9ab",
+  "seed": 8521484079898179270,
+  "mixture_points": 32,
+  "action_quantile_checks": 96,
+  "minimum_gain": 0.0,
+  "spectral_sharpness": {
+    "best": "750784201/58762200",
+    "edge": "82963/6600",
+    "gap": "1112324/5386535",
+    "q": [
+      "29412/97937",
+      "26879/97937",
+      "41646/97937"
+    ],
+    "unique": true,
+    "vertices": 12,
+    "fixture_sha256": "f0e3997164b1ceabd57a7bc3c7cfdaf31afbb96db56306252e117d4706a21f80"
+  },
+  "elapsed_seconds": 1.129142374964431
+}

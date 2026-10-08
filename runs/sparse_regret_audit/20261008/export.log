@@ -1,0 +1,16 @@
+{
+  "source_sha256": "5c3e1bd7ee2f31c915f67b4eb45b675f252407c85dd7bc6ab5c72d03161e5196",
+  "matplotlib": "3.11.1",
+  "numpy": "2.4.6",
+  "python": "3.11.16",
+  "rows": 168,
+  "figure_scope": "Computed figures, no image synthesis or smoothing; spectral grid is visual only, optimum is exact rational enumeration.",
+  "files": {
+    "computational_cells.csv": "62c78664cd4d80fb36b44484d00d7022526648c9fb9435395ba5abe68c22eb5e",
+    "timing_groups.csv": "b8a1f160d63bb5af3c76306ec3c120934770cf54ba958942fbf3dd84eb5d32fa",
+    "timing.png": "f3bb53ea436f67c106dddd47f27bd2c3cd9277fd214cf785903cd8c2458822ed",
+    "timing.pdf": "2f435c27b3816e894e84d5e586624092dbca162be7f1240530e02765a20f99bd",
+    "spectral_sharpness.png": "7449fbb10fb8393414500fccc1157092e955f3482ec7816dfbd3642e2541ba00",
+    "spectral_sharpness.pdf": "c1e29c90970ed6306f837618559d62b1f5779183193654197d2642faa9bcfb5f"
+  }
+}

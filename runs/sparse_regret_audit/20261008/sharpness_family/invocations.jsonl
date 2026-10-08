@@ -1,0 +1,2 @@
+{"completed": 16, "total": 16, "new": 16, "resumed": 0, "lp_solves": 104, "elapsed_seconds": 0.13255454180762172, "warnings": 0, "freeze_sha256": "1da27a5ddc79a03808d2fbc49767f9c630482075258a361cf686fae2f742c6c7", "passed": true}
+{"completed": 16, "total": 16, "new": 0, "resumed": 16, "lp_solves": 104, "elapsed_seconds": 0.005701875081285834, "warnings": 0, "freeze_sha256": "1da27a5ddc79a03808d2fbc49767f9c630482075258a361cf686fae2f742c6c7", "passed": true}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checkpoint_count": 16,
+  "checkpoint_sha256": {
+    "unequal-1.json": "52ffc658627252b267eb44c503a2d2b969c141dbe17d9d9111271a8d9eda31fc",
+    "unequal-2.json": "fc82893e5fe9a40979631197d4adbecabfb3279a07a25d13cf3c270a198adb46",
+    "unequal-3.json": "0678880b92e9bfd949de98b4e54ff341c9d7e82da28e998267619226449f358f",
+    "unequal-4.json": "e6b20e644da81f81929bbbd550ef448f7368b844adf6290532e3e5c6b8229058",
+    "unequal-5.json": "cf9c70d068724665f6527ac56b50ac8f04c6a88bb184e50693ef707007de4326",
+    "unequal-6.json": "2738ee72da8e28cc79df5e471a4a3aefbe42452532f24502c5a0d01b85456f19",
+    "unequal-7.json": "f95304983c507e8ae3f2bf48d26c86335a05dd946fd596c9c18a29154d7412db",
+    "unequal-8.json": "184fcd850b61da5f7139959c47322a9d2476f0b04c892f5f1227817e61a29189",
+    "uniform-1.json": "6ef7a549093b99c5b264ab7c344894a513103cf7f470dcea0625d800d518c545",
+    "uniform-2.json": "e250972fb2570f7483aa521f32aac4f1102e09789e96b5dcd319f4e2e09cff7b",
+    "uniform-3.json": "73a5385c37bd4f87f8f7db75960d580449ff87bcd90f6b39c6a69c4c929ae951",
+    "uniform-4.json": "80e78ab60a4086d4f68870c27a8a51d2078935048a04f39950f4401d4de4f8e0",
+    "uniform-5.json": "175940c0e70e66c99f9a2d2f16bde2ac77b074b7b29c9fc6bbc8be0565f78a18",
+    "uniform-6.json": "cde88a79b2203e8bd82b2bfd2f393d856cd03fd994ab3ba5fa5f17fd7613187e",
+    "uniform-7.json": "6d1634b00bb6fbddf75c791b98b271d9ac1b0718aa477530a0d39673894413c9",
+    "uniform-8.json": "d90038045805d92290a4b300129e4fbc4aa88243485aa6a538bbca9d81d4bc92"
+  },
+  "resume_unchanged": true,
+  "resume_preservation_evidence": "Before/after hash assertions passed in root subprocess verifier before its following summary parse failed; no checkpoint writes occurred on resume.",
+  "lp_solves": 104,
+  "minimum_measured_boundary_gap": 3.2150205762526696e-05,
+  "total_new_seconds": 0.13255454180762172,
+  "auxiliary_summary_issue": "First receipt assembly assumed every Fraction string contained a slash; integer optimum caused IndexError. Fixed receipt parsing with Fraction. Computational cases and resume succeeded unchanged."
+}

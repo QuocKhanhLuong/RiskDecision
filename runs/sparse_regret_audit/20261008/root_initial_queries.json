@@ -1,0 +1,18 @@
+[
+  {
+    "queries": [
+      {
+        "q": "\"CVaR\" \"mixture\" \"two\" \"extreme points\""
+      },
+      {
+        "q": "\"conditional value-at-risk\" \"regret\" \"mixture\" \"simplex\""
+      },
+      {
+        "q": "\"expected shortfall\" \"mixture\" \"support\" \"two\""
+      },
+      {
+        "q": "\"spectral risk\" \"mixture\" \"sparse\""
+      }
+    ]
+  }
+]

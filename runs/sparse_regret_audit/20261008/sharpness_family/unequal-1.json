@@ -1,0 +1,75 @@
+{
+  "freeze_sha256": "1da27a5ddc79a03808d2fbc49767f9c630482075258a361cf686fae2f742c6c7",
+  "result_sha256": "dce379fbee4dfc536e768ff512932d873d4194fd64913726980bbe8ad00fc0bd",
+  "result": {
+    "task": {
+      "j": 1,
+      "family": "unequal"
+    },
+    "scope": "exploratory construction; mathematical identities exact; LP numerical diagnostic",
+    "atoms": [
+      "0",
+      "1",
+      "2"
+    ],
+    "alpha": [
+      "1/2"
+    ],
+    "weights": [
+      "1"
+    ],
+    "pstar": [
+      "1/2",
+      "1/6",
+      "1/3"
+    ],
+    "components": [
+      [
+        "11/24",
+        "11/48",
+        "5/16"
+      ],
+      [
+        "13/24",
+        "5/48",
+        "17/48"
+      ]
+    ],
+    "epsilon": "1/12",
+    "exact_maximum": "5/3",
+    "exact_boundary_gap_lower_bound": "1/24",
+    "lp_results": [
+      {
+        "omitted_component": null,
+        "value": 1.6666666666666665,
+        "q": [
+          0.5,
+          0.5
+        ],
+        "primal_residual": 0.0
+      },
+      {
+        "omitted_component": 0,
+        "value": 1.625,
+        "q": [
+          0.0,
+          1.0
+        ],
+        "primal_residual": 0.0
+      },
+      {
+        "omitted_component": 1,
+        "value": 1.625,
+        "q": [
+          1.0,
+          0.0
+        ],
+        "primal_residual": 0.0
+      }
+    ],
+    "lp_solves": 3,
+    "numerical_warnings": [],
+    "elapsed_seconds": 0.0017704172059893608,
+    "passed": true
+  }
+}
