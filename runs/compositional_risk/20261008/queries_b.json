@@ -1,0 +1,266 @@
+{
+  "review_id": "generation_b",
+  "date": "2026-10-08",
+  "focal_question": "What useful, falsifiable compositional contribution can combine learned conditional tail risk, selection or decision quality, and limited information after prior negative novelty gates?",
+  "provenance": {
+    "initial_generation_recorded_before_search": true,
+    "agent": "independent_b",
+    "status": "bounded primary-source overlap audit",
+    "novelty_claim": false
+  },
+  "search_budget": {
+    "max_focused_queries": 8,
+    "focused_queries_used": 8,
+    "scope": "primary papers, publisher pages, or author preprints; no claim of exhaustive review"
+  },
+  "queries": [
+    {
+      "id": "q01",
+      "query": "site:arxiv.org expected shortfall finite mixture posterior portfolio selection regime switching",
+      "purpose": "Find direct finite-mixture ES and posterior-predictive portfolio work."
+    },
+    {
+      "id": "q02",
+      "query": "site:doi.org regime switching CVaR portfolio hidden Markov conditional distribution",
+      "purpose": "Find primary regime/HMM CVaR allocation papers."
+    },
+    {
+      "id": "q03",
+      "query": "site:arxiv.org Bayesian model averaging CVaR portfolio predictive distribution",
+      "purpose": "Find posterior predictive and Bayesian risk-selection formulations."
+    },
+    {
+      "id": "q04",
+      "query": "site:arxiv.org conditional expected shortfall regime switching forecast hidden Markov",
+      "purpose": "Find conditional ES forecasting with regime filtering."
+    },
+    {
+      "id": "q05",
+      "query": "conditional value-at-risk regime-switching portfolio selection Markov primary paper",
+      "purpose": "Search publisher-indexed CVaR regime-switching portfolio sources."
+    },
+    {
+      "id": "q06",
+      "query": "Expected Shortfall mixture distributions concavity finite mixture primary paper",
+      "purpose": "Verify the mathematical order-of-aggregation theorem."
+    },
+    {
+      "id": "q07",
+      "query": "posterior predictive distribution CVaR portfolio selection Bayesian primary paper",
+      "purpose": "Check whether posterior predictive CVaR selection already contains C1."
+    },
+    {
+      "id": "q08",
+      "query": "partial information CVaR portfolio optimization hidden Markov",
+      "purpose": "Check partial-information and filtering formulations near the focal setting."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "On the Concavity of Expected Shortfall",
+      "authors": "Mikhail Tselishchev",
+      "url": "https://arxiv.org/abs/1910.00640",
+      "primary": true,
+      "access": "full arXiv HTML/PDF open",
+      "overlap": "Proves ES of a finite mixture is at least the weighted average of component ES values; directly covers C1's order inequality.",
+      "remaining_gap": "Does not establish a limited-information learned selector or selected-regret experiment; the theorem is prior art, not C1 novelty."
+    },
+    {
+      "id": "S2",
+      "title": "Bayesian Quantile-Based Portfolio Selection",
+      "authors": "Taras Bodnar, Mathias Lindholm, Vilhelm Niklasson, Erik Thorsen",
+      "url": "https://arxiv.org/abs/2012.01819",
+      "primary": true,
+      "access": "full arXiv HTML/PDF open",
+      "overlap": "Uses posterior predictive distributions from observed data to derive VaR/CVaR portfolio selection and finite-sample risk quantities.",
+      "remaining_gap": "The checked abstract does not isolate ES-of-mixture versus mixture-of-ES on a locked bank under temporal selection; C1 cannot claim posterior-predictive selection as new."
+    },
+    {
+      "id": "S3",
+      "title": "Bayesian portfolio selection using VaR and CVaR",
+      "authors": "Bodnar et al.",
+      "url": "https://doi.org/10.1016/j.amc.2022.127120",
+      "primary": true,
+      "access": "publisher abstract page indexed as open access; page fetch returned 403, full text not independently retrieved",
+      "overlap": "Published Bayesian posterior-predictive VaR/CVaR selection and observed-data portfolio optimization.",
+      "remaining_gap": "No verified direct treatment of the aggregation-order decision reversal or same-bank selected conditional regret."
+    },
+    {
+      "id": "S4",
+      "title": "Hidden Markov models for financial optimization problems",
+      "authors": "Primary Oxford Academic article; authors not copied from snippet",
+      "url": "https://doi.org/10.1093/imaman/dpp009",
+      "primary": true,
+      "access": "publisher abstract accessible; PDF/full text restricted in this pass",
+      "overlap": "HMM scenario generation for multivariate returns tested in single-period mean-CVaR portfolio selection.",
+      "remaining_gap": "No verified order-aware posterior-mixture ES versus averaged component ES comparison or selected conditional-risk decomposition."
+    },
+    {
+      "id": "S5",
+      "title": "Conditional value-at-risk forecasts of an optimal foreign currency portfolio",
+      "authors": "Primary publisher article",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169207020301527",
+      "primary": true,
+      "access": "publisher abstract/index accessible; full text not retrieved in this pass",
+      "overlap": "Posterior predictive return samples integrate models, parameters, and innovations to forecast CVaR and optimize a currency portfolio.",
+      "remaining_gap": "The checked record does not isolate a finite regime-mixture ES aggregation operator or a fixed-information action-order reversal."
+    },
+    {
+      "id": "S6",
+      "title": "Data-Driven Distributionally Robust CVaR Portfolio Optimization Under a Regime-Switching Ambiguity Set",
+      "authors": "Chi Seng Pun, Tianyu Wang, Zhenzhen Yan",
+      "url": "https://doi.org/10.1287/msom.2023.1229",
+      "metadata_url": "https://ideas.repec.org/a/inm/ormsom/v25y2023i5p1779-1795.html",
+      "primary": true,
+      "access": "RePEc abstract/metadata accessible; publisher full text not retrieved",
+      "overlap": "Regime-switching ambiguity, HMM/covariate estimation, CVaR portfolio allocation, and tractable robust decision quality.",
+      "remaining_gap": "Wasserstein ambiguity and robust allocation differ from C1's fixed posterior mixture and aggregation-order comparison; exact equivalence was not verified."
+    },
+    {
+      "id": "S7",
+      "title": "Robust portfolio selection with regime switching and asymmetric dependence",
+      "authors": "Primary publisher article",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0264999321000754",
+      "primary": true,
+      "access": "publisher abstract/index accessible; full text not retrieved in this pass",
+      "overlap": "Regime uncertainty and worst-case CVaR are used for portfolio selection under asymmetric dependence.",
+      "remaining_gap": "Robust worst-case modeling is different from observed-history posterior predictive mixing; no verified C1 ordering/reversal protocol."
+    },
+    {
+      "id": "S8",
+      "title": "Portfolio Optimization Under Partial Information and Convex Constraints in a Hidden Markov Model",
+      "authors": "Jorn Sass",
+      "url": "https://doi.org/10.1007/3-540-32539-5_36",
+      "metadata_url": "https://ideas.repec.org/h/spr/oprchp/978-3-540-32539-0_36.html",
+      "primary": true,
+      "access": "RePEc abstract/metadata accessible; chapter full text not retrieved",
+      "overlap": "Filtering and partial-information portfolio optimization in an HMM setting.",
+      "remaining_gap": "Uses expected utility and constraints rather than conditional ES aggregation and selected tail-risk regret."
+    },
+    {
+      "id": "S9",
+      "title": "Optimization of Conditional Value-at-Risk",
+      "authors": "R. Tyrrell Rockafellar and Stanislav Uryasev",
+      "url": "https://doi.org/10.21314/jor.2000.038",
+      "primary": true,
+      "access": "publisher metadata/DOI; full article not independently retrieved in this pass",
+      "overlap": "The RU variational representation is the standard operation used to compute ES of the posterior mixture law.",
+      "remaining_gap": "No novelty remains in applying RU to a supplied mixture; C1 can only test the downstream decision consequence under matched information."
+    }
+  ],
+  "post_search_reopening": {
+    "strongest_candidate": "C1 order-aware posterior-mixture conditional ES for selection",
+    "known_components": [
+      "ES concavity under distribution mixtures",
+      "posterior predictive Bayesian CVaR selection",
+      "HMM/regime filtering and CVaR portfolio optimization"
+    ],
+    "narrow_useful_interaction": "Hold component predictive laws and observed-history posterior fixed, then test whether correct ES-of-mixture aggregation changes locked-bank action ordering and selected conditional regret relative to mixture-of-ES and a matched direct conditional model.",
+    "novelty_status": "NO NOVELTY CLAIM; high prior-art overlap",
+    "minimum_experiment": "Exact atom reversal, equal-component Gaussian null, then frozen two-regime observed-history simulation with common-target scores, selected regret, reversal frequency, and reserve cost.",
+    "stop_conditions": [
+      "No exact ordering reversal or no decision value on the locked bank",
+      "Gain disappears on crossed common-target evaluation",
+      "Gain requires hidden-state labels or extra tuning information",
+      "Direct conditional ES matches at equal decision quality and reserve cost"
+    ]
+  },
+  "post_generation_candidate_audit": {
+    "candidate": "Finite-bank minimax-regret evaluation for E_i(q)=min_t RU affine lines: build one global lower hull with owner witnesses, then evaluate each action only at its own RU quantile-crossing knots and interval endpoints.",
+    "focused_queries_used": 4,
+    "queries": [
+      {
+        "id": "q09",
+        "query": "minimax regret piecewise linear lower envelope CVaR finite scenarios primary paper",
+        "purpose": "Find direct finite-scenario minimax-regret and lower-envelope decision algorithms."
+      },
+      {
+        "id": "q10",
+        "query": "Rockafellar Uryasev CVaR portfolio lower envelope affine lines finite scenarios",
+        "purpose": "Verify the RU finite-support affine-line representation and its algorithmic status."
+      },
+      {
+        "id": "q11",
+        "query": "relative robust CVaR portfolio minimax regret distribution uncertainty primary paper",
+        "purpose": "Find the closest relative-robust CVaR/minimax-regret portfolio comparator."
+      },
+      {
+        "id": "q12",
+        "query": "finite action minimax regret convex piecewise linear envelope algorithm primary paper",
+        "purpose": "Check whether action-local endpoint reduction and shared envelope are generic decision-analysis machinery."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S10",
+        "title": "Optimization of Conditional Value-at-Risk",
+        "authors": "R. Tyrrell Rockafellar and Stanislav Uryasev",
+        "url": "https://doi.org/10.21314/jor.2000.038",
+        "primary": true,
+        "access": "publisher DOI/metadata; full article not independently retrieved for this audit",
+        "overlap": "Canonical RU variational representation and finite-scenario CVaR optimization primitive.",
+        "remaining_gap": "Does not establish novelty for lower-hull sharing or action-local knot evaluation."
+      },
+      {
+        "id": "S11",
+        "title": "Portfolio selection under distributional uncertainty: a relative robust CVaR approach",
+        "authors": "Huang, Zhu, Fabozzi, Fukushima",
+        "url": "https://doi.org/10.1016/j.ejor.2009.07.010",
+        "fulltext_url": "https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/87374/1/j.ejor.2009.07.010.pdf",
+        "primary": true,
+        "access": "publisher abstract accessible; author-hosted PDF located and available in search results",
+        "overlap": "Relative-robust CVaR compares a decision against the best decision under each uncertain distribution; close minimax-regret objective.",
+        "remaining_gap": "Exact one-global-hull/own-knots implementation was not verified in the checked record."
+      },
+      {
+        "id": "S12",
+        "title": "Portfolio selection under uncertainty: a new methodology for computing relative-robust solutions",
+        "authors": "Caçador, Dias, Godinho",
+        "url": "https://doi.org/10.1111/itor.12674",
+        "primary": true,
+        "access": "publisher record with full-text link indicated; full text not independently retrieved in this audit",
+        "overlap": "Relative-robust portfolio solutions are formulated as minimax regret over scenarios.",
+        "remaining_gap": "No verified exact shared lower-hull and action-local RU knot reduction."
+      },
+      {
+        "id": "S13",
+        "title": "A relative robust approach on expected returns with bounded CVaR for portfolio selection",
+        "authors": "Primary publisher article",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0377221721003702",
+        "primary": true,
+        "access": "publisher abstract/index accessible; full text not independently retrieved in this audit",
+        "overlap": "Closest checked formulation: relative-robust portfolio optimization with bounded CVaR, LP and constraint-generation machinery.",
+        "remaining_gap": "The checked record did not verify the proposed evaluator reduction or owner-witness implementation."
+      },
+      {
+        "id": "S14",
+        "title": "Minimax decision rules for planning under uncertainty: Drawbacks and remedies",
+        "authors": "Anderson and Zachary",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0377221723004095",
+        "primary": true,
+        "access": "publisher abstract accessible; full text not independently retrieved in this audit",
+        "overlap": "Finite-scenario minimax-regret rules for finite actions and convex cases; generic decision-analysis comparator.",
+        "remaining_gap": "No verified RU-specific action-local knot theorem in the checked record."
+      }
+    ],
+    "mathematical_verdict": "Correct under fixed finite support, affine-in-q mixture probabilities, complete RU line sets, and outer max_q regret: g=min_{i,t} line_{i,t} is concave; more generally, a finite pointwise minimum of concave functions on a common convex domain is concave. On each action-i own-envelope interval, E_i-g is convex, so endpoints suffice.",
+    "complexity_verdict": "With K total RU lines, one lower hull plus O(K) own knots and O(log K) queries gives O(K log K) time and O(K) storage after line/knot construction; compare against all-union-knots RU and tiny all-intersection exact checks.",
+    "exact_falsifier": "At alpha=.05, A has deterministic losses 0/state0 and 10/state1, B is deterministic loss 1: E_A=min(10,200q), E_B=1, g=min(E_A,1), competitor kink q=.005, A own knots {0,.05,1}, and max A-regret 9 at own knots.",
+    "scope_caveats": [
+      "Include every own lower-envelope breakpoint; cumulative crossings suffice only for fixed finite supports.",
+      "Tie-safe owner sets are needed for duplicate supports, parallel lines, and coincident breakpoints.",
+      "Fixed per-action switching costs shift line intercepts; previous-action-dependent costs require context-indexed hulls.",
+      "Outer max over finite worlds commutes with per-world max_q; min_q max_world and expectation objectives do not permit the same shortcut."
+    ],
+    "novelty_status": "USEFUL EXACT COMPUTATIONAL COMPOSITION / HIGH PRIOR-ART OVERLAP / LIKELY CONVEX-ANALYSIS COROLLARY / NO STANDALONE NOVELTY CLAIM",
+    "minimum_experiment": "Exact fixtures plus matched all-union-knots RU comparator: verify identical values, regrets, winners, owner witnesses, and measured runtime/memory on increasing finite banks.",
+    "bounded_search_is_not_novelty_proof": true,
+    "correction_after_review": {
+      "date": "2026-10-08",
+      "reviewer": "root independent review",
+      "correction": "The earlier audit wording that generic pointwise min-concavity was false was incorrect. Hypograph intersection proves finite min-concavity on a common convex domain.",
+      "impact": "The computational RU-line/hull and action-local-knot reduction remain as stated; the abstract concavity premise is broader than RU."
+    }
+  }
+}

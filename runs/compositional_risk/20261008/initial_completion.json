@@ -1,0 +1,352 @@
+{
+  "all_checks_passed": true,
+  "benchmarks": {
+    "128x16": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        380,
+        357,
+        641,
+        256
+      ],
+      "local_seconds": 0.007654937566258013,
+      "union_over_local": 1.034577411900675,
+      "union_risk_evaluations": [
+        16128,
+        13184,
+        49536,
+        256
+      ],
+      "union_seconds": 0.007919625495560467
+    },
+    "128x64": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        481,
+        570,
+        1168,
+        256
+      ],
+      "local_seconds": 0.013817228958941996,
+      "union_over_local": 1.0978986080886135,
+      "union_risk_evaluations": [
+        29056,
+        40448,
+        116992,
+        256
+      ],
+      "union_seconds": 0.0151699164416641
+    },
+    "32x16": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        87,
+        88,
+        166,
+        64
+      ],
+      "local_seconds": 0.001960520981810987,
+      "union_over_local": 0.9868976120833595,
+      "union_risk_evaluations": [
+        800,
+        832,
+        3328,
+        64
+      ],
+      "union_seconds": 0.0019348334753885865
+    },
+    "32x64": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        111,
+        126,
+        266,
+        64
+      ],
+      "local_seconds": 0.0034914164571091533,
+      "union_over_local": 0.993400528737934,
+      "union_risk_evaluations": [
+        1568,
+        2048,
+        6528,
+        64
+      ],
+      "union_seconds": 0.003468374954536557
+    },
+    "512x16": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        1466,
+        1146,
+        2409,
+        1024
+      ],
+      "local_seconds": 0.02948504197411239,
+      "union_over_local": 1.1216139012322996,
+      "union_risk_evaluations": [
+        227328,
+        63488,
+        710144,
+        1024
+      ],
+      "union_seconds": 0.03307083295658231
+    },
+    "512x64": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        1849,
+        1086,
+        4437,
+        1024
+      ],
+      "local_seconds": 0.05522612505592406,
+      "union_over_local": 1.1563782801938904,
+      "union_risk_evaluations": [
+        423424,
+        32768,
+        1748480,
+        1024
+      ],
+      "union_seconds": 0.06386229151394218
+    },
+    "8x16": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        20,
+        17,
+        43,
+        16
+      ],
+      "local_seconds": 0.0005240842001512647,
+      "union_over_local": 0.9707409111234073,
+      "union_risk_evaluations": [
+        48,
+        24,
+        232,
+        16
+      ],
+      "union_seconds": 0.0005087499739602208
+    },
+    "8x64": {
+      "cases": 4,
+      "local_risk_evaluations": [
+        33,
+        16,
+        80,
+        16
+      ],
+      "local_seconds": 0.0008708336390554905,
+      "union_over_local": 0.970693962518602,
+      "union_risk_evaluations": [
+        152,
+        16,
+        528,
+        16
+      ],
+      "union_seconds": 0.000845312955789268
+    }
+  },
+  "case_seconds": 21.578994747716933,
+  "cases_done": 96,
+  "cases_expected": 96,
+  "complete": true,
+  "failed_cases": [],
+  "max_regret_error": 2.220446049250313e-16,
+  "max_witness_error": 1.7763568394002505e-15,
+  "novelty_priority_established": false,
+  "numerical_warnings": [],
+  "policy": {
+    "component_shift": {
+      "factorial_interaction": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "exploratory_pilot": true,
+        "independent_histories": 32,
+        "mean": 0.0
+      },
+      "historical_common_bank_forecast_mse": 2.3714459399381552e-06,
+      "histories": 32,
+      "metrics": {
+        "fixed_q": {
+          "harmful_switches": 23,
+          "mean_cost": 0.00012909261024710928,
+          "mean_true_net_regret": 0.0003616105690583671,
+          "switches": 23
+        },
+        "historical": {
+          "harmful_switches": 4,
+          "mean_cost": 2.7737004722380658e-05,
+          "mean_true_net_regret": 0.00019688676140735238,
+          "switches": 5
+        },
+        "ignore_cost": {
+          "harmful_switches": 30,
+          "mean_cost": 0.00018173754324084034,
+          "mean_true_net_regret": 0.0004232162243683449,
+          "switches": 32
+        },
+        "incumbent": {
+          "harmful_switches": 0,
+          "mean_cost": 0.0,
+          "mean_true_net_regret": 0.000177125776886535,
+          "switches": 0
+        },
+        "nominal_components": {
+          "harmful_switches": 15,
+          "mean_cost": 0.00010269807336529305,
+          "mean_true_net_regret": 0.00029556285049859335,
+          "switches": 17
+        },
+        "point": {
+          "harmful_switches": 15,
+          "mean_cost": 0.00010269807336529305,
+          "mean_true_net_regret": 0.00029556285049859335,
+          "switches": 17
+        },
+        "rectangular_endpoints": {
+          "harmful_switches": 17,
+          "mean_cost": 0.00012842645024383623,
+          "mean_true_net_regret": 0.00024748233568435763,
+          "switches": 21
+        },
+        "rectangular_full": {
+          "harmful_switches": 17,
+          "mean_cost": 0.00012842645024383623,
+          "mean_true_net_regret": 0.00024748233568435763,
+          "switches": 21
+        },
+        "shared_endpoints": {
+          "harmful_switches": 24,
+          "mean_cost": 0.00013421912066860324,
+          "mean_true_net_regret": 0.0003681186490415763,
+          "switches": 24
+        },
+        "shared_full": {
+          "harmful_switches": 24,
+          "mean_cost": 0.00013421912066860324,
+          "mean_true_net_regret": 0.0003681186490415763,
+          "switches": 24
+        }
+      },
+      "nominal_common_bank_forecast_mse": 2.829972088795321e-06,
+      "shared_minus_point": {
+        "ci95": [
+          -2.458284457818969e-06,
+          0.0001525062421085567
+        ],
+        "exploratory_pilot": true,
+        "independent_histories": 32,
+        "mean": 7.255579854298296e-05
+      },
+      "shared_minus_rectangular": {
+        "ci95": [
+          4.980574399185033e-05,
+          0.00020040075089976375
+        ],
+        "exploratory_pilot": true,
+        "independent_histories": 32,
+        "mean": 0.00012063631335721865
+      },
+      "stress_bound_underestimates": 25
+    },
+    "stationary": {
+      "factorial_interaction": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "exploratory_pilot": true,
+        "independent_histories": 32,
+        "mean": 0.0
+      },
+      "historical_common_bank_forecast_mse": 1.3202605571755207e-06,
+      "histories": 32,
+      "metrics": {
+        "fixed_q": {
+          "harmful_switches": 6,
+          "mean_cost": 0.0001655509367062352,
+          "mean_true_net_regret": 6.813433162670062e-05,
+          "switches": 30
+        },
+        "historical": {
+          "harmful_switches": 4,
+          "mean_cost": 2.261049430088669e-05,
+          "mean_true_net_regret": 0.00017116987807421532,
+          "switches": 4
+        },
+        "ignore_cost": {
+          "harmful_switches": 8,
+          "mean_cost": 0.00018332720600381153,
+          "mean_true_net_regret": 8.26923068472681e-05,
+          "switches": 32
+        },
+        "incumbent": {
+          "harmful_switches": 0,
+          "mean_cost": 0.0,
+          "mean_true_net_regret": 0.00014879877819133028,
+          "switches": 0
+        },
+        "nominal_components": {
+          "harmful_switches": 4,
+          "mean_cost": 0.000157970815612738,
+          "mean_true_net_regret": 5.2734610265455574e-05,
+          "switches": 29
+        },
+        "point": {
+          "harmful_switches": 4,
+          "mean_cost": 0.000157970815612738,
+          "mean_true_net_regret": 5.2734610265455574e-05,
+          "switches": 29
+        },
+        "rectangular_endpoints": {
+          "harmful_switches": 13,
+          "mean_cost": 0.00016000097431827372,
+          "mean_true_net_regret": 0.00014937814544681763,
+          "switches": 28
+        },
+        "rectangular_full": {
+          "harmful_switches": 13,
+          "mean_cost": 0.00016000097431827372,
+          "mean_true_net_regret": 0.00014937814544681763,
+          "switches": 28
+        },
+        "shared_endpoints": {
+          "harmful_switches": 6,
+          "mean_cost": 0.00015927001054587468,
+          "mean_true_net_regret": 7.751119712506472e-05,
+          "switches": 29
+        },
+        "shared_full": {
+          "harmful_switches": 6,
+          "mean_cost": 0.00015927001054587468,
+          "mean_true_net_regret": 7.751119712506472e-05,
+          "switches": 29
+        }
+      },
+      "nominal_common_bank_forecast_mse": 8.346224011045665e-08,
+      "shared_minus_point": {
+        "ci95": [
+          4.779725516285832e-06,
+          4.733432359735005e-05
+        ],
+        "exploratory_pilot": true,
+        "independent_histories": 32,
+        "mean": 2.4776586859609148e-05
+      },
+      "shared_minus_rectangular": {
+        "ci95": [
+          -0.00012193417506219581,
+          -3.058567985808956e-05
+        ],
+        "exploratory_pilot": true,
+        "independent_histories": 32,
+        "mean": -7.18669483217529e-05
+      },
+      "stress_bound_underestimates": 7
+    }
+  },
+  "selected_index_disagreements": 0,
+  "true_law_coverage_guarantee": false
+}

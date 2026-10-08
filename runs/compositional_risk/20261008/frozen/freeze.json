@@ -1,0 +1,71 @@
+{
+  "config": {
+    "benchmark_alphas": [
+      0.01,
+      0.05,
+      0.2,
+      1.0
+    ],
+    "benchmark_banks": [
+      8,
+      32,
+      128,
+      512
+    ],
+    "benchmark_replicates": 4,
+    "benchmark_supports": [
+      16,
+      64
+    ],
+    "bootstrap_repetitions": 4000,
+    "emission_prior_per_atom": 0.5,
+    "numeric_atol": 1e-09,
+    "policy_alpha": 0.05,
+    "policy_assets": 8,
+    "policy_atoms": 32,
+    "policy_bank_size": 128,
+    "policy_families": [
+      "stationary",
+      "component_shift"
+    ],
+    "policy_histories_per_family": 32,
+    "policy_window": 512,
+    "posterior_draw_worlds": 4,
+    "preflight_seconds_limit": 240,
+    "q_posterior_quantiles": [
+      0.05,
+      0.95
+    ],
+    "schema": 1,
+    "seed_namespace": "riskdecision-composition-20261008-v1",
+    "shift_at": 448,
+    "switch_cost_per_turnover": 0.001,
+    "timing_repetitions": 3,
+    "transition_prior_per_outcome": 0.5
+  },
+  "contract": {
+    "files": {
+      "bank_regret/PROTOCOL.md": "051acc0eaa183d22ecdabc1b19a58ddee707b1f23a0c0a49b7c08128b03384cb",
+      "bank_regret/__init__.py": "27181dfaaef31fadaf66067aff8adbdb190df07f7b11c16466a376baedcac895",
+      "bank_regret/config.json": "f0fb3e4af84992ad782c34b0d6b9fae7eac6075a73ffb45dc5b489603fd9c2ec",
+      "bank_regret/core.py": "62841408b1ac12243556ef41796d28f39b34e0966ace6b5b07958c76f9c27ab8",
+      "bank_regret/run.py": "a19232b9a52b4a79dbafce863ab0d1f1628760f6a6e99d4a5cc57236f1f7373f",
+      "bank_regret/study.py": "3fbe47e2f9a9d477a258cf3612e659951ef26989e04e2046be0abcd8ff695197",
+      "mixture_order/__init__.py": "8b193d8880ded897b0dbf3bbc7b14de1c19d1ac470479f15cb96b5cfa383ea00",
+      "mixture_order/core.py": "f7f7bde5bed5f81cd67a145bf2ed985fa0fd9b35a3d91710d5a5c296a7dda34b",
+      "mixture_order/run.py": "e2bdb829d8975e782a576015139d68394f05fc107004569c1c29a86eaccb6783"
+    },
+    "numpy": "2.3.5",
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+    "python_binary": "7710b0490e6af648676d7ad163fa1d54bffb75d8505162609a1c3c9b76e1929d",
+    "scipy": "1.17.0",
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    }
+  },
+  "fingerprint": "7b9fabe9daee5c382ad376a90ec1930619d6a5c64917329a46aef9bf29b7112d",
+  "utc": "2026-10-08T10:02:52.877943+00:00"
+}

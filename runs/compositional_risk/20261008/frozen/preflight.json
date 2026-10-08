@@ -1,0 +1,12 @@
+{
+  "benchmark_numerical_error": 0.0,
+  "benchmark_seconds": 0.5287317500915378,
+  "development_policy_local_union_error": 0.0,
+  "development_policy_outcomes_not_used_for_tuning": true,
+  "fingerprint": "7b9fabe9daee5c382ad376a90ec1930619d6a5c64917329a46aef9bf29b7112d",
+  "passed": true,
+  "policy_seconds": 0.272429957985878,
+  "projected_seconds": 34.3549333140254,
+  "sha256": "c084081627454d6f12bd47eef117a7441aa445fa42bff5c4c0a82e326378a892",
+  "utc": "2026-10-08T10:02:53.742898+00:00"
+}

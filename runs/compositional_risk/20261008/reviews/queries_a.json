@@ -1,0 +1,191 @@
+{
+  "review_id": "compositional_generation_a",
+  "date": "2026-10-08",
+  "focal_question": "What useful, falsifiable compositional contribution can be built around learned conditional tail risk, selection or decision quality, and limited information, given earlier negative novelty gates?",
+  "scope_constraints": {
+    "information": "same observed history F_T; intended project setting is past-512",
+    "portfolios": "same locked portfolio bank",
+    "selection": "no test-based model selection in the proposed protocol",
+    "leakage": "no future data or latent-state oracle",
+    "work_limits": "no benchmark/model training and no rereading project test outcomes"
+  },
+  "independent_generation": {
+    "provenance": "AI-assisted generation_a, recorded before external literature search",
+    "literature_searched_before_generation": false,
+    "ideas": [
+      "PCTMG: Pairwise Conditional Tail-Margin Gate with abstention",
+      "CMTC: Common-Mode Tail Contrast using shared-factor cancellation",
+      "IBTD: Information-Budgeted Tail Decision using KL-constrained selection"
+    ],
+    "initial_choice": "PCTMG"
+  },
+  "search": {
+    "query_budget": 8,
+    "queries": [
+      {
+        "id": "q01",
+        "text": "selective inference model selection expected shortfall portfolio confidence bounds primary paper",
+        "purpose": "direct selection-adjusted tail-risk and portfolio inference"
+      },
+      {
+        "id": "q02",
+        "text": "conformal risk control selective prediction abstention time series primary paper",
+        "purpose": "selection plus abstention and risk-control overlap"
+      },
+      {
+        "id": "q03",
+        "text": "confidence sequences best arm dependent observations risk selection primary paper",
+        "purpose": "margin certification and ranking-and-selection theory"
+      },
+      {
+        "id": "q04",
+        "text": "model confidence set expected shortfall forecast comparison dependent data primary paper",
+        "purpose": "conditional forecast comparison and ES model confidence sets"
+      },
+      {
+        "id": "q05",
+        "text": "conditional expected shortfall forecast comparison model confidence set primary paper",
+        "purpose": "conditional regime and tail-forecast method selection"
+      },
+      {
+        "id": "q06",
+        "text": "post-selection inference prediction interval time series selective decision primary paper",
+        "purpose": "post-selection coverage and data-dependent intervals"
+      },
+      {
+        "id": "q07",
+        "text": "online conformal prediction abstention risk control dependent observations primary paper",
+        "purpose": "online adaptive-pick and temporal multiplicity control"
+      },
+      {
+        "id": "q08",
+        "text": "portfolio selection confidence bound expected shortfall block bootstrap ranking selection primary paper",
+        "purpose": "ES uncertainty, moving-block bootstrap, and ranking selection"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Conformal Selective Prediction with General Risk Control",
+      "authors": "Tian Bai and Ying Jin",
+      "url": "https://arxiv.org/abs/2603.24704",
+      "access": "open arXiv HTML/PDF, v1 preprint",
+      "overlap": "finite-sample selective trust/abstention with conformal risk control for bounded continuous risk",
+      "gap": "exchangeable selected cases, not dependent conditional ES ranking over a locked portfolio bank",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S2",
+      "title": "Selective Conformal Risk Control",
+      "authors": "Yunpeng Xu, Wenge Guo, and Zhi Wei",
+      "url": "https://arxiv.org/abs/2512.12844",
+      "access": "open arXiv HTML/PDF, v2 preprint",
+      "overlap": "selection stage followed by conformal risk control, exact exchangeable and PAC-style variants",
+      "gap": "selected prediction cases rather than portfolio ES pairwise ordering or serial dependence",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S3",
+      "title": "CAP: A General Algorithm for Online Selective Conformal Prediction with FCR Control",
+      "authors": "Yajie Bao, Yuyang Huo, Haojie Ren, and Changliang Zou",
+      "url": "https://www.jmlr.org/beta/papers/v26/24-0452.html",
+      "access": "official JMLR open HTML/PDF, 2025",
+      "overlap": "adaptive pick followed by calibration, selection-conditional coverage, and long-run FCR",
+      "gap": "online current-unit selection, not ranking a locked portfolio bank by conditional ES contrast",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S4",
+      "title": "Sequential estimation of quantiles with applications to A/B-testing and best-arm identification",
+      "authors": "Steven R. Howard and Aaditya Ramdas",
+      "url": "https://arxiv.org/abs/1906.09712",
+      "additional_urls": ["https://doi.org/10.3150/21-BEJ1388"],
+      "access": "open arXiv full text and Bernoulli publication record",
+      "overlap": "uniform confidence sequences and approximately best-quantile arm selection",
+      "gap": "iid streams and bandit sampling, not dependent same-history learned ES contrasts",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S5",
+      "title": "Conditional Method Confidence Set",
+      "authors": "Lukas Bauer and Ekaterina Kazak",
+      "url": "https://arxiv.org/abs/2505.21278",
+      "access": "open arXiv HTML/PDF, preprint only",
+      "overlap": "conditional forecast-method confidence set with Expected Shortfall stress-testing application",
+      "gap": "test-based method selection and regime conditioning, not the no-test locked-portfolio decision protocol",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S6",
+      "title": "Combining Value-at-Risk and Expected Shortfall forecasts via the Model Confidence Set",
+      "authors": "Alessandra Amendola, Vincenzo Candila, Antonio Naimoli, and Giuseppe Storti",
+      "url": "https://arxiv.org/abs/2406.06235",
+      "access": "open arXiv HTML/PDF, v2 preprint",
+      "overlap": "joint VaR-ES scoring with model confidence set selection/combination",
+      "gap": "forecast combination rather than same-history portfolio decision ranking with abstention",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S7",
+      "title": "Bootstrapping the Expected Shortfall",
+      "authors": "Shuxia Sun and Fuxia Cheng",
+      "url": "https://doi.org/10.4236/tel.2018.84046",
+      "access": "official publisher HTML/PDF accessible",
+      "overlap": "moving-block bootstrap asymptotics for ES under stationary strong mixing",
+      "gap": "ES sampling distribution only; no learned conditional selection or abstention",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S8",
+      "title": "A Confidence Interval Procedure for Expected Shortfall Risk Measurement via Two-Level Simulation",
+      "authors": "Lan, Nelson, and Staum",
+      "url": "https://doi.org/10.1287/opre.1090.0792",
+      "access": "publisher record and abstract inspected; full text not verified open",
+      "overlap": "ES confidence interval with ranking-and-selection ideas",
+      "gap": "two-level simulation rather than one dependent observed history and learned conditional ES",
+      "status": "challenge-located-with-access-limit"
+    },
+    {
+      "id": "S9",
+      "title": "Exact post-selection inference, with application to the lasso",
+      "authors": "Jason D. Lee, Dennis L. Sun, Yuekai Sun, and Jonathan E. Taylor",
+      "url": "https://arxiv.org/abs/1311.6238",
+      "access": "open arXiv full text",
+      "overlap": "selection-event-aware inference rather than marginal intervals after data-dependent selection",
+      "gap": "Gaussian selective inference, not dependent tail-risk portfolio ordering",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S10",
+      "title": "Non-Exchangeable Conformal Risk Control",
+      "authors": "Farinhas et al.",
+      "url": "https://arxiv.org/abs/2310.01262",
+      "additional_urls": ["https://proceedings.iclr.cc/paper_files/paper/2024/file/de04896f011beff76c91e094f72727f4-Paper-Conference.pdf"],
+      "access": "open arXiv/ICLR full text; previously located project source reused as an adjacent comparator",
+      "overlap": "expected monotone-loss control under nonexchangeability and time-series drift",
+      "gap": "no direct pairwise conditional ES portfolio-regret theorem",
+      "status": "challenge-located-adjacent"
+    }
+  ],
+  "finite_falsifier": {
+    "dgp": "D_t=d+eps_t, eps_t=phi*eps_{t-1}+eta_t, Var(eps_t)=v, |phi|<1",
+    "estimator": "hat_d_T=mean(D_1:T)",
+    "variance": "s_T^2=v/T^2*[T+2*sum_{h=1}^{T-1}(T-h)*phi^h]",
+    "gate": "certify A only if hat_d_T+z_(1-delta)*s_T <= 0",
+    "wrong_certification_probability": "Phi(-d/s_T-z_(1-delta)) for d=r_A-r_B>0",
+    "evaluated_values_v1_d025_delta05": [
+      {"T": 32, "phi": 0.0, "s": 0.176776695, "wrong_certification_probability": 0.001110137},
+      {"T": 32, "phi": 0.9, "s": 0.651156296, "wrong_certification_probability": 0.021240045},
+      {"T": 128, "phi": 0.9, "s": 0.370744099, "wrong_certification_probability": 0.010192824}
+    ],
+    "rejection_rule": "Any gate exceeding the exact probability, or claiming true-regret gain in equal-risk d=0 without abstention accounting, fails."
+  },
+  "limits": [
+    "Initial ideas were recorded before literature search.",
+    "A bounded search cannot establish global novelty.",
+    "No benchmark/model training or project test outcomes were read in this round.",
+    "PCTMG is a proposed protocol-level composition; no theorem or peer-review claim is made.",
+    "The dependent AR(1) check validates only the gate algebra, not a learned ES forecast."
+  ]
+}

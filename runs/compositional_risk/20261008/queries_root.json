@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-08",
+  "scope": "Root bounded prior-art search, after independent generation; not a systematic review or novelty proof",
+  "query_batches": [
+    [
+      "relative robust CVaR minimax regret portfolio",
+      "expected shortfall safe policy improvement uncertainty",
+      "CVaR regret piecewise linear portfolio finite scenarios",
+      "portfolio minimax regret shared distribution uncertainty switching costs"
+    ],
+    [
+      "minimax regret lower envelope algorithm piecewise linear",
+      "CVaR regret breakpoints",
+      "Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity"
+    ],
+    [
+      {
+        "q": "\"Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity\"",
+        "domains": [
+          "papers.ssrn.com"
+        ]
+      },
+      {
+        "q": "\"CVaR\" \"minimax regret\" \"affine\""
+      },
+      {
+        "q": "\"Relative robust portfolio optimization\" \"pdf\"",
+        "domains": [
+          "kyoto-u.ac.jp"
+        ]
+      }
+    ]
+  ],
+  "repeat_verification_query": {
+    "q": "\"Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity\"",
+    "domains": [
+      "papers.ssrn.com"
+    ]
+  },
+  "unique_initial_queries": 10,
+  "total_query_executions_including_repeat": 11,
+  "targeted_opens": [
+    {
+      "ref_id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486600"
+    },
+    {
+      "ref_id": "https://doi.org/10.1007/s11238-022-09866-z"
+    },
+    {
+      "ref_id": "https://www.sciencedirect.com/science/article/pii/S0377221709005104"
+    },
+    {
+      "ref_id": "https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/87374/1/j.ejor.2009.07.010.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Fan2026",
+      "title": "Data-Driven Minimax-Regret Portfolio Optimization under Tail-Risk Ambiguity",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486600",
+      "doi": "10.2139/ssrn.7486600",
+      "access": "Primary SSRN indexed abstract read; direct open failed twice, full paper NOT READ.",
+      "published": "posted 2026-09-21; revised 2026-09-28; date written 2026-03-31",
+      "finding": "Close overlap: independent relative-ES audit of a frozen action library, admissible engine mixtures, and minimax regret with statistical guarantees. Exact own-knot/shared-hull coverage unresolved without full definitions and algorithm.",
+      "priority_implication": "No claim of first relative-ES, library validation, or minimax-regret combination."
+    },
+    {
+      "id": "Huang2010",
+      "title": "Portfolio selection under distributional uncertainty: a relative robust CVaR approach",
+      "url": "https://doi.org/10.1016/j.ejor.2009.07.010",
+      "access": "Reviewer-reported primary abstract; root prior-turn abstract access reported. Current publisher open failed; located Kyoto PDF redirected to empty HTML, full paper NOT READ.",
+      "finding": "Relative robust CVaR predates this work; precise algorithmic overlap unresolved."
+    },
+    {
+      "id": "Weber2023",
+      "title": "Relatively robust decisions",
+      "url": "https://link.springer.com/article/10.1007/s11238-022-09866-z",
+      "access": "Primary full HTML opened; introduction and model through section 2.4 read, not a complete full-paper audit.",
+      "finding": "Relative ratio regret and structural envelopes already studied. Our objective is absolute ES-difference regret, so mathematical equivalence is not assumed."
+    },
+    {
+      "id": "OWA2024",
+      "title": "A robust ordered weighted averaging loss model for portfolio optimization",
+      "url": "https://doi.org/10.1016/j.cor.2024.106666",
+      "access": "Primary publisher extended preview/search text read; full paper NOT READ.",
+      "finding": "Risk-profile/OWA/minimax-regret composition is prior art; component combination alone does not establish novelty."
+    },
+    {
+      "id": "SPIBB2019",
+      "title": "Safe Policy Improvement with Baseline Bootstrapping",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/04/ICML2019___SPIBB-15.pdf",
+      "access": "Author-hosted primary search abstract/snippet only in this turn.",
+      "finding": "Baseline-safe policy improvement is an adjacent existing concept, not a novel component here."
+    },
+    {
+      "id": "Tselishchev2019",
+      "title": "On the concavity of Expected Shortfall",
+      "url": "https://arxiv.org/pdf/1910.00640",
+      "access": "Full text read in prior turn, reported here; no new full-paper reading.",
+      "finding": "ES mixture concavity is known and not claimed as our novelty."
+    },
+    {
+      "id": "RU2000",
+      "title": "Optimization of Conditional Value-at-Risk",
+      "url": "https://doi.org/10.21314/jor.2000.038",
+      "access": "DOI/metadata and standard formulation used; original full paper NOT READ this turn.",
+      "finding": "Variational threshold representation is a known primitive."
+    },
+    {
+      "id": "Pun2023",
+      "title": "Data-Driven Distributionally Robust CVaR Portfolio Optimization Under A Regime-Switching Ambiguity Set",
+      "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.1229",
+      "access": "Earlier primary abstract reading reported, not refreshed full text.",
+      "finding": "Regime estimation plus robust CVaR is existing work."
+    }
+  ],
+  "reviewer_sources": "See reviews/queries_a.json and queries_b.json; their source access descriptions are AI reviewer reports, not independent root full-paper verification. RePEc metadata is secondary even where a reviewer labels the underlying work primary.",
+  "raw_tool_text_published": false
+}

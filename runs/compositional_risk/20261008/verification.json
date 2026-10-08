@@ -1,0 +1,48 @@
+{
+  "elapsed_seconds": 26.567030209116638,
+  "fingerprint": "7b9fabe9daee5c382ad376a90ec1930619d6a5c64917329a46aef9bf29b7112d",
+  "independent_benchmark_lp_max_error": 4.3298697960381105e-15,
+  "independent_benchmark_lp_solves": 554,
+  "independent_truth_lp_max_error": 6.938893903907228e-18,
+  "independent_truth_lp_solves": 8192,
+  "learned_world_union_max_error": 1.734723475976807e-18,
+  "observed_fit_decision_replay_histories": 64,
+  "origin_main_is_ancestor": true,
+  "passed": true,
+  "posthoc_diagnostics_not_used_for_selection": {
+    "component_shift": {
+      "histories": 32,
+      "histories_with_rectangular_surface_difference": 12,
+      "histories_with_shared_surface_difference": 19,
+      "max_rectangular_surface_difference": 1.1285705516074149e-05,
+      "max_shared_surface_difference": 9.454418977124495e-05,
+      "nominal_vs_point_choice_differences": 0,
+      "rectangular_endpoint_choice_differences": 0,
+      "shared_endpoint_choice_differences": 0,
+      "world_action_curves_total": 20480,
+      "world_action_curves_with_interior_knots": 3174
+    },
+    "stationary": {
+      "histories": 32,
+      "histories_with_rectangular_surface_difference": 14,
+      "histories_with_shared_surface_difference": 26,
+      "max_rectangular_surface_difference": 2.0769376700336198e-05,
+      "max_shared_surface_difference": 0.00020336755832429596,
+      "nominal_vs_point_choice_differences": 0,
+      "rectangular_endpoint_choice_differences": 0,
+      "shared_endpoint_choice_differences": 0,
+      "world_action_curves_total": 20480,
+      "world_action_curves_with_interior_knots": 6679
+    }
+  },
+  "protected_files_unchanged": 621,
+  "resume_unchanged_checkpoints": {
+    "complete": 96,
+    "partial": 5
+  },
+  "saved_history_and_evaluator_truth_match_generator": true,
+  "scope": "Verification and diagnostics on the same saved cases, not independent scientific replication.",
+  "summary_recomputed": true,
+  "utc": "2026-10-08T10:10:48.825630+00:00",
+  "verified_cases": 96
+}
