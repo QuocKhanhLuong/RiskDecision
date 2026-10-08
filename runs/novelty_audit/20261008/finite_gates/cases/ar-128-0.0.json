@@ -1,0 +1,68 @@
+{
+  "body": {
+    "case_id": "ar-128-0.0",
+    "elapsed_seconds": 0.027519125025719404,
+    "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+    "result": {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.00390625,
+          "iid": 0.00390625,
+          "infinite": 0.00390625,
+          "none": 0.00396728515625
+        },
+        "corrections": {
+          "finite": 0.0078125,
+          "iid": 0.0078125,
+          "infinite": 0.0078125,
+          "none": 0.0
+        },
+        "delta": 0.0078125,
+        "gap_variance": 0.00390625,
+        "length": 128,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.0,
+        "trace_delta": 0.0078125,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.00390625,
+          "observed": 0.003963461952408591,
+          "se": 3.1593734820194805e-05,
+          "z": 1.8108638543114222
+        },
+        "iid": {
+          "analytic": 0.00390625,
+          "observed": 0.003963461952408591,
+          "se": 3.1593734820194805e-05,
+          "z": 1.8108638543114222
+        },
+        "infinite": {
+          "analytic": 0.00390625,
+          "observed": 0.003963461952408591,
+          "se": 3.1593734820194805e-05,
+          "z": 1.8108638543114222
+        },
+        "none": {
+          "analytic": 0.00396728515625,
+          "observed": 0.004010626635523414,
+          "se": 3.103792295915325e-05,
+          "z": 1.3964039839409554
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.006924789719348637,
+      "mean_gap_se": 0.0003477569577525079,
+      "mean_gap_z": -2.5526743918755175,
+      "passed": true,
+      "seed": 3335100891397684252,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    "utc": "2026-10-08T09:22:47.928501+00:00",
+    "warnings": []
+  },
+  "sha256": "ed5182e8b71113b8d177904b801aeec8811e99ef0a32a6066c664bb0103cb954"
+}

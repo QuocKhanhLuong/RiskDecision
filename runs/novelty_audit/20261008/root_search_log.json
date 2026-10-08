@@ -1,0 +1,147 @@
+{
+  "utc": "2026-10-08",
+  "purpose": "Bounded novelty falsification; query provenance only. Full copyrighted source text is not redistributed.",
+  "batches": [
+    {
+      "index": 0,
+      "queries": [
+        {
+          "q": "\"optimism\" \"conditional\" \"time series\" \"prediction\" information criterion"
+        },
+        {
+          "q": "\"Optimizer's Information Criterion\" conditional covariates"
+        },
+        {
+          "q": "\"portfolio\" \"regime\" \"distributionally robust\" \"mixture\""
+        },
+        {
+          "q": "\"conditional risk\" \"selection\" \"influence function\" portfolio"
+        }
+      ],
+      "reading": null
+    },
+    {
+      "index": 1,
+      "queries": [
+        {
+          "q": "\"Data-Driven Distributionally Robust CVaR\" \"regime\""
+        },
+        {
+          "q": "\"conditional\" \"optimism\" \"time series\" information criterion risk"
+        },
+        {
+          "q": "\"portfolio\" \"risk difference\" confidence \"regime\""
+        },
+        {
+          "q": "\"conditional\" \"portfolio\" \"multicalibration\""
+        }
+      ],
+      "reading": null
+    },
+    {
+      "index": 2,
+      "queries": [
+        {
+          "q": "\"regret\" \"CVaR\" \"mixture\" \"probabilities\""
+        },
+        {
+          "q": "\"worst-case\" \"difference\" \"CVaR\""
+        },
+        {
+          "q": "\"relative\" \"CVaR\" \"ambiguity\" portfolio"
+        },
+        {
+          "q": "\"Data-Driven Distributionally Robust CVaR\" filetype:pdf"
+        }
+      ],
+      "reading": null
+    },
+    {
+      "index": 3,
+      "queries": [
+        {
+          "q": "\"CVaR\" \"regret\" \"difference\" distributionally robust portfolio benchmark"
+        },
+        {
+          "q": "\"expected shortfall\" \"mixture weights\" derivative concavity"
+        },
+        {
+          "q": "\"relative robust\" \"CVaR\" portfolio optimization"
+        },
+        {
+          "q": "\"risk difference\" \"expected shortfall\" robust"
+        }
+      ],
+      "reading": null
+    },
+    {
+      "index": 4,
+      "queries": [
+        {
+          "q": "Huang Zhu Fabozzi Fukushima 2010 relative robust CVaR pdf mixture"
+        },
+        {
+          "q": "\"expected shortfall\" \"concave\" \"mixture\""
+        },
+        {
+          "q": "\"CVaR\" \"difference of convex\" \"regret\""
+        },
+        {
+          "q": "\"risk\" \"portfolio\" \"minimax regret\" \"mixture\""
+        }
+      ],
+      "reading": null
+    },
+    {
+      "index": 5,
+      "queries": null,
+      "reading": "fulltext targeted sources"
+    },
+    {
+      "index": 6,
+      "queries": [
+        {
+          "q": "\"relative robust CVaR\" \"mixture\" Huang Fukushima"
+        },
+        {
+          "q": "\"CVaR\" \"mixture\" \"breakpoints\""
+        },
+        {
+          "q": "\"expected shortfall\" \"difference\" \"mixture\" optimization"
+        },
+        {
+          "q": "\"Portfolio Selection under Distributional Uncertainty\" kyoto pdf"
+        }
+      ],
+      "reading": null
+    },
+    {
+      "index": 7,
+      "queries": null,
+      "reading": "Huang full manuscript"
+    },
+    {
+      "index": 8,
+      "queries": null,
+      "reading": "prior exact scope"
+    },
+    {
+      "index": 9,
+      "queries": [
+        {
+          "q": "\"mixture models\" \"CVaR constraints\" Pertaia Uryasev"
+        },
+        {
+          "q": "\"conditional value at risk\" \"parametric linear programming\" probability"
+        },
+        {
+          "q": "\"conditional value-at-risk\" \"piecewise linear\" \"mixture weights\""
+        },
+        {
+          "q": "\"expected shortfall\" \"ranking\" \"mixtures\""
+        }
+      ],
+      "reading": null
+    }
+  ]
+}

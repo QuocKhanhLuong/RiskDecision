@@ -1,0 +1,32 @@
+verify saved cases:   0%|          | 0/265 [00:00<?, ?case/s]verify saved cases:  29%|██▊       | 76/265 [00:00<00:00, 740.87case/s]verify saved cases:  57%|█████▋    | 152/265 [00:00<00:00, 743.48case/s]verify saved cases:  86%|████████▌ | 227/265 [00:00<00:00, 743.67case/s]verify saved cases: 100%|██████████| 265/265 [00:00<00:00, 763.66case/s]
+independent tail LP:   0%|          | 0/16 [00:00<?, ?case/s]independent tail LP: 100%|██████████| 16/16 [00:00<00:00, 209.85case/s]
+reproduce AR receipts:   0%|          | 0/9 [00:00<?, ?cell/s]reproduce AR receipts:  67%|██████▋   | 6/9 [00:00<00:00, 56.86cell/s]reproduce AR receipts: 100%|██████████| 9/9 [00:00<00:00, 20.50cell/s]
+{
+  "utc": "2026-10-08T09:25:07.535006+00:00",
+  "verified": true,
+  "source_fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+  "complete_cases": 265,
+  "independent_lp_solves": 96,
+  "max_lp_error": 7.244205235679146e-15,
+  "reproduced_ar_histories": 294912,
+  "reproduction_is_fresh_evidence": false,
+  "protected_files_unchanged": 320,
+  "resume_unchanged_checkpoints": {
+    "partial_checkpoint_hashes.json": 5,
+    "complete_checkpoint_hashes.json": 265
+  },
+  "origin_main": "f6dcffdf6ab7e22a9246aadb17df437e3aae8c6e",
+  "local_main": "f6dcffdf6ab7e22a9246aadb17df437e3aae8c6e",
+  "main_is_ancestor": true,
+  "branch": "research/conditional-risk-novelty",
+  "elapsed_seconds": 1.0187744998838753,
+  "numpy": "2.3.5",
+  "verifier_sha256": "453d1af18a9e7dcb4669789892f5bd18a7704f4f44e0e1187f2c8bc801930aa7",
+  "not_run": [
+    "market evaluation",
+    "new learned model",
+    "estimated component uncertainty",
+    "reserve utility",
+    "human peer review"
+  ]
+}

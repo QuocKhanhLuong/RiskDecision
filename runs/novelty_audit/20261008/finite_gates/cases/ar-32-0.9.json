@@ -1,0 +1,68 @@
+{
+  "body": {
+    "case_id": "ar-32-0.9",
+    "elapsed_seconds": 0.007246874971315265,
+    "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+    "result": {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.1996828190243906,
+          "iid": 0.2143629906466219,
+          "infinite": 0.22531106422384836,
+          "none": 0.22291216302693007
+        },
+        "corrections": {
+          "finite": 0.15241175808493074,
+          "iid": 0.03125,
+          "infinite": 0.31250000000000006,
+          "none": 0.0
+        },
+        "delta": 0.15241175808493074,
+        "gap_variance": 0.1996828190243906,
+        "length": 32,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.9,
+        "trace_delta": 0.15241175808493068,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.1996828190243906,
+          "observed": 0.20267884768612643,
+          "se": 0.0038696672815489524,
+          "z": 0.774234176674891
+        },
+        "iid": {
+          "analytic": 0.2143629906466219,
+          "observed": 0.21777612586800887,
+          "se": 0.004298017936636235,
+          "z": 0.7941184219575881
+        },
+        "infinite": {
+          "analytic": 0.22531106422384836,
+          "observed": 0.22775597958976196,
+          "se": 0.0033860952595937584,
+          "z": 0.7220456539096074
+        },
+        "none": {
+          "analytic": 0.22291216302693007,
+          "observed": 0.22643287823225855,
+          "se": 0.004415106434269239,
+          "z": 0.7974247637613772
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.1541330378279946,
+      "mean_gap_se": 0.0024870395882117956,
+      "mean_gap_z": 0.6920998568830458,
+      "passed": true,
+      "seed": 2705734820454854736,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    "utc": "2026-10-08T09:22:47.900676+00:00",
+    "warnings": []
+  },
+  "sha256": "5e79ea20b7c628c475b21a581fd0d704ef7b605c32ceb447adf59f1d6748c737"
+}

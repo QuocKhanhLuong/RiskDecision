@@ -1,0 +1,68 @@
+{
+  "body": {
+    "case_id": "ar-32-0.0",
+    "elapsed_seconds": 0.007661500014364719,
+    "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+    "result": {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.015625,
+          "iid": 0.015625,
+          "infinite": 0.015625,
+          "none": 0.0166015625
+        },
+        "corrections": {
+          "finite": 0.03125,
+          "iid": 0.03125,
+          "infinite": 0.03125,
+          "none": 0.0
+        },
+        "delta": 0.03125,
+        "gap_variance": 0.015625,
+        "length": 32,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.0,
+        "trace_delta": 0.03125,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.015625,
+          "observed": 0.01572287199142826,
+          "se": 0.00013432444854885906,
+          "z": 0.72862380963104
+        },
+        "iid": {
+          "analytic": 0.015625,
+          "observed": 0.01572287199142826,
+          "se": 0.00013432444854885906,
+          "z": 0.72862380963104
+        },
+        "infinite": {
+          "analytic": 0.015625,
+          "observed": 0.01572287199142826,
+          "se": 0.00013432444854885906,
+          "z": 0.72862380963104
+        },
+        "none": {
+          "analytic": 0.0166015625,
+          "observed": 0.016706050453335078,
+          "se": 0.00012795439874184556,
+          "z": 0.8166030582964763
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.03135585539050914,
+      "mean_gap_se": 0.0006927035988713324,
+      "mean_gap_z": 0.15281484127066466,
+      "passed": true,
+      "seed": 10798175084086538432,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    "utc": "2026-10-08T09:22:47.885486+00:00",
+    "warnings": []
+  },
+  "sha256": "cce61641d79e1ba770d3f77100481fa2a2d918d8ec76a93fe2c5f33cbcb5d023"
+}

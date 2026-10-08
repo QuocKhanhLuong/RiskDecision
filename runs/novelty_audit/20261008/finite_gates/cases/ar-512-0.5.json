@@ -1,0 +1,68 @@
+{
+  "body": {
+    "case_id": "ar-512-0.5",
+    "elapsed_seconds": 0.10961937485262752,
+    "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+    "result": {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.0326928832154307,
+          "iid": 0.03269663854088219,
+          "infinite": 0.032692883448261344,
+          "none": 0.03270802302803429
+        },
+        "corrections": {
+          "finite": 0.0038909912109375,
+          "iid": 0.001953125,
+          "infinite": 0.00390625,
+          "none": 0.0
+        },
+        "delta": 0.0038909912109375,
+        "gap_variance": 0.0326928832154307,
+        "length": 512,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.5,
+        "trace_delta": 0.0038909912109375,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.0326928832154307,
+          "observed": 0.0321144898277195,
+          "se": 0.0006300418345995331,
+          "z": -0.9180237818316273
+        },
+        "iid": {
+          "analytic": 0.03269663854088219,
+          "observed": 0.03211556130535501,
+          "se": 0.0006328532754743949,
+          "z": -0.9181863443648886
+        },
+        "infinite": {
+          "analytic": 0.032692883448261344,
+          "observed": 0.03211451119321011,
+          "se": 0.0006300197402095764,
+          "z": -0.918022433485711
+        },
+        "none": {
+          "analytic": 0.03270802302803429,
+          "observed": 0.03212424081203115,
+          "se": 0.0006356977056110248,
+          "z": -0.9183330549258781
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.0031985162090926956,
+      "mean_gap_se": 0.000989985721027692,
+      "mean_gap_z": -0.6994797875730516,
+      "passed": true,
+      "seed": 11092854292928696316,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    "utc": "2026-10-08T09:22:48.205160+00:00",
+    "warnings": []
+  },
+  "sha256": "0f9f5644617be774eaa098be16bcabcab247778079631ff0d93293afac24e831"
+}

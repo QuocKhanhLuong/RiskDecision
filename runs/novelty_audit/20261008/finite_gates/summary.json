@@ -1,0 +1,571 @@
+{
+  "all_checks_passed": true,
+  "ar": [
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.00390625,
+          "iid": 0.00390625,
+          "infinite": 0.00390625,
+          "none": 0.00396728515625
+        },
+        "corrections": {
+          "finite": 0.0078125,
+          "iid": 0.0078125,
+          "infinite": 0.0078125,
+          "none": 0.0
+        },
+        "delta": 0.0078125,
+        "gap_variance": 0.00390625,
+        "length": 128,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.0,
+        "trace_delta": 0.0078125,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.00390625,
+          "observed": 0.003963461952408591,
+          "se": 3.1593734820194805e-05,
+          "z": 1.8108638543114222
+        },
+        "iid": {
+          "analytic": 0.00390625,
+          "observed": 0.003963461952408591,
+          "se": 3.1593734820194805e-05,
+          "z": 1.8108638543114222
+        },
+        "infinite": {
+          "analytic": 0.00390625,
+          "observed": 0.003963461952408591,
+          "se": 3.1593734820194805e-05,
+          "z": 1.8108638543114222
+        },
+        "none": {
+          "analytic": 0.00396728515625,
+          "observed": 0.004010626635523414,
+          "se": 3.103792295915325e-05,
+          "z": 1.3964039839409554
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.006924789719348637,
+      "mean_gap_se": 0.0003477569577525079,
+      "mean_gap_z": -2.5526743918755175,
+      "passed": true,
+      "seed": 3335100891397684252,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.036761932902865925,
+          "iid": 0.036819212966495075,
+          "infinite": 0.0367619925075107,
+          "none": 0.03699850373797945
+        },
+        "corrections": {
+          "finite": 0.015380859375,
+          "iid": 0.0078125,
+          "infinite": 0.015625,
+          "none": 0.0
+        },
+        "delta": 0.015380859375,
+        "gap_variance": 0.036761932902865925,
+        "length": 128,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.5,
+        "trace_delta": 0.015380859375,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.036761932902865925,
+          "observed": 0.03733569668819023,
+          "se": 0.0006946503194437492,
+          "z": 0.8259749823245641
+        },
+        "iid": {
+          "analytic": 0.036819212966495075,
+          "observed": 0.03737670276849106,
+          "se": 0.0007052990347570497,
+          "z": 0.7904304054350791
+        },
+        "infinite": {
+          "analytic": 0.0367619925075107,
+          "observed": 0.03733628126003914,
+          "se": 0.0006943103534206485,
+          "z": 0.8271355161263283
+        },
+        "none": {
+          "analytic": 0.03699850373797945,
+          "observed": 0.037539194589442985,
+          "se": 0.0007165074563323628,
+          "z": 0.7546199926951318
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.014305726540923186,
+      "mean_gap_se": 0.001067424253285711,
+      "mean_gap_z": -1.007221665394406,
+      "passed": true,
+      "seed": 8129611572900002171,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.3192875256645117,
+          "iid": 0.322807133743034,
+          "infinite": 0.31940822258701546,
+          "none": 0.32379514210064714
+        },
+        "corrections": {
+          "finite": 0.06713878488724281,
+          "iid": 0.0078125,
+          "infinite": 0.07812500000000001,
+          "none": 0.0
+        },
+        "delta": 0.06713878488724281,
+        "gap_variance": 0.3192875256645117,
+        "length": 128,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.9,
+        "trace_delta": 0.0671387848872429,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.3192875256645117,
+          "observed": 0.3194389735073288,
+          "se": 0.006351591043352314,
+          "z": 0.023844079661839785
+        },
+        "iid": {
+          "analytic": 0.322807133743034,
+          "observed": 0.32299189036755627,
+          "se": 0.006614678920806577,
+          "z": 0.027931306528140087
+        },
+        "infinite": {
+          "analytic": 0.31940822258701546,
+          "observed": 0.31955350221212514,
+          "se": 0.006304056047958215,
+          "z": 0.02304542091702027
+        },
+        "none": {
+          "analytic": 0.32379514210064714,
+          "observed": 0.3239842850584375,
+          "se": 0.006650086520787844,
+          "z": 0.028442179992564976
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.0674195102163991,
+      "mean_gap_se": 0.003122306668942513,
+      "mean_gap_z": 0.08990959534777516,
+      "passed": true,
+      "seed": 7057307571489778169,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.015625,
+          "iid": 0.015625,
+          "infinite": 0.015625,
+          "none": 0.0166015625
+        },
+        "corrections": {
+          "finite": 0.03125,
+          "iid": 0.03125,
+          "infinite": 0.03125,
+          "none": 0.0
+        },
+        "delta": 0.03125,
+        "gap_variance": 0.015625,
+        "length": 32,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.0,
+        "trace_delta": 0.03125,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.015625,
+          "observed": 0.01572287199142826,
+          "se": 0.00013432444854885906,
+          "z": 0.72862380963104
+        },
+        "iid": {
+          "analytic": 0.015625,
+          "observed": 0.01572287199142826,
+          "se": 0.00013432444854885906,
+          "z": 0.72862380963104
+        },
+        "infinite": {
+          "analytic": 0.015625,
+          "observed": 0.01572287199142826,
+          "se": 0.00013432444854885906,
+          "z": 0.72862380963104
+        },
+        "none": {
+          "analytic": 0.0166015625,
+          "observed": 0.016706050453335078,
+          "se": 0.00012795439874184556,
+          "z": 0.8166030582964763
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.03135585539050914,
+      "mean_gap_se": 0.0006927035988713324,
+      "mean_gap_z": 0.15281484127066466,
+      "passed": true,
+      "seed": 10798175084086538432,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.049401177287600094,
+          "iid": 0.050148857952110236,
+          "infinite": 0.049416436076598645,
+          "none": 0.05283440482762183
+        },
+        "corrections": {
+          "finite": 0.05859375000818545,
+          "iid": 0.03125,
+          "infinite": 0.0625,
+          "none": 0.0
+        },
+        "delta": 0.05859375000818545,
+        "gap_variance": 0.049401177287600094,
+        "length": 32,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.5,
+        "trace_delta": 0.05859375000818545,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.049401177287600094,
+          "observed": 0.04985421450627822,
+          "se": 0.0006447364933554615,
+          "z": 0.7026703519143832
+        },
+        "iid": {
+          "analytic": 0.050148857952110236,
+          "observed": 0.050668598043096626,
+          "se": 0.000675717222255338,
+          "z": 0.7691680393340513
+        },
+        "infinite": {
+          "analytic": 0.049416436076598645,
+          "observed": 0.049859944313541266,
+          "se": 0.0006407682449187863,
+          "z": 0.6921507744174067
+        },
+        "none": {
+          "analytic": 0.05283440482762183,
+          "observed": 0.053430376772651986,
+          "se": 0.0007172794185235717,
+          "z": 0.8308783573588258
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.059813459672885774,
+      "mean_gap_se": 0.0012334629770268896,
+      "mean_gap_z": 0.9888498377472842,
+      "passed": true,
+      "seed": 4460124740661317348,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.1996828190243906,
+          "iid": 0.2143629906466219,
+          "infinite": 0.22531106422384836,
+          "none": 0.22291216302693007
+        },
+        "corrections": {
+          "finite": 0.15241175808493074,
+          "iid": 0.03125,
+          "infinite": 0.31250000000000006,
+          "none": 0.0
+        },
+        "delta": 0.15241175808493074,
+        "gap_variance": 0.1996828190243906,
+        "length": 32,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.9,
+        "trace_delta": 0.15241175808493068,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.1996828190243906,
+          "observed": 0.20267884768612643,
+          "se": 0.0038696672815489524,
+          "z": 0.774234176674891
+        },
+        "iid": {
+          "analytic": 0.2143629906466219,
+          "observed": 0.21777612586800887,
+          "se": 0.004298017936636235,
+          "z": 0.7941184219575881
+        },
+        "infinite": {
+          "analytic": 0.22531106422384836,
+          "observed": 0.22775597958976196,
+          "se": 0.0033860952595937584,
+          "z": 0.7220456539096074
+        },
+        "none": {
+          "analytic": 0.22291216302693007,
+          "observed": 0.22643287823225855,
+          "se": 0.004415106434269239,
+          "z": 0.7974247637613772
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.1541330378279946,
+      "mean_gap_se": 0.0024870395882117956,
+      "mean_gap_z": 0.6920998568830458,
+      "passed": true,
+      "seed": 2705734820454854736,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.0009765625,
+          "iid": 0.0009765625,
+          "infinite": 0.0009765625,
+          "none": 0.000980377197265625
+        },
+        "corrections": {
+          "finite": 0.001953125,
+          "iid": 0.001953125,
+          "infinite": 0.001953125,
+          "none": 0.0
+        },
+        "delta": 0.001953125,
+        "gap_variance": 0.0009765625,
+        "length": 512,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.0,
+        "trace_delta": 0.001953125,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.0009765625,
+          "observed": 0.000978690402437607,
+          "se": 7.691534614095587e-06,
+          "z": 0.2766551207749148
+        },
+        "iid": {
+          "analytic": 0.0009765625,
+          "observed": 0.000978690402437607,
+          "se": 7.691534614095587e-06,
+          "z": 0.2766551207749148
+        },
+        "infinite": {
+          "analytic": 0.0009765625,
+          "observed": 0.000978690402437607,
+          "se": 7.691534614095587e-06,
+          "z": 0.2766551207749148
+        },
+        "none": {
+          "analytic": 0.000980377197265625,
+          "observed": 0.0009824299794002375,
+          "se": 7.664626558263753e-06,
+          "z": 0.267825460119679
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.0019338942024333921,
+      "mean_gap_se": 0.00017282407538996217,
+      "mean_gap_z": -0.11127383452343254,
+      "passed": true,
+      "seed": 14905134769447572186,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.0326928832154307,
+          "iid": 0.03269663854088219,
+          "infinite": 0.032692883448261344,
+          "none": 0.03270802302803429
+        },
+        "corrections": {
+          "finite": 0.0038909912109375,
+          "iid": 0.001953125,
+          "infinite": 0.00390625,
+          "none": 0.0
+        },
+        "delta": 0.0038909912109375,
+        "gap_variance": 0.0326928832154307,
+        "length": 512,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.5,
+        "trace_delta": 0.0038909912109375,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.0326928832154307,
+          "observed": 0.0321144898277195,
+          "se": 0.0006300418345995331,
+          "z": -0.9180237818316273
+        },
+        "iid": {
+          "analytic": 0.03269663854088219,
+          "observed": 0.03211556130535501,
+          "se": 0.0006328532754743949,
+          "z": -0.9181863443648886
+        },
+        "infinite": {
+          "analytic": 0.032692883448261344,
+          "observed": 0.03211451119321011,
+          "se": 0.0006300197402095764,
+          "z": -0.918022433485711
+        },
+        "none": {
+          "analytic": 0.03270802302803429,
+          "observed": 0.03212424081203115,
+          "se": 0.0006356977056110248,
+          "z": -0.9183330549258781
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.0031985162090926956,
+      "mean_gap_se": 0.000989985721027692,
+      "mean_gap_z": -0.6994797875730516,
+      "passed": true,
+      "seed": 11092854292928696316,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.3293004273195366,
+          "iid": 0.3295857493989716,
+          "infinite": 0.32930089880159,
+          "none": 0.3296555464380036
+        },
+        "corrections": {
+          "finite": 0.018844604492187503,
+          "iid": 0.001953125,
+          "infinite": 0.019531250000000003,
+          "none": 0.0
+        },
+        "delta": 0.018844604492187503,
+        "gap_variance": 0.3293004273195366,
+        "length": 512,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.9,
+        "trace_delta": 0.018844604492187278,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.3293004273195366,
+          "observed": 0.32668659205831163,
+          "se": 0.006780575945335476,
+          "z": -0.38548867858682656
+        },
+        "iid": {
+          "analytic": 0.3295857493989716,
+          "observed": 0.32687981813435385,
+          "se": 0.0068600855925147865,
+          "z": -0.3944457001484467
+        },
+        "infinite": {
+          "analytic": 0.32930089880159,
+          "observed": 0.32669080728034033,
+          "se": 0.006777359626957102,
+          "z": -0.3851192300417397
+        },
+        "none": {
+          "analytic": 0.3296555464380036,
+          "observed": 0.32693896631301167,
+          "se": 0.00686932659837647,
+          "z": -0.3954652739373288
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.016118496236386094,
+      "mean_gap_se": 0.003157492842753057,
+      "mean_gap_z": -0.863377493335656,
+      "passed": true,
+      "seed": 5072611130253248084,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    }
+  ],
+  "ar_cases": 9,
+  "cases_done": 265,
+  "cases_expected": 265,
+  "complete": true,
+  "conditional_recovery_by_constant_correction": false,
+  "failed_cases": [],
+  "mixture": {
+    "benchmark_by_support": {
+      "128": {
+        "crossings": 0.00019616656936705112,
+        "generic_ru_hull": 0.00021058355923742056,
+        "hull_over_crossings_ratio": 1.073493612682768,
+        "n_cases": 64
+      },
+      "32": {
+        "crossings": 0.0001579585950821638,
+        "generic_ru_hull": 0.00011860392987728119,
+        "hull_over_crossings_ratio": 0.7508545503053387,
+        "n_cases": 64
+      },
+      "512": {
+        "crossings": 0.00028083345387130976,
+        "generic_ru_hull": 0.0005678960587829351,
+        "hull_over_crossings_ratio": 2.0221809437388827,
+        "n_cases": 64
+      },
+      "8": {
+        "crossings": 0.00013422861229628325,
+        "generic_ru_hull": 9.456230327486992e-05,
+        "hull_over_crossings_ratio": 0.7044869320867465,
+        "n_cases": 64
+      }
+    },
+    "endpoint_false_safe": 0,
+    "endpoint_underestimates": 11,
+    "max_curve_error": 1.0658141036401503e-14,
+    "max_endpoint_underestimate": 0.6077508347730851,
+    "max_upper_error": 8.215650382226158e-15,
+    "mean_independent_bound_slack": 0.0685587294171845
+  },
+  "mixture_cases": 256,
+  "novelty_established": false,
+  "total_case_seconds": 1.2118644996080548,
+  "warnings": []
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-08",
+  "queries": ["\"10.1287/msom.2023.1229\"", "\"10.1515/demo-2019-0019\""],
+  "purpose": "Verify exact primary-source titles before publication",
+  "primary_sources": [
+    "https://pubsonline.informs.org/doi/10.1287/msom.2023.1229",
+    "https://uryasev.ams.stonybrook.edu/wp-content/uploads/2020/04/23002298-Dependence-Modeling-Fitting-heavy-tailed-mixture-models-with-CVaR-constraints.pdf"
+  ],
+  "published_author_pdf_open": "Timed out; indexed primary PDF metadata read, full text NOT_VERIFIED"
+}

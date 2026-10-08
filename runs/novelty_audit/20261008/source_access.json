@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08",
+  "scope": "Bounded primary-source audit, not a systematic or exhaustive review. Access status describes text actually available to the root researcher. Delegated access claims remain in the signed-by-agent prose reports, not human peer review.",
+  "sources": [
+    {
+      "id": "OIC",
+      "title": "Optimizer's Information Criterion: Dissecting and Correcting Bias in Data-Driven Optimization, v4",
+      "url": "https://arxiv.org/html/2306.10081v4",
+      "access": "FULL_HTML; targeted sections 3.3-3.5 inspected",
+      "finding": "Composite optimizer corrections and integrated iid-context OIC already exist. Merely adding contextual features or a covariance term is not novelty."
+    },
+    {
+      "id": "HMM_DRO",
+      "title": "Data-Driven Distributionally Robust CVaR Portfolio Optimization Under A Regime-Switching Ambiguity Set",
+      "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.1229",
+      "access": "PUBLISHER_ABSTRACT_AND_METHOD_SUMMARY; full equations NOT_READ",
+      "finding": "Regime-switching/HMM uncertainty and CVaR portfolio DRO predate this proposal. This does not establish equivalence of every possible future construction."
+    },
+    {
+      "id": "RELATIVE_CVAR",
+      "title": "Relative robust portfolio optimization with Value-at-Risk and Conditional Value-at-Risk",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0377221709005104",
+      "doi": "10.1016/j.ejor.2009.07.010",
+      "access": "PUBLISHER_EXTENDED_ABSTRACT_AND_SECTION_PREVIEW; full paper NOT_READ; later reopen 403",
+      "finding": "Relative CVaR robust portfolio comparison is established. The exact coverage of continuous-mixture fixed-action certificates was not settled by abstract-level access."
+    },
+    {
+      "id": "MIXTURE_CONCAVITY",
+      "title": "On the Concavity of Expected Shortfall",
+      "url": "https://arxiv.org/pdf/1910.00640",
+      "access": "FULL_PDF; theorem, proof and final priority acknowledgement inspected",
+      "finding": "ES concavity in distribution mixtures is known. The author explicitly acknowledges earlier Proposition 3.2 by Pertaia and Uryasev."
+    },
+    {
+      "id": "PERTAIA_URYASEV",
+      "title": "Fitting heavy-tailed mixture models with CVaR constraints",
+      "url": "https://uryasev.ams.stonybrook.edu/wp-content/uploads/2019/01/CVarMixture.pdf",
+      "doi": "10.1515/demo-2019-0019",
+      "access": "DRAFT_PRIMARY_PDF_FETCH_FAILED_502; published author PDF also timed out; title/DOI verified from primary indexed PDF; priority attribution verified in Tselishchev full paper; direct full text NOT_VERIFIED",
+      "published_author_pdf": "https://uryasev.ams.stonybrook.edu/wp-content/uploads/2020/04/23002298-Dependence-Modeling-Fitting-heavy-tailed-mixture-models-with-CVaR-constraints.pdf",
+      "finding": "Do not claim direct verification of Proposition 3.2 from this inaccessible PDF."
+    },
+    {
+      "id": "REGRET",
+      "title": "Distributionally Robust Regret Minimization",
+      "url": "https://arxiv.org/html/2412.15406v1",
+      "access": "FULL_HTML; introduction and regret definitions inspected",
+      "finding": "Robust regret is established. CVaR of pathwise regret must not be substituted for a difference of two CVaRs."
+    },
+    {
+      "id": "CONDITIONAL_COVARIANCE",
+      "title": "Conditional covariance penalties for mixed models",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/sjos.12437",
+      "access": "ROOT_PUBLISHER_ABSTRACT_AND_INTRODUCTION; agent A reports FULL_TEXT",
+      "finding": "Conditional covariance penalties are known; terminal time-series risk is a distinct estimand that requires an actual derivation."
+    },
+    {
+      "id": "DOWNSIDE_SELECTION",
+      "title": "Estimation of Downside Risks in Project Portfolio Selection",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/poms.12727",
+      "access": "ROOT_FULL_PAGE_OPENED; detailed audit REPORTED_BY_AGENT_B",
+      "finding": "Selection-induced downside-risk distortion is not a new problem introduced by this project."
+    },
+    {
+      "id": "RU",
+      "title": "Optimization of Conditional Value-at-Risk",
+      "url": "https://doi.org/10.21314/jor.2000.038",
+      "access": "KNOWN_FORMULATION; citation checked in delegated audit and concavity paper; original full article NOT_READ this turn",
+      "finding": "The threshold minimization is treated as established baseline mathematics, independently checked against risk-envelope LP in code."
+    }
+  ],
+  "search_limits": [
+    "30 root search queries (28 research queries plus two metadata checks), plus targeted primary-source opens; agent query logs retained separately.",
+    "No database-completeness, priority, patentability, or paper-acceptance claim.",
+    "Full copyrighted article text and raw web-tool excerpts are not redistributed.",
+    "Source names/links are leads only where full text was unavailable; no absence-of-result novelty inference."
+  ]
+}

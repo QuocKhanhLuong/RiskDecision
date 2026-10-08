@@ -1,0 +1,68 @@
+{
+  "body": {
+    "case_id": "ar-128-0.5",
+    "elapsed_seconds": 0.027302457951009274,
+    "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+    "result": {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.036761932902865925,
+          "iid": 0.036819212966495075,
+          "infinite": 0.0367619925075107,
+          "none": 0.03699850373797945
+        },
+        "corrections": {
+          "finite": 0.015380859375,
+          "iid": 0.0078125,
+          "infinite": 0.015625,
+          "none": 0.0
+        },
+        "delta": 0.015380859375,
+        "gap_variance": 0.036761932902865925,
+        "length": 128,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.5,
+        "trace_delta": 0.015380859375,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.036761932902865925,
+          "observed": 0.03733569668819023,
+          "se": 0.0006946503194437492,
+          "z": 0.8259749823245641
+        },
+        "iid": {
+          "analytic": 0.036819212966495075,
+          "observed": 0.03737670276849106,
+          "se": 0.0007052990347570497,
+          "z": 0.7904304054350791
+        },
+        "infinite": {
+          "analytic": 0.0367619925075107,
+          "observed": 0.03733628126003914,
+          "se": 0.0006943103534206485,
+          "z": 0.8271355161263283
+        },
+        "none": {
+          "analytic": 0.03699850373797945,
+          "observed": 0.037539194589442985,
+          "se": 0.0007165074563323628,
+          "z": 0.7546199926951318
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.014305726540923186,
+      "mean_gap_se": 0.001067424253285711,
+      "mean_gap_z": -1.007221665394406,
+      "passed": true,
+      "seed": 8129611572900002171,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    "utc": "2026-10-08T09:22:47.956115+00:00",
+    "warnings": []
+  },
+  "sha256": "8664df6ae8e6ea415c63d765a51039cfafbd59e580a9eeda616328eab58769e8"
+}

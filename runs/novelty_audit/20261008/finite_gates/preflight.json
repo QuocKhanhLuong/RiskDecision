@@ -1,0 +1,109 @@
+{
+  "actual_seconds": 0.03373812511563301,
+  "ar_microbenchmark": {
+    "analytic": {
+      "conditional_mse": {
+        "finite": 0.036761932902865925,
+        "iid": 0.036819212966495075,
+        "infinite": 0.0367619925075107,
+        "none": 0.03699850373797945
+      },
+      "corrections": {
+        "finite": 0.015380859375,
+        "iid": 0.0078125,
+        "infinite": 0.015625,
+        "none": 0.0
+      },
+      "delta": 0.015380859375,
+      "gap_variance": 0.036761932902865925,
+      "length": 128,
+      "oracle_conditional_mse": 0.0,
+      "phi": 0.5,
+      "trace_delta": 0.015380859375,
+      "variance": 1.0
+    },
+    "conditional_mse": {
+      "finite": {
+        "analytic": 0.036761932902865925,
+        "observed": 0.03492846481913463,
+        "se": 0.0023813015708945245,
+        "z": -0.7699436754004089
+      },
+      "iid": {
+        "analytic": 0.036819212966495075,
+        "observed": 0.03499386009820514,
+        "se": 0.00242244913127122,
+        "z": -0.7535154586845964
+      },
+      "infinite": {
+        "analytic": 0.0367619925075107,
+        "observed": 0.03492826264263613,
+        "se": 0.0023799897350819674,
+        "z": -0.7704780562053193
+      },
+      "none": {
+        "analytic": 0.03699850373797945,
+        "observed": 0.03518152786627415,
+        "se": 0.002465866996146035,
+        "z": -0.7368507200692902
+      }
+    },
+    "independent_histories": 2048,
+    "kind": "ar",
+    "mean_gap": 0.01591698715641638,
+    "mean_gap_se": 0.004130751228155594,
+    "mean_gap_z": 0.12978941403250874,
+    "passed": true,
+    "seed": 17472054382405022501,
+    "terminal_recovery_by_constant_correction": false,
+    "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+  },
+  "ar_microbenchmark_seconds": 0.002079874975606799,
+  "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+  "mixture_microbenchmarks": [
+    {
+      "passed": true,
+      "seconds": 0.013343333033844829
+    },
+    {
+      "passed": true,
+      "seconds": 0.006279209163039923
+    },
+    {
+      "passed": true,
+      "seconds": 0.005987625103443861
+    },
+    {
+      "passed": true,
+      "seconds": 0.00591604202054441
+    }
+  ],
+  "passed": true,
+  "projected_seconds": 3.9400217505171895,
+  "rational_witness": [
+    {
+      "difference": "-1",
+      "es_a": "0",
+      "es_b": "1",
+      "q": "0"
+    },
+    {
+      "difference": "17/2",
+      "es_a": "10",
+      "es_b": "3/2",
+      "q": "1/20"
+    },
+    {
+      "difference": "-1",
+      "es_a": "10",
+      "es_b": "11",
+      "q": "1"
+    }
+  ],
+  "sha256": "7978a0db338ed9955c8d0dc8b53d953eec35bddd25101750cfc0ba5c5b4aeb24",
+  "utc": "2026-10-08T09:21:53.440235+00:00",
+  "warnings": [
+    "Known witness is development evidence.",
+    "Local CPU microbenchmark only; no asymptotic speed advantage claimed."
+  ]
+}

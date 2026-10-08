@@ -1,0 +1,68 @@
+{
+  "body": {
+    "case_id": "ar-512-0.0",
+    "elapsed_seconds": 0.11045495886355639,
+    "fingerprint": "20fb8274846a086e168329758f0b8fcb5615daed40cfe54c8dc99cadd55f2e63",
+    "result": {
+      "analytic": {
+        "conditional_mse": {
+          "finite": 0.0009765625,
+          "iid": 0.0009765625,
+          "infinite": 0.0009765625,
+          "none": 0.000980377197265625
+        },
+        "corrections": {
+          "finite": 0.001953125,
+          "iid": 0.001953125,
+          "infinite": 0.001953125,
+          "none": 0.0
+        },
+        "delta": 0.001953125,
+        "gap_variance": 0.0009765625,
+        "length": 512,
+        "oracle_conditional_mse": 0.0,
+        "phi": 0.0,
+        "trace_delta": 0.001953125,
+        "variance": 1.0
+      },
+      "conditional_mse": {
+        "finite": {
+          "analytic": 0.0009765625,
+          "observed": 0.000978690402437607,
+          "se": 7.691534614095587e-06,
+          "z": 0.2766551207749148
+        },
+        "iid": {
+          "analytic": 0.0009765625,
+          "observed": 0.000978690402437607,
+          "se": 7.691534614095587e-06,
+          "z": 0.2766551207749148
+        },
+        "infinite": {
+          "analytic": 0.0009765625,
+          "observed": 0.000978690402437607,
+          "se": 7.691534614095587e-06,
+          "z": 0.2766551207749148
+        },
+        "none": {
+          "analytic": 0.000980377197265625,
+          "observed": 0.0009824299794002375,
+          "se": 7.664626558263753e-06,
+          "z": 0.267825460119679
+        }
+      },
+      "independent_histories": 32768,
+      "kind": "ar",
+      "mean_gap": 0.0019338942024333921,
+      "mean_gap_se": 0.00017282407538996217,
+      "mean_gap_z": -0.11127383452343254,
+      "passed": true,
+      "seed": 14905134769447572186,
+      "terminal_recovery_by_constant_correction": false,
+      "warning": "Oracle parameters; quadratic non-tail falsifier, not learned forecast evidence."
+    },
+    "utc": "2026-10-08T09:22:48.094935+00:00",
+    "warnings": []
+  },
+  "sha256": "95a39b7e94febad091681ad636af68a966d7916676f2184865c484a4a4150435"
+}

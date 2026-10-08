@@ -1,0 +1,277 @@
+{
+  "review_id": "independent_a",
+  "date": "2026-10-08",
+  "focal_question": "What narrowly defensible new method or theory could improve conditional post-selection tail-risk assessment with dependent observations, beyond OIC, sample splitting, HMM/GARCH/FHS, DRO and standard calibration?",
+  "scope_constraints": {
+    "information": "same past-512 observations for every method",
+    "portfolios": "same locked portfolio bank",
+    "selection": "no test-based model selection",
+    "leakage": "no latent-state leakage",
+    "evidence": "common-target forecast, selected decision quality, and reserve utility kept separate"
+  },
+  "independent_generation": {
+    "provenance": "AI-assisted independent generation by independent_a before external literature search",
+    "literature_searched_before_generation": false,
+    "ideas": [
+      "A PT-OIC: predictable-transport information criterion using long-run score covariance and future-score transport",
+      "B SISS: state-indexed selection shadow from context-weighted contiguous block deletion",
+      "C TC-TSCS: tangent-cone tail selection confidence sequence using dependent block multipliers"
+    ]
+  },
+  "post_search_reopening": {
+    "provenance": "AI-assisted post-search refinement by independent_a after the bounded source audit",
+    "literature_searched_before_generation": true,
+    "revision": "A revised to FW-PT, an explicitly finite-window terminal transport correction; B and C retained as controls after overlap review"
+  },
+  "search_budget": 10,
+  "search_batches": [
+    {
+      "id": "q01",
+      "terms": [
+        "site:arxiv.org Optimizer's Information Criterion CVaR data-driven optimization dependence",
+        "site:arxiv.org time series information criterion dependent observations optimism correction optimizer"
+      ],
+      "purpose": "OIC, contextual OIC, dependent optimizer optimism, and CVaR overlap"
+    },
+    {
+      "id": "q02",
+      "terms": [
+        "site:arxiv.org post-selection inference dependent data time series M-estimator",
+        "time series Takeuchi information criterion dependent observations",
+        "dependent data information criterion long run covariance model selection paper"
+      ],
+      "purpose": "selection-aware dependence corrections and finite-sample predictive criteria"
+    },
+    {
+      "id": "q03",
+      "terms": [
+        "Safken conditional covariance penalty mixed models 10.1111/sjos.12437",
+        "conditional prediction error covariance penalty mixed model bootstrap cross validation"
+      ],
+      "purpose": "direct conditional covariance-penalty prior art"
+    },
+    {
+      "id": "q04",
+      "terms": [
+        "primary paper dependent multiplier bootstrap beta mixing empirical process time series block multiplier",
+        "primary paper conformal prediction time series dependence risk control conditional coverage",
+        "primary paper conformal risk control expected shortfall tail risk"
+      ],
+      "purpose": "adversarial threats to SISS and TC-TSCS from dependent calibration and empirical processes"
+    },
+    {
+      "id": "q05",
+      "terms": [
+        "finite-sample conformal VaR ES nonexchangeable time series",
+        "non-exchangeable conformal risk control financial time series expected shortfall"
+      ],
+      "purpose": "closest VaR/ES and nonexchangeability methods"
+    },
+    {
+      "id": "q06",
+      "terms": [
+        "post-selection expected shortfall portfolio optimization confidence interval",
+        "post-selection CVaR portfolio optimization inference",
+        "selection-adjusted risk measure portfolio expected shortfall"
+      ],
+      "purpose": "direct same-history portfolio selection and tail-risk inference overlap"
+    },
+    {
+      "id": "q07",
+      "terms": [
+        "conditional prediction error time series covariance penalty information criterion",
+        "conditional Akaike time series prediction error covariance penalty",
+        "one-step-ahead optimism penalty information criterion dependent observations"
+      ],
+      "purpose": "one-step conditional prediction and serial finite-window criterion overlap"
+    },
+    {
+      "id": "q08",
+      "terms": [
+        "Patton Ziegel Chen Dynamic Semiparametric Models Expected Shortfall VaR arxiv",
+        "exact post-selection inference lasso dependent time series selective inference"
+      ],
+      "purpose": "dynamic ES forecasting and selective-inference threats"
+    },
+    {
+      "id": "q09",
+      "terms": [
+        "one-step-ahead information criterion expected shortfall portfolio selection dependent data",
+        "conditional expected shortfall post-selection portfolio inference time series",
+        "predictive covariance penalty serial dependence one-step forecast risk criterion",
+        "conditional prediction error expected shortfall covariance penalty"
+      ],
+      "purpose": "test whether directed terminal tail-score transport is already a named criterion"
+    },
+    {
+      "id": "q10",
+      "terms": [
+        "Safken Kneib 10.1111/sjos.12437 conditional prediction error mixed models covariance penalty",
+        "Conditional covariance penalties for mixed models Safken Kneib"
+      ],
+      "purpose": "verify exact title, theorem scope, and open full-text status for the closest conditional-penalty threat"
+    }
+  ],
+  "sources_screened": [
+    {
+      "id": "S1",
+      "title": "Optimizer's Information Criterion: Dissecting and Correcting Bias in Data-Driven Optimization",
+      "authors": "Garud Iyengar, Henry Lam, Tianyu Wang",
+      "url": "https://arxiv.org/abs/2306.10081v4",
+      "additional_urls": [
+        "https://arxiv.org/html/2306.10081v4",
+        "https://arxiv.org/pdf/2306.10081"
+      ],
+      "access": "open arXiv HTML/PDF; revision 4 inspected",
+      "overlap": "iid optimizer-optimism correction, Risk-OIC, Context-OIC for iid context-response pairs, CVaR portfolio example",
+      "gap_or_limit": "integrated iid contextual target; no direct terminal observed-history serial conditional ES selector located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S2",
+      "title": "Conditional prediction error for mixed models",
+      "authors": "Safken and Kneib",
+      "url": "https://doi.org/10.1111/sjos.12437",
+      "access": "Wiley full text accessible",
+      "overlap": "conditional prediction error, covariance penalties, bootstrap, cross-validation, and Stein estimates",
+      "gap_or_limit": "mixed-model conditional prediction rather than terminal same-history portfolio conditional ES",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S3",
+      "title": "A New Class of One-step Ahead Predictors",
+      "authors": "Ing and Yu",
+      "url": "https://doi.org/10.1111/1467-9892.00313",
+      "access": "publisher abstract and metadata inspected; full article not freely inspected",
+      "overlap": "one-step conditional prediction under dependent autoregressive data and finite-sample corrections",
+      "gap_or_limit": "no portfolio ES selector or same-sample tail-score correction located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S4",
+      "title": "A corrected Akaike information criterion for autoregressive model selection",
+      "authors": "Hurvich and Tsai",
+      "url": "https://doi.org/10.1093/biomet/76.2.297",
+      "access": "Oxford abstract inspected; article access marked purchase",
+      "overlap": "finite-sample prediction-criterion correction for serial autoregressive model selection",
+      "gap_or_limit": "no terminal conditional CVaR/ES portfolio-selection construction located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S5",
+      "title": "A pseudo-DIC for Bayesian state-space models",
+      "authors": "Millar and McKechnie",
+      "url": "https://doi.org/10.1111/biom.12237",
+      "access": "Oxford abstract/summary inspected; article access marked purchase",
+      "overlap": "one-step-ahead predictive fit conditional on the previous state",
+      "gap_or_limit": "no post-selection ES/CVaR optimizer-gap result located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S6",
+      "title": "Dynamic Semiparametric Models for Expected Shortfall (and Value-at-Risk)",
+      "authors": "Patton, Ziegel, and Chen",
+      "url": "https://doi.org/10.1016/j.jeconom.2018.10.008",
+      "additional_urls": [
+        "https://arxiv.org/abs/1707.05108",
+        "https://public.econ.duke.edu/~ap172/Patton_Ziegel_Chen_ES_dec18.pdf"
+      ],
+      "access": "open arXiv/author full text and journal record",
+      "overlap": "dynamic joint VaR/ES scoring and serially dependent tail forecasting",
+      "gap_or_limit": "scores specified forecasts; no same-history optimizer-aware correction located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S7",
+      "title": "Sequential Predictive Conformal Inference for Time Series",
+      "authors": "Xu and Xie",
+      "url": "https://arxiv.org/abs/2212.03463",
+      "additional_urls": ["https://proceedings.mlr.press/v202/xu23r.html"],
+      "access": "open arXiv/PMLR full text",
+      "overlap": "dependence-aware sequential calibration and asymptotic conditional coverage",
+      "gap_or_limit": "fixed point predictor; no same-history portfolio ES optimizer selection located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S8",
+      "title": "Non-Exchangeable Conformal Risk Control",
+      "authors": "Farinhas et al.",
+      "url": "https://arxiv.org/abs/2310.01262",
+      "additional_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/file/de04896f011beff76c91e094f72727f4-Paper-Conference.pdf"
+      ],
+      "access": "open arXiv/ICLR full text",
+      "overlap": "expected bounded monotone-loss control under nonexchangeability, relevance weights, and total-variation drift",
+      "gap_or_limit": "does not directly target same-history portfolio conditional ES forecast error",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S9",
+      "title": "Conformal Risk Control",
+      "authors": "Angelopoulos et al.",
+      "url": "https://arxiv.org/abs/2208.02814",
+      "access": "open arXiv full text",
+      "overlap": "expected monotone-loss control for reserve/coverage construction",
+      "gap_or_limit": "base exchangeability setting and no same-history serial optimizer correction",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S10",
+      "title": "Finite-Sample Conformal Inference for VaR and ES",
+      "authors": "Ye et al.",
+      "url": "https://www.mdpi.com/2227-7390/14/15/2847",
+      "access": "open HTML/PDF; 2026 Mathematics journal article",
+      "overlap": "joint VaR/ES forecasting with nonexchangeable conformal risk control, mixing and heavy-tail adjustments",
+      "gap_or_limit": "guarantee uses a tail-severity surrogate; no direct same-sample portfolio post-selection ES error claim located",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S11",
+      "title": "Exact post-selection inference, with application to the lasso",
+      "authors": "Lee et al.",
+      "url": "https://arxiv.org/abs/1311.6238",
+      "access": "open arXiv full text",
+      "overlap": "selective inference after a data-dependent optimization event",
+      "gap_or_limit": "Gaussian selection event, not serial conditional ES or dependent tail reserve",
+      "status": "challenge-located"
+    }
+  ],
+  "finite_check": {
+    "status": "executed analytical check",
+    "dgp": "stationary Gaussian AR(1), X_t = phi X_{t-1} + eps_t, Var(X_t)=v",
+    "loss": "ell_t(theta)=0.5*(theta-X_t)^2",
+    "estimator": "theta_hat_T = mean(X_1:T)",
+    "terminal_target": "For ell=0.5*(theta-X)^2, E[ell_{T+1}(theta_hat_T) | F_T] = 0.5*((theta_hat_T-phi*X_T)^2 + v*(1-phi^2))",
+    "exact_gap": "Delta_T = v/T^2*[T+2*sum_{h=1}^{T-1}(T-h)*phi^h] - v/T*sum_{h=1}^{T}phi^h",
+    "asymptotic_transport": "v/[T*(1-phi)]",
+    "values_v_1": [
+      {"T": 32, "phi": 0.0, "exact": 0.03125, "asymptotic": 0.03125, "excess": 0.0},
+      {"T": 32, "phi": 0.5, "exact": 0.058593750008, "asymptotic": 0.0625, "excess": 0.00390625},
+      {"T": 32, "phi": 0.9, "exact": 0.152411758085, "asymptotic": 0.3125, "excess": 0.16008824},
+      {"T": 128, "phi": 0.5, "exact": 0.015380859375, "asymptotic": 0.015625, "excess": 0.00024414},
+      {"T": 128, "phi": 0.9, "exact": 0.067138784887, "asymptotic": 0.078125, "excess": 0.01098622},
+      {"T": 512, "phi": 0.5, "exact": 0.003890991211, "asymptotic": 0.00390625, "excess": 0.00001526},
+      {"T": 512, "phi": 0.9, "exact": 0.018844604492, "asymptotic": 0.01953125, "excess": 0.00068665}
+    ],
+    "quadratic_form_check": {
+      "form": "G_T = X' A X + c, A=0.5*(a a' - I/T + u u'), a=u-phi*e_T, c=0.5*v*(1-phi^2), Sigma_ij=v*phi^|i-j|",
+      "mean": "E[G_T]=tr(A Sigma)+c=Delta_T",
+      "variance": "Var(G_T)=2*tr(A Sigma A Sigma)>0",
+      "verified": [
+        {"T": 32, "phi": 0.0, "variance": 0.015625},
+        {"T": 32, "phi": 0.5, "variance": 0.049401177288},
+        {"T": 32, "phi": 0.9, "variance": 0.199682819024},
+        {"T": 128, "phi": 0.9, "variance": 0.319287525665}
+      ],
+      "interpretation": "FW-PT matches an integrated expected bias but cannot recover the realized terminal conditional gap; a conditional method needs an additional transition or calibration component."
+    },
+    "falsifier": "Reject a claimed general conditional-tail method if the finite correction misses exact Delta_T beyond a predeclared tolerance or has worse conditional-target MSE than direct finite-sample predictive criteria on this scalar family. Passing is only an algebraic prerequisite; matching Delta_T alone does not establish terminal conditional validity."
+  },
+  "limits": [
+    "Initial ideas were written before external literature search.",
+    "A bounded primary-source search cannot establish global novelty.",
+    "No new training, market-data run, or production change was performed.",
+    "The scalar check is non-tail and unconditional for Delta_T; terminal conditional r_T is the required next gate.",
+    "All final candidate labels remain PROPOSED, BASELINE/CONTROL, or no direct evidence located."
+  ]
+}

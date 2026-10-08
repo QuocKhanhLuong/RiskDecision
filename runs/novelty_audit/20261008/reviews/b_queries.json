@@ -1,0 +1,184 @@
+{
+  "review_id": "independent_b",
+  "date": "2026-10-08",
+  "focal_question": "What narrowly defensible new method or theory could improve conditional post-selection tail-risk assessment with dependent observations, beyond OIC, sample splitting, HMM/GARCH/FHS, DRO and standard calibration?",
+  "scope_constraints": {
+    "information": "same past-512 observations for every method",
+    "portfolios": "same locked portfolio bank",
+    "selection": "no test-based model selection",
+    "leakage": "no latent-state leakage",
+    "evidence": "common-target forecast, selected decision quality, and reserve utility kept separate"
+  },
+  "independent_generation": {
+    "provenance": "AI-assisted independent generation by independent_b",
+    "literature_searched_before_generation": false,
+    "ideas": [
+      "B1 SC-DRE: selection-conditioned dependent risk envelope over a joint portfolio risk surface",
+      "B2 TC-OC: transition-coupled optimism and predictable conditional drift correction",
+      "B3 DPT-SC: dependence-preserving tail support completion for unseen conditional paths"
+    ]
+  },
+  "post_search_reopening": {
+    "provenance": "AI-assisted post-check generation by independent_b after the bounded source audit",
+    "ideas": [
+      "B4 FZ-SCRE: use a joint VaR/ES FZ score influence process and condition a dependent block envelope on a predeclared selected-index and margin cell"
+    ],
+    "literature_searched_before_generation": true
+  },
+  "search_budget": 10,
+  "queries": [
+    {
+      "id": "q01",
+      "text": "selective inference post-selection risk portfolio expected shortfall dependent time series primary paper",
+      "purpose": "B1 selective-risk and dependent-selection literature"
+    },
+    {
+      "id": "q02",
+      "text": "site:arxiv.org selective inference time series dependent observations block bootstrap selection event",
+      "purpose": "B1 time-series selective-inference methods"
+    },
+    {
+      "id": "q03",
+      "text": "dynamic conditional expected shortfall forecast model score driven expected shortfall primary paper",
+      "purpose": "B2 dynamic VaR/ES and transition baselines"
+    },
+    {
+      "id": "q04",
+      "text": "conditional scenario generation temporal dependence expected shortfall portfolio primary paper",
+      "purpose": "B3 scenario generation and temporal tail dependence"
+    },
+    {
+      "id": "q05",
+      "text": "post-selection expected shortfall portfolio optimizer curse time series",
+      "purpose": "direct portfolio-selection and downside-risk overlap"
+    },
+    {
+      "id": "q06",
+      "text": "Statistical inference for systemic risk-driven portfolio selection moving block bootstrap",
+      "purpose": "closest recent portfolio/time-series inference lead"
+    },
+    {
+      "id": "q07",
+      "text": "selective inference dependent time series block bootstrap selection-conditioned coverage",
+      "purpose": "adversarial search for direct dependent selective coverage"
+    },
+    {
+      "id": "q08",
+      "text": "support shifting Wasserstein tail risk portfolio scenario generation",
+      "purpose": "B3 support-completion and DRO overlap"
+    },
+    {
+      "id": "q09",
+      "text": "Patton Ziegel Chen dynamic semiparametric expected shortfall DOI",
+      "purpose": "verify primary publication and access for the B2 baseline"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Optimizer's Information Criterion: Dissecting and Correcting Bias in Data-Driven Optimization",
+      "authors": "Garud Iyengar, Henry Lam, Tianyu Wang",
+      "url": "https://arxiv.org/abs/2306.10081v4",
+      "access": "full arXiv HTML/PDF; preprint revised 2025",
+      "overlap": "iid first-order optimizer-bias correction, risk functions, portfolio/DRO examples",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S2",
+      "title": "Estimation of Downside Risks in Project Portfolio Selection",
+      "authors": "Janne Kettunen, Ahti Salo",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/poms.12727",
+      "access": "open publisher full text",
+      "overlap": "direct post-selection downside-percentile bias and closed-form/Monte Carlo calibration",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S3",
+      "title": "Black-box Selective Inference via Bootstrapping",
+      "authors": "Sifan Liu, Jelena Markovic-Voronov, Jonathan Taylor",
+      "url": "https://arxiv.org/abs/2203.14504",
+      "access": "full arXiv HTML/PDF; v2",
+      "overlap": "bootstrap selection-probability estimation and conditional inference after arbitrary selection",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S4",
+      "title": "CAP: A General Algorithm for Online Selective Conformal Prediction with FCR Control",
+      "authors": "Yajie Bao, Yuyang Huo, Haojie Ren, Changliang Zou",
+      "url": "https://arxiv.org/abs/2403.07728",
+      "access": "full arXiv HTML/PDF; v5",
+      "overlap": "online adaptive-pick calibration and selection-conditional predictive coverage",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S5",
+      "title": "Sequential Predictive Conformal Inference for Time Series",
+      "authors": "Chen Xu, Yao Xie",
+      "url": "https://proceedings.mlr.press/v202/xu23r.html",
+      "access": "full PMLR paper/PDF; ICML 2023",
+      "overlap": "dependent residual quantiles and asymptotic conditional coverage for sequential data",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S6",
+      "title": "Dynamic Semiparametric Models for Expected Shortfall (and Value-at-Risk)",
+      "authors": "Andrew J. Patton, Johanna F. Ziegel, Rui Chen",
+      "url": "https://doi.org/10.1016/j.jeconom.2018.10.008",
+      "access": "peer-reviewed Journal of Econometrics; publisher abstract and author full PDF/arXiv",
+      "overlap": "dynamic jointly elicitable VaR/ES forecasting and FZ score",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S7",
+      "title": "Problem-driven scenario generation: an analytical approach for stochastic programs with tail risk measure",
+      "authors": "Jamie Fairbrother, Amanda Turner, Stein Wallace",
+      "url": "https://link.springer.com/article/10.1007/s10107-019-01451-7",
+      "access": "publisher full article",
+      "overlap": "tail-risk-region scenario generation and CVaR portfolio application",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S8",
+      "title": "A copula-based scenario tree generation algorithm for multiperiod portfolio selection problems",
+      "authors": "Zhe Yan, Zhiping Chen, Giorgio Consigli, Jia Liu, Ming Jin",
+      "url": "https://doi.org/10.1007/s10479-019-03147-9",
+      "access": "abstract/index page; publisher full text restricted",
+      "overlap": "ARMA-GARCH and dynamic Student-t-Clayton tail-dependent scenario trees",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S9",
+      "title": "Data-driven distributionally robust optimization using the Wasserstein metric",
+      "authors": "Peyman Mohajerin Esfahani, Daniel Kuhn",
+      "url": "https://link.springer.com/article/10.1007/s10107-017-1172-1",
+      "access": "open publisher full article",
+      "overlap": "Wasserstein ambiguity and finite-sample out-of-sample certificates from iid samples",
+      "status": "challenge-located"
+    },
+    {
+      "id": "S10",
+      "title": "Statistical inference for systemic risk-driven portfolio selection",
+      "authors": "Tsz Chai Fung, Yinhuan Li, Liang Peng, Linyi Qian",
+      "url": "https://doi.org/10.1016/j.jeconom.2025.106127",
+      "access": "peer-reviewed Journal of Econometrics; publisher full text restricted, abstract/keywords indexed",
+      "overlap": "conditional ES portfolio selection, asymptotics, moving-block bootstrap",
+      "status": "search-incomplete-fulltext-needed"
+    },
+    {
+      "id": "S11",
+      "title": "Wasserstein worst-case scenarios and asset pricing",
+      "authors": "publisher record located via ScienceDirect search",
+      "url": "https://doi.org/10.1016/j.jmoneco.2026.103955",
+      "access": "publisher abstract; full text restricted/blocked",
+      "overlap": "support-shifting Wasserstein ambiguity under persistent dynamics",
+      "status": "challenge-located"
+    }
+  ],
+  "limits": [
+    "Initial ideas were written before external literature search.",
+    "A bounded search cannot establish that a method is globally novel.",
+    "Search evidence is primary-source or official landing-page evidence where available.",
+    "S10 requires a full-text audit before any priority or novelty statement.",
+    "No empirical training or new scientific result was run in this review."
+  ]
+}
