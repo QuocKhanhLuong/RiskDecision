@@ -1,0 +1,19 @@
+{
+  "all_input_recipes_and_saved_truth_checked": true,
+  "cases": 3342,
+  "deep_refit_histories": 96,
+  "elapsed_seconds": 20.992465417133644,
+  "fingerprint": "da6dbaecb183f1849c4a5dc29980295ace5bb4a6646022ea3db6f3689668f444",
+  "independent_lp_max_error": 2.6020852139652106e-18,
+  "independent_lp_solves": 373,
+  "memory_cases_match_benchmark": 30,
+  "passed": true,
+  "protected_files_unchanged": 755,
+  "resume_checkpoint_bytes_unchanged": {
+    "complete": 3342,
+    "partial": 5
+  },
+  "scope": "Same-case verification. Independent LP implementation, not independent scientific data or human review.",
+  "summary_recomputed": true,
+  "utc": "2026-10-08T11:30:56.796828+00:00"
+}

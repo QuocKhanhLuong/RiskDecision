@@ -1,0 +1,21 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_market.py _
+import file mismatch:
+imported module 'test_market' has this __file__ attribute:
+  /Users/alvinluong/RiskDecision/quant_research_v2/tests/test_market.py
+which is not the same as the test file we want to collect:
+  /Users/alvinluong/RiskDecision/runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_market.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+_ ERROR collecting runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_research.py _
+import file mismatch:
+imported module 'test_research' has this __file__ attribute:
+  /Users/alvinluong/RiskDecision/quant_research_v2/tests/test_research.py
+which is not the same as the test file we want to collect:
+  /Users/alvinluong/RiskDecision/runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_research.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+=========================== short test summary info ============================
+ERROR runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_market.py
+ERROR runs/selection_risk/20261007_selection_baselines/historical_snapshot/quant_research_v2/tests/test_research.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
+2 errors in 1.28s

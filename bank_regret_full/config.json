@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "seed_namespace": "riskdecision-compositional-full-20261008-v2",
+  "banks": 24,
+  "histories_per_bank_family": 64,
+  "benchmark_banks": [8, 32, 128, 512, 2048],
+  "benchmark_supports": [16, 64, 256],
+  "benchmark_alphas": [0.01, 0.05, 0.2, 1.0],
+  "benchmark_replicates_per_alpha": 4,
+  "timing_repetitions": 3,
+  "memory_alpha": 0.2,
+  "policy_workers": 4,
+  "bootstrap_repetitions": 10000,
+  "preflight_projected_seconds_limit": 3600,
+  "verification_histories_per_bank_family": 2,
+  "numeric_atol": 1e-9
+}

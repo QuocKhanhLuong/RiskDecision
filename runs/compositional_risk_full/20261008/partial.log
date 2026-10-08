@@ -1,0 +1,26 @@
+validate saved checkpoints:   0%|          | 0/3342 [00:00<?, ?case/s]validate saved checkpoints: 100%|██████████| 3342/3342 [00:00<00:00, 176964.57case/s]
+benchmark:   0%|          | 0/240 [00:00<?, ?case/s]benchmark:   2%|▏         | 4/240 [00:01<01:23,  2.82case/s]benchmark:   2%|▏         | 5/240 [00:02<01:57,  2.00case/s]benchmark:   2%|▏         | 5/240 [00:02<01:49,  2.15case/s]
+memory:   0%|          | 0/30 [00:00<?, ?case/s]memory:   0%|          | 0/30 [00:00<?, ?case/s]
+policy:   0%|          | 0/3072 [00:00<?, ?case/s]policy:   0%|          | 0/3072 [00:00<?, ?case/s]
+{
+  "utc": "2026-10-08T11:18:07.583043+00:00",
+  "resumed": 0,
+  "new_cases": 5,
+  "stages": {
+    "benchmark": {
+      "new_cases": 5,
+      "wall_seconds": 2.3226826668251306
+    },
+    "memory": {
+      "new_cases": 0,
+      "wall_seconds": 0.00010829209350049496
+    },
+    "policy": {
+      "new_cases": 0,
+      "wall_seconds": 0.00014429213479161263
+    }
+  },
+  "complete": false,
+  "all_checks_passed": true,
+  "outer_wall_seconds": 2.347814125008881
+}

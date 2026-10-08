@@ -1,0 +1,15 @@
+preflight strata:   0%|          | 0/60 [00:00<?, ?stratum/s]preflight strata:   3%|▎         | 2/60 [00:02<00:59,  1.03s/stratum]preflight strata:   8%|▊         | 5/60 [00:02<00:19,  2.82stratum/s]preflight strata:  12%|█▏        | 7/60 [00:02<00:13,  3.84stratum/s]preflight strata:  15%|█▌        | 9/60 [00:03<00:16,  3.10stratum/s]preflight strata:  17%|█▋        | 10/60 [00:03<00:18,  2.77stratum/s]preflight strata:  18%|█▊        | 11/60 [00:03<00:15,  3.12stratum/s]preflight strata:  20%|██        | 12/60 [00:04<00:12,  3.71stratum/s]preflight strata:  25%|██▌       | 15/60 [00:04<00:10,  4.27stratum/s]preflight strata:  27%|██▋       | 16/60 [00:05<00:19,  2.27stratum/s]preflight strata:  35%|███▌      | 21/60 [00:06<00:07,  5.11stratum/s]preflight strata:  43%|████▎     | 26/60 [00:06<00:05,  6.55stratum/s]preflight strata:  52%|█████▏    | 31/60 [00:07<00:03,  7.85stratum/s]preflight strata:  55%|█████▌    | 33/60 [00:07<00:03,  8.16stratum/s]preflight strata:  58%|█████▊    | 35/60 [00:08<00:06,  3.69stratum/s]preflight strata:  62%|██████▏   | 37/60 [00:09<00:05,  4.33stratum/s]preflight strata:  63%|██████▎   | 38/60 [00:09<00:06,  3.43stratum/s]preflight strata:  65%|██████▌   | 39/60 [00:13<00:19,  1.07stratum/s]preflight strata:  67%|██████▋   | 40/60 [00:14<00:18,  1.09stratum/s]preflight strata:  72%|███████▏  | 43/60 [00:14<00:08,  1.92stratum/s]preflight strata:  82%|████████▏ | 49/60 [00:15<00:03,  3.64stratum/s]preflight strata:  85%|████████▌ | 51/60 [00:15<00:02,  4.19stratum/s]preflight strata:  88%|████████▊ | 53/60 [00:18<00:03,  1.87stratum/s]preflight strata:  92%|█████████▏| 55/60 [00:18<00:02,  2.41stratum/s]preflight strata:  95%|█████████▌| 57/60 [00:20<00:01,  1.99stratum/s]preflight strata:  97%|█████████▋| 58/60 [00:20<00:00,  2.05stratum/s]preflight strata:  98%|█████████▊| 59/60 [00:20<00:00,  2.39stratum/s]preflight strata: 100%|██████████| 60/60 [00:21<00:00,  2.25stratum/s]preflight strata: 100%|██████████| 60/60 [00:21<00:00,  2.82stratum/s]
+{
+  "utc": "2026-10-08T11:16:39.762667+00:00",
+  "fingerprint": "da6dbaecb183f1849c4a5dc29980295ace5bb4a6646022ea3db6f3689668f444",
+  "development_policy_count": 4,
+  "development_policy_wall_seconds": 0.8992282079998404,
+  "development_policy_effectiveness_not_inspected_or_saved": true,
+  "projected_benchmark_seconds": 254.7945855036378,
+  "projected_policy_seconds": 690.6072637438774,
+  "projected_memory_seconds": 45.48192558484152,
+  "projected_total_seconds": 990.8837748323567,
+  "elapsed_seconds": 22.172452582977712,
+  "passed": true,
+  "sha256": "b9e39af096fab7a07397ba8e2e292b4f13f66183c16af10101f33e92a278625c"
+}

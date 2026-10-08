@@ -1,0 +1,64 @@
+{
+  "contract": {
+    "config": {
+      "banks": 24,
+      "benchmark_alphas": [
+        0.01,
+        0.05,
+        0.2,
+        1.0
+      ],
+      "benchmark_banks": [
+        8,
+        32,
+        128,
+        512,
+        2048
+      ],
+      "benchmark_replicates_per_alpha": 4,
+      "benchmark_supports": [
+        16,
+        64,
+        256
+      ],
+      "bootstrap_repetitions": 10000,
+      "histories_per_bank_family": 64,
+      "memory_alpha": 0.2,
+      "numeric_atol": 1e-09,
+      "policy_workers": 4,
+      "preflight_projected_seconds_limit": 3600,
+      "schema": 1,
+      "seed_namespace": "riskdecision-compositional-full-20261008-v2",
+      "timing_repetitions": 3,
+      "verification_histories_per_bank_family": 2
+    },
+    "files": {
+      "bank_regret/__init__.py": "27181dfaaef31fadaf66067aff8adbdb190df07f7b11c16466a376baedcac895",
+      "bank_regret/config.json": "f0fb3e4af84992ad782c34b0d6b9fae7eac6075a73ffb45dc5b489603fd9c2ec",
+      "bank_regret/core.py": "62841408b1ac12243556ef41796d28f39b34e0966ace6b5b07958c76f9c27ab8",
+      "bank_regret/run.py": "a19232b9a52b4a79dbafce863ab0d1f1628760f6a6e99d4a5cc57236f1f7373f",
+      "bank_regret/study.py": "3fbe47e2f9a9d477a258cf3612e659951ef26989e04e2046be0abcd8ff695197",
+      "bank_regret_full/PROTOCOL.md": "5ee607b8bd11e6cd0c2f60eb77a7e4d0b09ff8aa17753edb0cfe67d7655da9c3",
+      "bank_regret_full/__init__.py": "f429fbf5db410ae11514df39f65c851705af86e11257ff767316df437ac88f61",
+      "bank_regret_full/analysis.py": "3931216e8f0e633e43809eacfa057151d7dc95c39ce41aaf1780a8ea17288f87",
+      "bank_regret_full/config.json": "cdc4df3109e93efbbf60634bdd33296b94f607e08d272d82f12569c5e5a9f658",
+      "bank_regret_full/run.py": "3e27e048de46e43410d9620002705e178e6f10899e0bcb4af7b762ba7ed6a0d1",
+      "bank_regret_full/verify.py": "be4a1c3846f4eaf7532c0e20cd5639c64cf92e341c7004e635748f7a171e6ec2",
+      "mixture_order/__init__.py": "8b193d8880ded897b0dbf3bbc7b14de1c19d1ac470479f15cb96b5cfa383ea00",
+      "mixture_order/core.py": "f7f7bde5bed5f81cd67a145bf2ed985fa0fd9b35a3d91710d5a5c296a7dda34b",
+      "mixture_order/run.py": "e2bdb829d8975e782a576015139d68394f05fc107004569c1c29a86eaccb6783"
+    },
+    "numpy": "2.3.5",
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15 (main, Aug 25 2026, 13:50:12) [Clang 22.1.3 ]",
+    "python_binary": "7710b0490e6af648676d7ad163fa1d54bffb75d8505162609a1c3c9b76e1929d",
+    "scipy": "1.17.0",
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "fingerprint": "da6dbaecb183f1849c4a5dc29980295ace5bb4a6646022ea3db6f3689668f444",
+  "utc": "2026-10-08T11:16:17.582982+00:00"
+}
